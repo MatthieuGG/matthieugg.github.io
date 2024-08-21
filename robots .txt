@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://matthieugg.github.io/sitemap.xml
