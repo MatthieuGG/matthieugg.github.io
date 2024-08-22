@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Matthieu Gallou-Guyot's publications</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/jpeg" href="img/scribe.jpg">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,7 +23,7 @@
             align-items: center;
         }
         .header img {
-            width: 130px; 
+            width: 130px;
             height: auto;
         }
         .carousel {
@@ -36,34 +35,65 @@
         .carousel img {
             width: 100%;
             height: auto;
-            object-fit: cover;
-            border-radius: 8px;
+            aspect-ratio: 1 / 1.414; /* A4 aspect ratio */
+            border: 1px solid #ccc; /* Gray border */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #f7f7f7;
+            padding: 5px; /* Adds padding inside the border */
+            box-sizing: border-box; /* Ensures border and padding don't affect image size */
         }
     </style>
 </head>
+
 <body>
     <div class="content">
         <div class="header">
             <h4>////////////////////////////////////////////////<br>
             MY PUBLICATIONS<br>
             /////////////////////////////////////////////<br></h4>
-            <img src="img/income.jpg" alt="Logo">
+            <img src="img/scribe.jpg" alt="Logo">
         </div>
         
         <div class="carousel">
-            <a href="link1.html"><img src="image1.jpg" alt="Image 1"></a>
-            <a href="link2.html"><img src="image2.jpg" alt="Image 2"></a>
-            <a href="link3.html"><img src="image3.jpg" alt="Image 3"></a>
-            <a href="link4.html"><img src="image4.jpg" alt="Image 4"></a>
-            <a href="link5.html"><img src="image5.jpg" alt="Image 5"></a>
-            <a href="link6.html"><img src="image6.jpg" alt="Image 6"></a>
-            <a href="link7.html"><img src="image7.jpg" alt="Image 7"></a>
-            <a href="link8.html"><img src="image8.jpg" alt="Image 8"></a>
-            <a href="link9.html"><img src="image9.jpg" alt="Image 9"></a>
-            <a href="link10.html"><img src="image10.jpg" alt="Image 10"></a>
-            <a href="link11.html"><img src="image11.jpg" alt="Image 11"></a>
-            <a href="link12.html"><img src="image12.jpg" alt="Image 12"></a>
+            <a href="https://www.sciencedirect.com/science/article/pii/S1779012323003315"><img src="img/carousel/2024-klr.jpg" alt="10.1016/j.kine.2023.11.004"></a>
+            <a href="https://github.com/MatthieuGG/DualTaskProgress"><img src="img/carousel/2024-dtp.png" alt="10.5281/zenodo.13131779"></a>
+            <a href="https://github.com/MatthieuGG/DualTaskEffect"><img src="img/carousel/2024-dte.png" alt="10.5281/zenodo.13131740"></a>
+            <a href="https://www.em-consulte.com/article/1624922/figures/soutien-ou-maintien-a-domicile-des-personnes-agees"><img src="img/carousel/2024-emc.jpg" alt="10.1016/S1283-0887(23)69392-2 "></a>
+            <a href="https://rehab-journal.com/index.php/home/article/view/46"><img src="img/carousel/2024-erj.jpg" alt="10.52057/erj.v4i1.46"></a>
+
+            <a href="link9.html"><img src="img/carousel/2023-jspehs.jpg" alt="Image 9"></a>
+            <a href="link5.html"><img src="img/carousel/2023-klr.jpg" alt="Image 5"></a>
+            <a href="link6.html"><img src="img/carousel/2023-gpaq.png" alt="Image 6"></a>
+            <a href="link7.html"><img src="img/carousel/2023-sf36.png" alt="Image 7"></a>
+            <a href="link8.html"><img src="img/carousel/2023-klr1.jpg" alt="Image 8"></a>
+            <a href="link7.html"><img src="img/carousel/2023-thesis.jpg" alt="Image 7"></a>
+            <a href="link8.html"><img src="img/carousel/2023-frontiers.jpg" alt="Image 8"></a>
+            <a href="link9.html"><img src="img/carousel/2023-jmir.jpg" alt="Image 9"></a>
+            <a href="link10.html"><img src="img/carousel/2023-bmc.jpg" alt="Image 10"></a>
+
+            <a href="link11.html"><img src="img/carousel/2022-isprm.jpg" alt="Image 11"></a>
+            <a href="link9.html"><img src="img/carousel/2022-dr.jpg" alt="Image 9"></a>
+            <a href="link10.html"><img src="img/carousel/2022-erj.jpg" alt="Image 10"></a>
+            <a href="link11.html"><img src="img/carousel/2022-emc.jpg" alt="Image 11"></a>
+
+            <a href="link12.html"><img src="img/carousel/2021-ms.jpg" alt="Image 12"></a>
+            <a href="link7.html"><img src="img/carousel/2021-trash.jpg" alt="Image 7"></a>
+
+            <a href="link8.html"><img src="img/carousel/2020-bbr.jpg" alt="Image 8"></a>
+            <a href="link9.html"><img src="img/carousel/2020-nccn.jpg" alt="Image 9"></a>
+            <a href="link10.html"><img src="img/carousel/2020-arr.jpg" alt="Image 10"></a>
+            <a href="link11.html"><img src="img/carousel/2020-nr.jpg" alt="Image 11"></a>
+            <a href="link12.html"><img src="img/carousel/2020-val.png" alt="Image 12"></a>
+
+            <a href="link7.html"><img src="img/carousel/2019-sofpel.jpg" alt="Image 7"></a>
+            <a href="link8.html"><img src="img/carousel/2019-sofpel1.jpg" alt="Image 8"></a>
+
+            <a                  ><img src="img/carousel/2018-thesis.jpg" alt="Image 9"></a>
+
+            <a                  ><img src="img/carousel/2017-thesis.jpg" alt="Image 11"></a>
+            <a href="link10.html"><img src="img/carousel/2017-jfk.jpg" alt="Image 10"></a>
+
+            <a><img src="img/carousel/2016-thesis.jpg" alt="Image 12"></a>
         </div>
 
         <p style="text-align: center;"><a href="https://matthieugg.github.io">[Home]</a></p>
