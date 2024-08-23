@@ -41,12 +41,13 @@ hr.fine-line {
     height: auto; /* Maintains the aspect ratio */
 }
 
+/* NAVIGATION BAR */
 /* Conteneur de la barre de navigation pour la centrer */
 .navbar-container {
     width: 100%; /* Prend toute la largeur disponible */
     display: flex;
     justify-content: center; /* Centre horizontalement */
-    padding: 10px 0; /* Espacement autour de la barre */
+    padding: 3px 0; /* Espacement autour de la barre réduit */
 }
 
 /* Styles de la barre de navigation */
@@ -57,7 +58,7 @@ hr.fine-line {
     max-width: 1200px; /* Largeur maximale si souhaité */
     display: flex;
     justify-content: center; /* Centre horizontalement */
-    padding: 2px 0;
+    padding: 2px 0; /* Padding réduit pour une hauteur plus fine */
 }
 
 /* Styles des liens */
@@ -65,48 +66,10 @@ hr.fine-line {
     display: block;
     color: black; /* Texte en noir */
     text-align: center;
-    padding: 5px 10px; /* Padding plus petit */
+    padding: 5px 10px; /* Padding réduit */
     text-decoration: none;
     font-size: 12px; /* Taille de police plus petite */
-}
-
-/* Menu déroulant */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown .dropbtn {
-    font-size: 12px;
-    color: black; /* Texte en noir */
-    padding: 5px 10px;
-    background-color: inherit;
-    border: none; /* Enlève les bordures par défaut */
-}
-
-/* Contenu du menu déroulant */
-.dropdown-content {
-    display: none; /* Cacher par défaut */
-    position: absolute;
-    background-color: #f0f0f0;
-    min-width: 160px; /* Largeur minimale du menu déroulant */
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1; /* Assure que le menu est au-dessus du reste du contenu */
-    top: 100%; /* Positionne le menu déroulant juste en dessous du bouton */
-    left: 0; /* Aligne le menu à gauche du bouton */
-}
-
-.dropdown-content a {
-    padding: 5px 10px;
-    font-size: 12px;
-    color: black;
-    display: block;
-    text-align: left; /* Aligne le texte à gauche */
-}
-
-/* Affiche le menu déroulant au survol du bouton */
-.dropdown:hover .dropdown-content {
-    display: block;
+    font-weight: bold; /* Texte en gras */
 }
 
 /* Pas d'effet de survol */
@@ -114,7 +77,6 @@ hr.fine-line {
     background-color: inherit;
     color: black;
 }
-
 
 /* CAROUSEL */
 .carousel {
