@@ -13,43 +13,28 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-5M0YBQNX78');
 </script>
-    
+
     <title>Matthieu Gallou-Guyot's Website</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <script src="/main.js"></script>
-    <style>
-      body {
-          font-family: Arial, sans-serif;
-          background-color: #f0f0f0; 
-          color: #000;
-          margin: 0;
-          padding: 0;
-      }
-      #SectionImage, .content {
-          background-color: #f7f7f7; 
-          margin: 20px auto;
-          padding: 20px;
-          width: 60%;
-      }
-      .FlotteDroite {
-          float: right;
-          height: 9em;
-          padding-left: 20px;
-      }
-      hr.fine-line {
-        background-color: #f7f7f7; 
-          border: none;
-          border-top: 1px solid #000;
-          margin: 20px auto;
-          width: 60%;
-      }
-  </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="publications.html">Publications</a>
+        <div class="dropdown">
+            <button class="dropbtn">Others</button>
+            <div class="dropdown-content">
+                <a href="income.html">INCOME</a>
+                <a href="slowlife.html">Slow Life</a>
+            </div>
+        </div>
+    </div>
     <hr class="fine-line">
     <div id="SectionImage">
         <img src="img/IDpicture1.jpg" class="FlotteDroite" alt="Profile Picture">
