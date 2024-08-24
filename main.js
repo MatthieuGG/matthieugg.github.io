@@ -11,9 +11,23 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
     `;
 
+    const footerHTML = `
+        <div class="footer-container">
+            <div class="footer">
+                <a>Go open science !</a>
+                <a href="index.html"><b>MGG</b></a>
+                <a>Last update - August 2024</a>
+            </div>
+        </div>
+    `;
+
     // Insert the navigation bar at the top of the body
     document.body.insertAdjacentHTML('afterbegin', navbarHTML);
+
+    // Insert the footer at the bottom of the body
+    document.body.insertAdjacentHTML('beforeend', footerHTML);
 });
+
 
 // Add target="_blank" to external links
 document.querySelectorAll('a[href]').forEach(function(link) {

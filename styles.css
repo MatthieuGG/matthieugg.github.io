@@ -78,6 +78,41 @@ hr.fine-line {
     color: black;
 }
 
+/* FOOTER */
+/* Conteneur de la barre de pied de page pour la centrer */
+.footer-container {
+    width: 100%; /* Prend toute la largeur disponible */
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    padding: 3px 0; /* Espacement autour du pied de page réduit */
+}
+
+/* Styles du pied de page */
+.footer {
+    background-color: #f0f0f0;
+    overflow: hidden;
+    width: 100%; /* Largeur totale */
+    max-width: 1200px; /* Largeur maximale si souhaité */
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    padding: 2px 0; /* Padding réduit pour une hauteur plus fine */
+}
+
+/* Styles des liens du pied de page */
+.footer a {
+    display: block;
+    color: black; /* Texte en noir */
+    text-align: center;
+    padding: 5px 10px; /* Padding réduit */
+    text-decoration: none;
+    font-size: 12px; /* Taille de police plus petite */
+}
+
+/* Pas d'effet de survol pour le pied de page */
+.footer a:hover {
+    background-color: inherit;
+    color: black;
+}
 
 /* CAROUSEL */
 .carousel {
