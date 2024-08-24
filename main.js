@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="navbar">
                 <a href="index.html">Home</a>
                 <a href="resume_MGG.pdf">Resume</a>
-                <a href="publications.html">Publications</a>
+                <a href="productions.html">Productions</a>
                 <a href="income.html">INCOME</a>
             </div>
         </div>
