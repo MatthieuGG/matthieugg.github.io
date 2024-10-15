@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <a href="resume_MGG.pdf">Resume</a>
                 <a href="productions.html">Productions</a>
                 <a href="income.html">INCOME</a>
-                <a href="https://dualtaskcalculator.streamlit.app/~/+/" class="highlighted-link">Dual Task Calculator</a>
+                <a href="https://dualtaskcalculator.streamlit.app/~/+/" class="highlighted-link">[DualTaskCalculator]</a>
             </div>
         </div>
     `;
@@ -27,6 +27,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Insert the footer at the bottom of the body
     document.body.insertAdjacentHTML('beforeend', footerHTML);
+
+    // Add target="_blank" to external links (after the navbar is added)
+    document.querySelectorAll('a[href]').forEach(function(link) {
+        if (!link.href.startsWith('https://matthieugg.github.io/')) {
+            // Add target="_blank" to external links
+            link.setAttribute('target', '_blank');
+        };
 });
 
 
