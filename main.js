@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <a href="resume_MGG.pdf">Resume</a>
                 <a href="productions.html">Productions</a>
                 <a href="income.html">INCOME</a>
+                <a href="https://dualtaskcalculator.streamlit.app/~/+/" class="highlighted-link">Dual Task Calculator</a>
             </div>
         </div>
     `;

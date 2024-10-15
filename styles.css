@@ -71,6 +71,10 @@ hr.fine-line {
     font-size: 12px; /* Taille de police plus petite */
     font-weight: 700; /* Texte en gras (valeur 700 pour le gras) */
 }
+/* Cibler le lien "Dual Task Calculator" par sa classe */
+.navbar a.highlighted-link {
+    color: #2b1399;
+}
 
 /* Pas d'effet de survol */
 .navbar a:hover, .dropdown-content a:hover {
