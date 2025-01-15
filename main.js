@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="footer">
                 <a>Go open science !</a>
                 <a href="index.html"><b>MGG</b></a>
-                <a>Last update - September 2024</a>
+                <a>Last update - January 2025</a>
             </div>
         </div>
     `;
