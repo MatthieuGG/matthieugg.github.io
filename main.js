@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <a href="index.html">Home</a>
                 <a href="resume_MGG.pdf">Resume</a>
                 <a href="productions.html">Productions</a>
+                <a href="media.html">Medias</a>
                 <a href="https://dualtaskcalculator.streamlit.app/" class="highlighted-link">[DualTaskCalculator]</a>
             </div>
         </div>
@@ -16,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="footer">
                 <a>Go open science !</a>
                 <a href="index.html"><b>MGG</b></a>
-                <a>Last update - April 2025</a>
+                <a>Last update - Jully 2025</a>
             </div>
         </div>
     `;
