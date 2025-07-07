@@ -142,7 +142,7 @@ hr.fine-line {
   padding-bottom: 56.25%;  /* 16:9 ratio → 9 / 16 = 0.5625 */
   height: 0;
   overflow: hidden;
-  max-width: 80%;           /* Largeur max de la vidéo */
+  max-width: 100%;           /* Largeur max de la vidéo */
   margin: 0 auto;           /* Centre horizontalement */
 }
 
