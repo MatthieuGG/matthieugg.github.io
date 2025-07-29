@@ -1,19 +1,20 @@
 // news_data.js
 const newsEntries = [
-
   {
-    date: "2025-07-29",
-    title: "Opening the news!",
-    content: `New section on this website, to follow news! Available at <a href="https://matthieugg.github.io/news.html">News</a>.`
-  },
-    {
-    date: "2025-07-15",
-    title: "Revision of the Resume section",
-    content: `Implementation of a dynamic PDF reader. Available at <a href="https://matthieugg.github.io/resume.html">Resume</a>.`
-  },
-    {
-    date: "2025-05-19",
-    title: "New preprint online",
-    content: `Our new study is available on <a href="https://sportrxiv.org/index.php/server/preprint/view/550/version/705" target="_blank">sportRxiv</a>. Congrats Louise!`
-  },
+    date: `2025-07-29`,
+    title: `Lauching the "News"!`,
+    content: `
+      <p>New section on this website! 
+      I'll post here science-related news: research, clinic, teaching, congress, projects, social events, etc. 
+      I also took the opportunity to refresh the website, including the implementation of a 
+      <a href="https://matthieugg.github.io/resume.html">dynamic PDF reader</a> for my (updated) resume.</p>
+
+      <p>No "likes", no react, no comments, just a specific oriented information diffusion. 
+      So little that no newsletter would make sense, at least for now. 
+      Inspired by <a href="https://calnewport.com/writing/">digital minimalism</a>, with text and few media.  
+      A good start for decentralised internet, using less 
+      <a href="https://linkedin.com/in/matthieu-gallou-guyot">LinkedIn</a> and 
+      <a href="https://jp.linkedin.com/in/matthieu-gallou-guyot">ResearchGate</a>, maybe?</p>
+    `
+  }
 ];
