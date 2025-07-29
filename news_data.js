@@ -4,7 +4,12 @@ const newsEntries = [
   {
     date: "2025-07-29",
     title: "Opening the news!",
-    content: "New section on this website, to follow news!"
+    content: `New section on this website, to follow news! Available at <a href="https://matthieugg.github.io/news.html">News</a>.`
+  },
+    {
+    date: "2025-07-15",
+    title: "Revision of the Resume section",
+    content: `Implementation of a dynamic PDF reader. Available at <a href="https://matthieugg.github.io/resume.html">Resume</a>.`
   },
     {
     date: "2025-05-19",

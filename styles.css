@@ -155,7 +155,7 @@ hr.fine-line {
   border: 0;
 }
 
-
+/* NEWS */
 .news-entry {
   margin-bottom: 40px; /* espace entre 2 news, un peu plus large */
   border-bottom: 1px solid #ccc;
@@ -167,7 +167,7 @@ hr.fine-line {
 }
 
 .news-entry .date {
-  font-size: 6px;  /* réduit par rapport à 12px */
+  font-size: 8px;  /* réduit par rapport à 12px */
   color: #777;
   display: block; /* pour s’assurer que la marge fonctionne bien */
 }
@@ -191,4 +191,26 @@ hr.fine-line {
 
 .news-entry a:hover {
   color: #003366;
+}
+
+/* RESUME */
+
+
+.pdf-frame {
+    width: 100%;
+    aspect-ratio: 1 / 1.414; /* ratio A4 */
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pdf-wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.pdf-wrapper p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
 }
