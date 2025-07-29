@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="navbar-container">
             <div class="navbar">
                 <a href="index.html">Home</a>
-                <a href="resume.html">Resume</a>
+                <a href="resume_MGG.pdf">Resume</a>
                 <a href="productions.html">Productions</a>
                 <a href="https://dualtaskcalculator.streamlit.app/" class="highlighted-link">[DualTaskCalculator]</a>
             </div>
