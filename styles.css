@@ -157,7 +157,7 @@ hr.fine-line {
 
 
 .news-entry {
-  margin-bottom: 30px;
+  margin-bottom: 40px; /* espace entre 2 news, un peu plus large */
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
@@ -167,9 +167,11 @@ hr.fine-line {
 }
 
 .news-entry .date {
-  font-size: 12px;
+  font-size: 6px;  /* réduit par rapport à 12px */
   color: #777;
+  display: block; /* pour s’assurer que la marge fonctionne bien */
 }
+
 
 .pagination {
   text-align: center;
