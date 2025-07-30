@@ -30,13 +30,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
 });
 
-
 // Add target="_blank" to external links
 document.querySelectorAll('a[href]').forEach(function(link) {
-    if (link.href.startsWith('https://matthieugg.github.io/')) {
-        // do nothing = same window for internal
-    } else {
-        // add target="_blank" to external
+    const isInternal = link.hostname === window.location.hostname;
+    if (!isInternal) {
         link.setAttribute('target', '_blank');
     }
 });
+

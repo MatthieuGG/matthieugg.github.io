@@ -118,6 +118,49 @@ hr.fine-line {
     color: black;
 }
 
+/* HOME */
+.article-highlight {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.5em auto;        /* centrage horizontal */
+  max-width: 800px;          /* largeur max raisonnable */
+  gap: 1em;
+  align-items: flex-start;
+}
+
+.article-image {
+  flex: 0 0 120px;
+  max-width: 130px;
+  aspect-ratio: 1 / 1;
+  border: 1px solid #aaa;
+  object-fit: cover;
+  margin-right: 1em;
+  border-radius: 4px;
+}
+
+.article-text {
+  flex: 1 1 0;
+  font-size: 90%;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .article-highlight {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article-image {
+    margin: 0 0 0.8em 0;
+  }
+
+  .article-text {
+    text-align: center;
+  }
+}
+
+
+
 /* CAROUSEL */
 .carousel {
     display: grid;
@@ -194,7 +237,6 @@ hr.fine-line {
 }
 
 /* RESUME */
-
 
 .pdf-frame {
     width: 100%;
