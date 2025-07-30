@@ -1,14 +1,14 @@
 /* General */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; 
+    background-color: #f0f0f0;
     color: #000;
     margin: 0;
     padding: 0;
 }
 
 #SectionImage, .content {
-    background-color: #f7f7f7; 
+    background-color: #f7f7f7;
     margin: 20px auto;
     padding: 20px;
     width: 60%;
@@ -21,7 +21,7 @@ body {
 }
 
 hr.fine-line {
-    background-color: #f7f7f7; 
+    background-color: #f7f7f7;
     border: none;
     border-top: 1px solid #000;
     margin: 20px auto;
@@ -37,178 +37,173 @@ hr.fine-line {
     position: absolute;
     top: 0;
     right: 0;
-    width: 80px; /* Adjust the width as needed */
-    height: auto; /* Maintains the aspect ratio */
+    width: 80px;
+    height: auto;
 }
 
 /* NAVIGATION BAR */
-/* Conteneur de la barre de navigation pour la centrer */
 .navbar-container {
-    width: 100%; /* Prend toute la largeur disponible */
+    width: 100%;
     display: flex;
-    justify-content: center; /* Centre horizontalement */
-    padding: 3px 0; /* Espacement autour de la barre réduit */
+    justify-content: center;
+    padding: 3px 0;
 }
 
-/* Styles de la barre de navigation */
 .navbar {
     background-color: #f0f0f0;
     overflow: hidden;
-    width: 100%; /* Largeur totale */
-    max-width: 1200px; /* Largeur maximale si souhaité */
+    width: 100%;
+    max-width: 1200px;
     display: flex;
-    justify-content: center; /* Centre horizontalement */
-    padding: 2px 0; /* Padding réduit pour une hauteur plus fine */
+    justify-content: center;
+    padding: 2px 0;
 }
 
-/* Styles des liens */
 .navbar a {
     display: block;
-    color: black; /* Texte en noir */
+    color: black;
     text-align: center;
-    padding: 5px 10px; /* Padding réduit */
+    padding: 5px 10px;
     text-decoration: none;
-    font-size: 12px; /* Taille de police plus petite */
-    font-weight: 700; /* Texte en gras (valeur 700 pour le gras) */
+    font-size: 12px;
+    font-weight: 700;
 }
-/* Cibler le lien "Dual Task Calculator" par sa classe */
+
 .navbar a.highlighted-link {
     color: #2b1399;
 }
 
-/* Pas d'effet de survol */
 .navbar a:hover, .dropdown-content a:hover {
     background-color: inherit;
     color: black;
 }
 
 /* FOOTER */
-/* Conteneur de la barre de pied de page pour la centrer */
 .footer-container {
-    width: 100%; /* Prend toute la largeur disponible */
+    width: 100%;
     display: flex;
-    justify-content: center; /* Centre horizontalement */
-    padding: 3px 0; /* Espacement autour du pied de page réduit */
+    justify-content: center;
+    padding: 3px 0;
 }
 
-/* Styles du pied de page */
 .footer {
     background-color: #f0f0f0;
     overflow: hidden;
-    width: 100%; /* Largeur totale */
-    max-width: 1200px; /* Largeur maximale si souhaité */
+    width: 100%;
+    max-width: 1200px;
     display: flex;
-    justify-content: center; /* Centre horizontalement */
-    padding: 2px 0; /* Padding réduit pour une hauteur plus fine */
+    justify-content: center;
+    padding: 2px 0;
 }
 
-/* Styles des liens du pied de page */
 .footer a {
     display: block;
-    color: black; /* Texte en noir */
+    color: black;
     text-align: center;
-    padding: 5px 10px; /* Padding réduit */
+    padding: 5px 10px;
     text-decoration: none;
-    font-size: 12px; /* Taille de police plus petite */
+    font-size: 12px;
 }
 
-/* Pas d'effet de survol pour le pied de page */
 .footer a:hover {
     background-color: inherit;
     color: black;
 }
 
-/* HOME */
-/* Research */
+/* HOME: Articles */
 .article-highlight {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1.5em auto;        /* centrage horizontal */
-  max-width: 800px;          /* largeur max raisonnable */
-  gap: 1em;
-  align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5em auto;
+    max-width: 800px;
+    gap: 1em;
+    align-items: flex-start;
 }
 
 .article-image {
-  flex: 0 0 120px;
-  max-width: 140px;
-  aspect-ratio: 1 / 1;
-  border: 1px solid #aaa;
-  object-fit: cover;
-  margin-right: 1em;
-  border-radius: 4px;
+    flex: 0 0 120px;
+    max-width: 140px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-right: 1em;
+}
+
+.article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .article-text {
-  flex: 1 1 0;
-  font-size: 90%;
-  line-height: 1.4;
+    flex: 1 1 0;
+    font-size: 90%;
+    line-height: 1.4;
 }
 
 @media (max-width: 768px) {
-  .article-highlight {
-    flex-direction: column;
-    align-items: center;
-  }
+    .article-highlight {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .article-image {
-    margin: 0 0 0.8em 0;
-  }
+    .article-image {
+        margin: 0 0 0.8em 0;
+    }
 
-  .article-text {
-    text-align: center;
-  }
+    .article-text {
+        text-align: center;
+    }
 }
 
-/* Teaching */
+/* HOME: Teaching Rules */
 .rules-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2em;
-  margin: 2em auto;
-  max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin: 2em auto;
+    max-width: 800px;
 }
 
 .rule-block {
-  flex: 1 1 300px;
-  text-align: center;
+    flex: 1 1 300px;
+    text-align: center;
 }
 
 .rule-image {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  border: 1px solid #000;
-  border-radius: 4px;
-  margin: 0 auto 0.8em auto;
-  display: block;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 0 auto 0.8em;
+    display: block;
 }
 
 .rule-text {
-  font-size: 90%;
-  line-height: 1.4;
-  max-width: 250px;
-  margin: 0 auto;
+    font-size: 90%;
+    line-height: 1.4;
+    max-width: 250px;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
-  .rules-grid {
-    flex-direction: column;
-    align-items: center;
-  }
+    .rules-grid {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .rule-block {
-    text-align: center;
-  }
+    .rule-block {
+        text-align: center;
+    }
 
-  .rule-text {
-    max-width: 100%;
-  }
+    .rule-text {
+        max-width: 100%;
+    }
 }
-
-
-
 
 /* CAROUSEL */
 .carousel {
@@ -220,76 +215,76 @@ hr.fine-line {
 
 .carousel img {
     width: 100%;
-    height: auto;
-    aspect-ratio: 1 / 1.414; /* A4 aspect ratio */
-    border: 1px solid #ccc; /* Gray border */
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1.414;
+    border: 1px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f7f7f7;
-    padding: 5px; /* Adds padding inside the border */
-    box-sizing: border-box; /* Ensures border and padding don't affect image size */
+    padding: 5px;
+    box-sizing: border-box;
 }
 
+/* Video Embed */
 .video-container {
-  position: relative;
-  padding-bottom: 56.25%;  /* 16:9 ratio → 9 / 16 = 0.5625 */
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;           /* Largeur max de la vidéo */
-  margin: 0 auto;           /* Centre horizontalement */
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;              /* Remplit tout le conteneur */
-  height: 100%;
-  border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 /* NEWS */
 .news-entry {
-  margin-bottom: 40px; /* espace entre 2 news, un peu plus large */
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
 }
 
 .news-entry h3 {
-  margin: 0;
+    margin: 0;
 }
 
 .news-entry .date {
-  font-size: 8px;  /* réduit par rapport à 12px */
-  color: #777;
-  display: block; /* pour s’assurer que la marge fonctionne bien */
+    font-size: 8px;
+    color: #777;
+    display: block;
 }
 
-
 .pagination {
-  text-align: center;
-  margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .pagination button {
-  margin: 0 5px;
-  padding: 5px 10px;
-  font-size: 12px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 12px;
 }
 
 .news-entry a {
-  color: #0066cc;
-  text-decoration: underline;
+    color: #0066cc;
+    text-decoration: underline;
 }
 
 .news-entry a:hover {
-  color: #003366;
+    color: #003366;
 }
 
 /* RESUME */
-
 .pdf-frame {
     width: 100%;
-    aspect-ratio: 1 / 1.414; /* ratio A4 */
+    aspect-ratio: 1 / 1.414;
     border: none;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
