@@ -6,7 +6,7 @@ const newsEntries = [
     content: `
       <p>New section on this website! 
       I'll post here science-related news: research, clinic, teaching, congress, projects, social events, etc. 
-      I also took the opportunity to refresh the website, including the implementation of a 
+      I also took the opportunity to refresh the website, including the "home" presentation, and the implementation of a 
       <a href="https://matthieugg.github.io/resume.html">dynamic PDF reader</a> for my (updated) resume.</p>
 
       <p>No "likes", no react, no comments, just a specific oriented information diffusion. 

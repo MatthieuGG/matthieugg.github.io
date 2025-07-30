@@ -119,6 +119,7 @@ hr.fine-line {
 }
 
 /* HOME */
+/* Research */
 .article-highlight {
   display: flex;
   flex-wrap: wrap;
@@ -130,7 +131,7 @@ hr.fine-line {
 
 .article-image {
   flex: 0 0 120px;
-  max-width: 130px;
+  max-width: 140px;
   aspect-ratio: 1 / 1;
   border: 1px solid #aaa;
   object-fit: cover;
@@ -158,6 +159,54 @@ hr.fine-line {
     text-align: center;
   }
 }
+
+/* Teaching */
+.rules-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  margin: 2em auto;
+  max-width: 800px;
+}
+
+.rule-block {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.rule-image {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin: 0 auto 0.8em auto;
+  display: block;
+}
+
+.rule-text {
+  font-size: 90%;
+  line-height: 1.4;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .rules-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rule-block {
+    text-align: center;
+  }
+
+  .rule-text {
+    max-width: 100%;
+  }
+}
+
 
 
 
