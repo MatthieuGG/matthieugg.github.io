@@ -205,26 +205,6 @@ hr.fine-line {
     }
 }
 
-/* CAROUSEL */
-.carousel {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    margin: 20px 0;
-}
-
-.carousel img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    aspect-ratio: 1 / 1.414;
-    border: 1px solid #ccc;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f7f7f7;
-    padding: 5px;
-    box-sizing: border-box;
-}
-
 /* NEWS */
 .news-entry {
     margin-bottom: 40px;
@@ -282,6 +262,27 @@ hr.fine-line {
   min-width: 200px;
 }
 
+.news-filter {
+  text-align: center;
+  margin: 1em auto 2em auto;
+}
+
+.news-filter button {
+  margin: 0.3em;
+  padding: 6px 12px;
+  font-size: 90%;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.news-filter button.active {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+
 
 /* RESUME */
 .pdf-frame {
@@ -301,4 +302,71 @@ hr.fine-line {
     text-align: center;
     font-size: 14px;
     margin-top: 10px;
+}
+
+/* === PRODUCTIONS SPECIFIC === */
+.production-highlight {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em auto;
+  max-width: 900px;
+  gap: 1.5em;
+  align-items: flex-start;
+}
+
+.production-image {
+  flex: 0 0 180px;
+  max-width: 200px;
+  aspect-ratio: 1 / 1.2;
+  overflow: hidden;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.production-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.production-text {
+  flex: 1 1 0;
+  font-size: 95%;
+  line-height: 1.5;
+}
+
+.production-filter {
+  text-align: center;
+  margin: 1em auto 2em auto;
+}
+
+.production-filter button {
+  margin: 0.3em;
+  padding: 6px 12px;
+  font-size: 90%;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.production-filter button.active {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .production-highlight {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .production-image {
+    margin: 0 0 1em 0;
+  }
+
+  .production-text {
+    text-align: center;
+  }
 }

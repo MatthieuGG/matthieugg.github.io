@@ -1,31 +1,33 @@
-const productionsPerPage = 5;
+const postsPerPage = 10;
 let currentPage = 1;
 let currentYear = "all";
 
-function getFilteredProductions() {
-  if (currentYear === "all") return productions;
-  return productions.filter(p => p.year === currentYear);
+function getFilteredNews() {
+  if (currentYear === "all") return newsEntries;
+  return newsEntries.filter(entry => entry.date.startsWith(currentYear));
 }
 
-function displayProductions(page) {
-  const container = document.getElementById("productions-container");
+function displayNews(page) {
+  const container = document.getElementById("news-container");
   container.innerHTML = "";
 
-  const filtered = getFilteredProductions();
-  const start = (page - 1) * productionsPerPage;
-  const end = start + productionsPerPage;
-  const pageItems = filtered.slice(start, end);
+  const filtered = getFilteredNews();
+  const start = (page - 1) * postsPerPage;
+  const end = start + postsPerPage;
+  const entries = filtered.slice(start, end);
 
-  pageItems.forEach((item) => {
+  entries.forEach((entry) => {
     const div = document.createElement("div");
-    div.className = "production-highlight";
+    div.className = "news-entry";
+
     div.innerHTML = `
-      <div class="production-image">
-        <img src="${item.image}" alt="${item.title}">
-      </div>
-      <div class="production-text">
-        <strong>${item.year} – ${item.title}</strong><br>
-        ${item.description}
+      <h3>${entry.title}</h3>
+      <div class="date">${entry.date}</div>
+      <div class="news-highlight">
+        ${entry.image ? `<img src="${entry.image}" alt="${entry.title}" class="news-image">` : ""}
+        <div class="news-text">
+          ${entry.content}
+        </div>
       </div>
     `;
     container.appendChild(div);
@@ -36,7 +38,7 @@ function setupPagination() {
   const pagination = document.getElementById("pagination");
   pagination.innerHTML = "";
 
-  const totalPages = Math.ceil(getFilteredProductions().length / productionsPerPage);
+  const totalPages = Math.ceil(getFilteredNews().length / postsPerPage);
   for (let i = 1; i <= totalPages; i++) {
     const btn = document.createElement("button");
     btn.textContent = i;
@@ -44,7 +46,7 @@ function setupPagination() {
 
     btn.addEventListener("click", () => {
       currentPage = i;
-      displayProductions(currentPage);
+      displayNews(currentPage);
       setupPagination();
     });
 
@@ -52,9 +54,10 @@ function setupPagination() {
   }
 }
 
-function setupYearFilter() {
-  const filter = document.getElementById("year-filter");
-  const years = [...new Set(productions.map(p => p.year))].sort((a, b) => b - a);
+function setupNewsFilter() {
+  const filter = document.getElementById("news-filter");
+  const years = [...new Set(newsEntries.map(e => e.date.slice(0, 4)))].sort((a, b) => b - a);
+
   filter.innerHTML = "";
 
   const allBtn = document.createElement("button");
@@ -63,8 +66,8 @@ function setupYearFilter() {
   allBtn.addEventListener("click", () => {
     currentYear = "all";
     currentPage = 1;
-    setupYearFilter();
-    displayProductions(currentPage);
+    setupNewsFilter();
+    displayNews(currentPage);
     setupPagination();
   });
   filter.appendChild(allBtn);
@@ -76,8 +79,8 @@ function setupYearFilter() {
     btn.addEventListener("click", () => {
       currentYear = year;
       currentPage = 1;
-      setupYearFilter();
-      displayProductions(currentPage);
+      setupNewsFilter();
+      displayNews(currentPage);
       setupPagination();
     });
     filter.appendChild(btn);
@@ -85,7 +88,7 @@ function setupYearFilter() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  setupYearFilter();
-  displayProductions(currentPage);
+  setupNewsFilter();
+  displayNews(currentPage);
   setupPagination();
 });
