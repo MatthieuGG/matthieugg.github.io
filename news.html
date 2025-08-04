@@ -35,9 +35,14 @@
         const div = document.createElement("div");
         div.className = "news-entry";
         div.innerHTML = `
-          <h3>${entry.title}</h3>
-          <div class="date">${entry.date}</div>
-          <p>${entry.content}</p>
+          <div class="news-highlight">
+            ${entry.image ? `<img src="${entry.image}" alt="news image" class="news-image">` : ""}
+            <div class="news-text">
+              <h3>${entry.title}</h3>
+              <div class="date">${entry.date}</div>
+              ${entry.content}
+            </div>
+          </div>
         `;
         container.appendChild(div);
       });

@@ -256,7 +256,7 @@ hr.fine-line {
 }
 
 .news-entry .date {
-    font-size: 8px;
+    font-size: 10px;
     color: #777;
     display: block;
 }
@@ -280,6 +280,27 @@ hr.fine-line {
 .news-entry a:hover {
     color: #003366;
 }
+
+.news-highlight {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: flex-start;
+  margin-top: 1em;
+}
+
+.news-image {
+  flex: 0 0 120px;
+  max-width: 120px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.news-text {
+  flex: 1;
+  min-width: 200px;
+}
+
 
 /* RESUME */
 .pdf-frame {

@@ -2,7 +2,8 @@
 const newsEntries = [
   {
     date: `2025-07-29`,
-    title: `Launching the "News"!`, // 
+    title: `Launching the "News"!`, 
+    // image: "img/news/Breaking_News_Alert.png",  
     content: `
       <p>New section on this website! 
       I'll post here science-related news: research, clinic, teaching, congresses, projects, social events, etc. 
