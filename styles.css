@@ -42,41 +42,62 @@ hr.fine-line {
 }
 
 /* NAVIGATION BAR */
+/* NAVIGATION BAR */
 .navbar-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 3px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  background-color: #f7f7f7; /* harmonisé avec le reste du site */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .navbar {
-    background-color: #f0f0f0;
-    overflow: hidden;
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    justify-content: center;
-    padding: 2px 0;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+  background-color: transparent;
 }
 
 .navbar a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 5px 10px;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 700;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #eaeaea;
+  color: #0077cc;
 }
 
 .navbar a.highlighted-link {
-    color: #2b1399;
+  color: #0077cc;
+  font-weight: 700;
+  background-color: #e0eaff;
 }
 
-.navbar a:hover, .dropdown-content a:hover {
-    background-color: inherit;
-    color: black;
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar a {
+    padding: 10px;
+    font-size: 16px;
+  }
 }
+
 
 /* FOOTER */
 .footer-container {
@@ -304,7 +325,7 @@ hr.fine-line {
     margin-top: 10px;
 }
 
-/* === PRODUCTIONS SPECIFIC === */
+/* PRODUCTIONS */
 .production-highlight {
   display: flex;
   flex-wrap: wrap;
@@ -369,4 +390,18 @@ hr.fine-line {
   .production-text {
     text-align: center;
   }
+}
+
+.production-filter label {
+  font-size: 90%;
+  margin-right: 0.5em;
+}
+
+.production-filter select {
+  padding: 6px 12px;
+  font-size: 90%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
 }

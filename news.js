@@ -30,6 +30,7 @@ function displayNews(page) {
         </div>
       </div>
     `;
+
     container.appendChild(div);
   });
 }
@@ -54,41 +55,30 @@ function setupPagination() {
   }
 }
 
-function setupNewsFilter() {
-  const filter = document.getElementById("news-filter");
+function setupYearFilter() {
+  const select = document.getElementById("year-select");
   const years = [...new Set(newsEntries.map(e => e.date.slice(0, 4)))].sort((a, b) => b - a);
 
-  filter.innerHTML = "";
-
-  const allBtn = document.createElement("button");
-  allBtn.textContent = "All";
-  allBtn.className = currentYear === "all" ? "active" : "";
-  allBtn.addEventListener("click", () => {
-    currentYear = "all";
-    currentPage = 1;
-    setupNewsFilter();
-    displayNews(currentPage);
-    setupPagination();
-  });
-  filter.appendChild(allBtn);
+  select.innerHTML = `<option value="all">All</option>`;
 
   years.forEach(year => {
-    const btn = document.createElement("button");
-    btn.textContent = year;
-    if (year === currentYear) btn.className = "active";
-    btn.addEventListener("click", () => {
-      currentYear = year;
-      currentPage = 1;
-      setupNewsFilter();
-      displayNews(currentPage);
-      setupPagination();
-    });
-    filter.appendChild(btn);
+    const option = document.createElement("option");
+    option.value = year;
+    option.textContent = year;
+    if (year == currentYear) option.selected = true;
+    select.appendChild(option);
+  });
+
+  select.addEventListener("change", () => {
+    currentYear = select.value;
+    currentPage = 1;
+    displayNews(currentPage);
+    setupPagination();
   });
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  setupNewsFilter();
+  setupYearFilter();
   displayNews(currentPage);
   setupPagination();
 });

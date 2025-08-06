@@ -2,12 +2,10 @@ const productionsPerPage = 5;
 let currentPage = 1;
 let currentYear = "all";
 
-// Renommer pour correspondre à ta data
-const productions = productionsEntries;
+const productions = productionsEntries; // depuis productions_data.js
 
 function getFilteredProductions() {
   if (currentYear === "all") {
-    // Flatten all entries across years
     return productions.flatMap(yearObj =>
       yearObj.entries.map(entry => ({
         year: yearObj.year,
@@ -15,7 +13,6 @@ function getFilteredProductions() {
       }))
     );
   } else {
-    // Trouver l'année choisie et retourner ses entrées
     const yearObj = productions.find(p => p.year == currentYear);
     if (!yearObj) return [];
     return yearObj.entries.map(entry => ({
@@ -36,17 +33,18 @@ function displayProductions(page) {
 
   pageItems.forEach((item) => {
     const div = document.createElement("div");
-    div.className = "article-highlight"; // pour utiliser ton style image + texte
+    div.className = "production-highlight";
 
     div.innerHTML = `
-      <div class="article-image">
+      <div class="production-image">
         <img src="${item.img}" alt="${item.alt}">
       </div>
-      <div class="article-text">
+      <div class="production-text">
         <strong>${item.year}</strong><br>
         ${item.text || `<a href="${item.href}" target="_blank" rel="noopener noreferrer">${item.alt}</a>`}
       </div>
     `;
+
     container.appendChild(div);
   });
 }
@@ -72,34 +70,24 @@ function setupPagination() {
 }
 
 function setupYearFilter() {
-  const filter = document.getElementById("year-filter");
+  const select = document.getElementById("year-select");
   const years = [...new Set(productions.map(p => p.year))].sort((a, b) => b - a);
-  filter.innerHTML = "";
 
-  const allBtn = document.createElement("button");
-  allBtn.textContent = "All";
-  allBtn.className = currentYear === "all" ? "active" : "";
-  allBtn.addEventListener("click", () => {
-    currentYear = "all";
-    currentPage = 1;
-    setupYearFilter();
-    displayProductions(currentPage);
-    setupPagination();
-  });
-  filter.appendChild(allBtn);
+  select.innerHTML = `<option value="all">All</option>`;
 
   years.forEach(year => {
-    const btn = document.createElement("button");
-    btn.textContent = year;
-    if (year == currentYear) btn.className = "active";
-    btn.addEventListener("click", () => {
-      currentYear = year;
-      currentPage = 1;
-      setupYearFilter();
-      displayProductions(currentPage);
-      setupPagination();
-    });
-    filter.appendChild(btn);
+    const option = document.createElement("option");
+    option.value = year;
+    option.textContent = year;
+    if (year == currentYear) option.selected = true;
+    select.appendChild(option);
+  });
+
+  select.addEventListener("change", () => {
+    currentYear = select.value;
+    currentPage = 1;
+    displayProductions(currentPage);
+    setupPagination();
   });
 }
 
