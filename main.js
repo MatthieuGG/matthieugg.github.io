@@ -1,14 +1,15 @@
-// Automatically add the navigation bar to the body of each page
+// Insert navbar and footer once DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
     const navbarHTML = `
         <div class="navbar-container">
-            <div class="navbar">
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">&#9776;</button>
+            <nav class="navbar" id="navbar">
                 <a href="index.html">Home</a>
                 <a href="resume.html">Resume</a>
                 <a href="productions.html">Productions</a>
                 <a href="news.html">News</a>                
                 <a href="https://dualtaskcalculator.streamlit.app/" class="highlighted-link">[DualTaskCalculator]</a>
-            </div>
+            </nav>
         </div>
     `;
 
@@ -17,17 +18,21 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="footer">
                 <a>Go open science !</a>
                 <a href="index.html"><b>MGG</b></a>
-                <a>Last update - Jully 2025</a>
+                <a>Last update - July 2025</a>
             </div>
         </div>
     `;
 
-    // Insert the navigation bar at the top of the body
     document.body.insertAdjacentHTML('afterbegin', navbarHTML);
-
-    // Insert the footer at the bottom of the body
     document.body.insertAdjacentHTML('beforeend', footerHTML);
-    
+
+    // Hamburger toggle
+    const hamburger = document.getElementById('hamburger');
+    const navbar = document.getElementById('navbar');
+
+    hamburger.addEventListener('click', () => {
+        navbar.classList.toggle('show');
+    });
 });
 
 // Add target="_blank" to external links
@@ -37,4 +42,3 @@ document.querySelectorAll('a[href]').forEach(function(link) {
         link.setAttribute('target', '_blank');
     }
 });
-
