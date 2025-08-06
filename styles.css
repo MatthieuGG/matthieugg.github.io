@@ -41,6 +41,45 @@ hr.fine-line {
     height: auto;
 }
 
+/* LAT BAR */
+/* Home Layout with left column for intro */
+.home-layout {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.intro-column {
+  flex: 0 0 250px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.content-column {
+  flex: 1 1 0;
+  min-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .home-layout {
+    flex-direction: column;
+  }
+
+  .intro-column {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-column {
+    width: 100%;
+  }
+}
+
 /* NAVIGATION BAR */
 /* NAVIGATION BAR */
 .navbar-container {
