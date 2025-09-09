@@ -20,7 +20,7 @@ const newsEntries = [
   },
   {
     date: `2025-09-09`,
-    title: `Congrès à Osaka, et passage en français`, 
+    title: `Congrès à Osaka, et passage en Français`, 
     image: "img/news/2024_osaka.jpg",  
     content: 
     `

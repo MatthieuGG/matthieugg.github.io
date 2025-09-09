@@ -1,81 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta name="google-site-verification" content="WTwlxWTkNKB5TzrUrgNYjtZWSeMZBreYeUiZ4vG3MfQ" />
-    <meta name="msvalidate.01" content="BBE68AF9EA45E3D51E06FCE27AEEF7E4" />
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5M0YBQNX78"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'G-5M0YBQNX78');
-    </script>
+    <!-- Vérifications pour moteurs de recherche -->
+    <meta name="google-site-verification" content="WTwlxWTkNKB5TzrUrgNYjtZWSeMZBreYeUiZ4vG3MfQ" />
+    <meta name="msvalidate.01" content="BBE68AF9EA45E3D51E06FCE27AEEF7E4" />
 
     <title>Matthieu Gallou-Guyot | Site web</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link rel="stylesheet" href="styles.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
+    <!-- Google Analytics / gtag -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5M0YBQNX78"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5M0YBQNX78');
+    </script>
+
+    <script src="main.js" defer></script>
 </head>
-<!-- Lightbox pour index -->
-<div class="lightbox-overlay" id="index-lightbox">
-  <span class="close-btn" id="index-lightbox-close">&times;</span>
-  <img src="" alt="Agrandie">
-</div>
-<script>
-  // Lightbox spécifique à index
-  const indexLightbox = document.getElementById("index-lightbox");
-  const indexLightboxImg = indexLightbox.querySelector("img");
-  const indexCloseBtn = document.getElementById("index-lightbox-close");
-
-  document.addEventListener("click", (e) => {
-    if (e.target.classList.contains("article-image") || e.target.classList.contains("rule-image")) {
-      indexLightboxImg.src = e.target.src;
-      indexLightbox.style.display = "flex";
-    }
-  });
-
-  indexCloseBtn.addEventListener("click", () => {
-    indexLightbox.style.display = "none";
-  });
-
-  indexLightbox.addEventListener("click", (e) => {
-    if (e.target === indexLightbox) indexLightbox.style.display = "none";
-  });
-</script>
-
 <body>
-    <!-- Wrapper cartouche -->
     <div class="content">
 
-        <main class="home-layout">
-
-            <!-- INTRO (cartouche en haut) -->
-            <div class="intro-column">
-                <img src="img/IDpicture1.jpg" alt="Photo de profil" class="clickable-image">
-                <div class="intro-text">
-                    <p style="font-size: 145%;">Matthieu <strong>Gallou-Guyot</strong></p>
-                    <p style="font-size: 80%;">Chercheur postdoctoral | Kinésithérapeute | Enseignant</p>
-                    <p style="font-size: 80%;">
-                        <a href="mailto:matthieu.gallou.guyot@gmail.com">matthieu.gallou.guyot@gmail.com</a>
-                        <span title="'Matthieu' est ok – pas besoin de langage formel ou de titres tant que le contenu est respectueux." style="cursor: help;">
-                            <sup>&#9432;</sup>
-                        </span>
-                    </p>
-                </div>
+        <!-- INTRO -->
+        <div class="intro-column">
+            <img src="img/IDpicture1.jpg" alt="Photo de profil" class="clickable-image">
+            <div class="intro-text">
+                <p style="font-size: 145%;">Matthieu <strong>Gallou-Guyot</strong></p>
+                <p style="font-size: 80%;">Chercheur postdoctoral | Kinésithérapeute | Enseignant</p>
+                <p style="font-size: 80%;">
+                    <a href="mailto:matthieu.gallou.guyot@gmail.com">matthieu.gallou.guyot@gmail.com</a>
+                    <span title="'Matthieu' est ok – pas besoin de langage formel ou de titres tant que le contenu est respectueux." style="cursor: help;">
+                        <sup>&#9432;</sup>
+                    </span>
+                </p>
             </div>
+        </div>
 
-
-        <!-- CONTENU PRINCIPAL (colonne droite) -->
+        <!-- CONTENU PRINCIPAL -->
         <div class="content-column">
 
             <!-- BIO -->
@@ -99,7 +65,6 @@
             </p>
 
             <!-- RECHERCHE -->
-            <br>
             <h2>Recherche</h2>
             <p>
                 Je crois fermement à la necessité d’une recherche clinique translationnelle et impactante.
@@ -152,7 +117,6 @@
             </div>
 
             <!-- ENSEIGNEMENT -->
-            <br>
             <h2>Enseignement</h2>
             <p>
                 J’enseigne aux étudiants de licence et de master en kinésithérapie et en sciences du sport,
@@ -183,7 +147,6 @@
             </div>
 
             <!-- LIENS -->
-            <br>
             <h2>Liens</h2>
             <p>
                 Voici quelques liens vers différentes plateformes. 
@@ -203,7 +166,6 @@
                 </a>
                 <a href="https://jp.linkedin.com/in/matthieu-gallou-guyot-549324134" title="LinkedIn" style="display: inline-block; width: 20px; height: 20px;">
                     <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;">
-                        <title>LinkedIn (Inspire style)</title>
                         <path d="M0 0v24h24V0H0zm3.873 3.6875c1.0359-.0008 1.8758.8391 1.875 1.875-.0003 1.035-.8399 1.8738-1.875 1.873C2.8387 7.4352 2.0003 6.5968 2 5.5625c-.0008-1.035.838-1.8747 1.873-1.875zm4.4903.5078h3.5312l6.7344 10.8125h.045V4.1953H22v16.1172h-3.5469l-6.7168-10.791h-.0468v10.791H8.3633V4.1953zm-6.123 4.7871s.013.0041 3.3886 0v11.2754H2.2402V8.9824z"/>
                     </svg>
                 </a>
@@ -222,9 +184,12 @@
             </p>
 
         </div>
-    </main>
+    </div>
 
-    <script src="/main.js"></script>
+    <!-- LIGHTBOX -->
+    <div class="lightbox-overlay" id="index-lightbox">
+        <span class="close-btn" id="index-lightbox-close">&times;</span>
+        <img src="" alt="Agrandie">
+    </div>
 </body>
-
 </html>
