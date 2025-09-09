@@ -5,6 +5,12 @@ const productionsEntries = [
     title: "2025",
     entries: [
       {
+        href: "https://drive.google.com/file/d/1oH6xeO38jlgjcyndYTl1tHBvIRZNTaB-/view?usp=drive_link",
+        img: "img/carousel/2025-jasts.png",
+        alt: "59 JASTS",
+        text: ""
+      },
+      {
         href: "https://journals.humankinetics.com/view/journals/jmpb/8/1/article-jmpb.2024-0053.xml",
         img: "img/carousel/2025-jmpb.png",
         alt: "ActiWearCheck",
