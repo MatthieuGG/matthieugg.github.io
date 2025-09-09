@@ -1,5 +1,19 @@
 // news_data.js
 const newsEntries = [
+    {
+    date: `2025-09-10`,
+    title: "Journée mondiale de la physiothérapie 2025 : vieillir en santé grâce à l’activité physique", 
+    image: "img/news/2024_hesav.png",  
+    content: 
+    `
+      <p>
+      Premiere micro-prise de parole a <strong>HESAV</strong> pour la Journée mondiale de la physiothérapie,
+      consacrée au rôle de la physiothérapie et de l’activité physique dans le vieillissement 
+      en bonne santé en 2025. L'article est a retrouver en integralité 
+      <a href="https://hesav.ch/physiotherapie-vieillir-en-sante/">ici</a>.
+      </p>
+    `
+  },
   {
     date: `2025-09-09`,
     title: `Congrès à Osaka, et passage en français`, 
