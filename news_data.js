@@ -10,6 +10,9 @@ const newsEntries = [
       Premiere micro-prise de parole a <strong>HESAV</strong> pour la Journée mondiale de la physiothérapie,
       consacrée au rôle de la physiothérapie et de l’activité physique dans le vieillissement 
       en bonne santé en 2025.
+      <br>
+      J'y soutiens les avantages de recruter des patient.e.s partenaires, d'utiliser des kits de vieillissement, 
+      et de pratiquer sur des bases theoriques solides. Ceci permet de toujours s'adapter, loin des recettes toutes faites.
       </p>
       
       <p>
@@ -40,22 +43,22 @@ const newsEntries = [
       </p>
     `
   },
-  {
+{
     date: `2025-07-29`,
-    title: `Launching the "News"!`, 
-    //image: "img/news/Breaking_News_Alert.png",  
+    title: `Lancement de la section "Actualités" !`,
+    image: "img/news/Breaking_News_Alert.png",
     content: `
-      <p>New section on this website! 
-      I'll post here science-related news: research, clinic, teaching, congresses, projects, social events, etc. 
-      I also took the opportunity to refresh the website, including the "home" presentation and the implementation of a 
-      <a href="https://matthieugg.github.io/resume.html">dynamic PDF reader</a> for my (updated) resume.</p>
+      <p>Nouvelle section sur ce site !  
+      J'y publierai des actualités liées à la science : recherche, clinique, enseignement, congrès, projets, événements sociaux, etc.  
+      J'en ai aussi profité pour rafraîchir le site, notamment la présentation de la page d'accueil et la mise en place d'un  
+      <a href="https://matthieugg.github.io/resume.html">lecteur PDF dynamique</a> pour mon CV (mis à jour).</p>
 
-      <p>No "likes", no reactions, no comments — just purposefully oriented information diffusion. 
-      So little that no newsletter would make sense, at least for now. 
-      Inspired by <a href="https://calnewport.com/writing/">digital minimalism</a>, with text and few media.  
-      A good start for a decentralised internet — using less 
-      <a href="https://linkedin.com/in/matthieu-gallou-guyot">LinkedIn</a> and 
-      <a href="https://jp.linkedin.com/in/matthieu-gallou-guyot">ResearchGate</a>, maybe?</p>
+      <p>Pas de "likes", pas de réactions, pas de commentaires — juste une diffusion d'information volontairement ciblée.  
+      Assez peu pour qu'aucune newsletter ne soit nécessaire, du moins pour le moment.  
+      Inspiré par le <a href="https://calnewport.com/writing/">minimalisme numérique</a>, avec du texte et peu de médias.  
+      Un bon début pour un internet décentralisé — en utilisant moins  
+      <a href="https://linkedin.com/in/matthieu-gallou-guyot">LinkedIn</a> et  
+      <a href="https://jp.linkedin.com/in/matthieu-gallou-guyot">ResearchGate</a>, peut-être ?</p>
     `
-  }
+}
 ];
