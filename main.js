@@ -42,3 +42,68 @@ document.querySelectorAll('a[href]').forEach(function(link) {
         link.setAttribute('target', '_blank');
     }
 });
+
+
+// POP UP POUR IMAGES
+// Créer l'overlay
+const overlay = document.createElement('div');
+overlay.className = 'image-popup-overlay';
+document.body.appendChild(overlay);
+
+// Ajouter l'image dans l'overlay
+const overlayImg = document.createElement('img');
+overlay.appendChild(overlayImg);
+
+// Fonction pour ouvrir l'image
+function enableImagePopup() {
+  document.querySelectorAll('.clickable-image').forEach(img => {
+    img.style.cursor = 'pointer';
+    img.addEventListener('click', () => {
+      overlayImg.src = img.src;
+      overlay.style.display = 'flex';
+    });
+  });
+}
+
+// Fermer en cliquant sur le fond
+overlay.addEventListener('click', () => {
+  overlay.style.display = 'none';
+});
+
+// Activer lightbox après que le contenu dynamique est chargé
+document.addEventListener('DOMContentLoaded', () => {
+  enableImagePopup();
+});
+
+// ⚠️ Pour news : rappeler après displayNews
+function displayNews(page) {
+  const container = document.getElementById("news-container");
+  container.innerHTML = "";
+
+  const filtered = getFilteredNews();
+  const start = (page - 1) * postsPerPage;
+  const end = start + postsPerPage;
+  const entries = filtered.slice(start, end);
+
+  entries.forEach((entry) => {
+    const div = document.createElement("div");
+    div.className = "news-entry";
+
+    div.innerHTML = `
+      <h3>${entry.title}</h3>
+      <div class="date">${entry.date}</div>
+      <div class="news-highlight">
+        ${entry.image ? `<img src="${entry.image}" alt="${entry.title}" class="news-image clickable-image">` : ""}
+        <div class="news-text">
+          ${entry.content}
+        </div>
+      </div>
+    `;
+
+    container.appendChild(div);
+  });
+
+  // ⚡ Important : activer lightbox sur ces nouvelles images
+  enableImagePopup();
+}
+

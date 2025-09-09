@@ -551,3 +551,30 @@ hr.fine-line {
     box-sizing: border-box;
   }
 }
+
+/* POP UP POUR IMAGES */
+.image-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.image-popup-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  transition: transform 0.3s;
+}
+
+.image-popup-overlay img:hover {
+  transform: scale(1.02);
+}
+

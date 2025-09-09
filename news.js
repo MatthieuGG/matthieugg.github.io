@@ -24,7 +24,7 @@ function displayNews(page) {
       <h3>${entry.title}</h3>
       <div class="date">${entry.date}</div>
       <div class="news-highlight">
-        ${entry.image ? `<img src="${entry.image}" alt="${entry.title}" class="news-image">` : ""}
+        ${entry.image ? `<img src="${entry.image}" alt="${entry.title}" class="news-image clickable-image">` : ""}
         <div class="news-text">
           ${entry.content}
         </div>
