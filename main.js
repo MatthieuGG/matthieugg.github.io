@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="navbar-container">
             <button class="hamburger" id="hamburger" aria-label="Toggle menu">&#9776;</button>
             <nav class="navbar" id="navbar">
-                <a href="index.html">Home</a>
-                <a href="resume.html">Resume</a>
+                <a href="index.html">Accueil</a>
+                <a href="resume.html">Résumé</a>
                 <a href="productions.html">Productions</a>
-                <a href="news.html">News</a>                
+                <a href="news.html">Actualités</a>                
                 <a href="https://dualtaskcalculator.streamlit.app/" class="highlighted-link">[DualTaskCalculator]</a>
             </nav>
         </div>
@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const footerHTML = `
         <div class="footer-container">
             <div class="footer">
-                <a>Go open science !</a>
+                <a>Tentez la science ouverte !</a>
                 <a href="index.html"><b>MGG</b></a>
-                <a>Last update - July 2025</a>
+                <a>Dernière mise à jour: Sept. 2025</a>
             </div>
         </div>
     `;

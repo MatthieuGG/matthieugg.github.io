@@ -59,7 +59,7 @@ function setupYearFilter() {
   const select = document.getElementById("year-select");
   const years = [...new Set(newsEntries.map(e => e.date.slice(0, 4)))].sort((a, b) => b - a);
 
-  select.innerHTML = `<option value="all">All</option>`;
+  select.innerHTML = `<option value="all">Toutes</option>`;
 
   years.forEach(year => {
     const option = document.createElement("option");
