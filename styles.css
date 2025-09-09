@@ -229,6 +229,45 @@ hr.fine-line {
         width: 100%;
     }
 }
+/* MOBILE FIX POUR CONTENT-COLUMN */
+@media (max-width: 768px) {
+    .content {
+        padding: 10px; /* réduit les marges latérales sur mobile */
+    }
+
+    .home-layout {
+        flex-direction: column;
+    }
+
+    .content-column {
+        width: 100% !important;
+        min-width: 0; /* important pour que le texte et les images ne débordent pas */
+        box-sizing: border-box; /* inclut le padding dans la largeur */
+    }
+
+    .article-highlight,
+    .rules-grid,
+    .production-highlight,
+    .article-text,
+    .rule-text,
+    .production-text {
+        flex: 1 1 100% !important;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    img.article-image,
+    img.rule-image,
+    img.production-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p, h2 {
+        word-wrap: break-word;
+    }
+}
+
 
 /* =======================
    ARTICLES
