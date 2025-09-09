@@ -553,7 +553,8 @@ hr.fine-line {
 }
 
 /* POP UP POUR IMAGES */
-.image-popup-overlay {
+/* Lightbox overlay */
+.lightbox-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -563,18 +564,34 @@ hr.fine-line {
   display: none;
   justify-content: center;
   align-items: center;
-  z-index: 10000;
+  z-index: 9999;
 }
 
-.image-popup-overlay img {
+.lightbox-overlay img {
   max-width: 90%;
   max-height: 90%;
   border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  box-shadow: 0 0 20px #000;
   transition: transform 0.3s;
 }
 
-.image-popup-overlay img:hover {
-  transform: scale(1.02);
+.lightbox-overlay img:hover {
+  transform: scale(1.05);
+}
+
+.lightbox-overlay .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+}
+
+/* Curseur pointer sur images cliquables */
+.production-image img,
+.news-image,
+.article-image {
+  cursor: pointer;
 }
 

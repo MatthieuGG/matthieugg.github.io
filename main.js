@@ -45,65 +45,49 @@ document.querySelectorAll('a[href]').forEach(function(link) {
 
 
 // POP UP POUR IMAGES
-// Créer l'overlay
-const overlay = document.createElement('div');
-overlay.className = 'image-popup-overlay';
-document.body.appendChild(overlay);
-
-// Ajouter l'image dans l'overlay
-const overlayImg = document.createElement('img');
-overlay.appendChild(overlayImg);
-
-// Fonction pour ouvrir l'image
-function enableImagePopup() {
-  document.querySelectorAll('.clickable-image').forEach(img => {
-    img.style.cursor = 'pointer';
-    img.addEventListener('click', () => {
-      overlayImg.src = img.src;
-      overlay.style.display = 'flex';
-    });
-  });
-}
-
-// Fermer en cliquant sur le fond
-overlay.addEventListener('click', () => {
-  overlay.style.display = 'none';
-});
-
-// Activer lightbox après que le contenu dynamique est chargé
-document.addEventListener('DOMContentLoaded', () => {
-  enableImagePopup();
-});
-
-// ⚠️ Pour news : rappeler après displayNews
-function displayNews(page) {
-  const container = document.getElementById("news-container");
-  container.innerHTML = "";
-
-  const filtered = getFilteredNews();
-  const start = (page - 1) * postsPerPage;
-  const end = start + postsPerPage;
-  const entries = filtered.slice(start, end);
-
-  entries.forEach((entry) => {
-    const div = document.createElement("div");
-    div.className = "news-entry";
-
-    div.innerHTML = `
-      <h3>${entry.title}</h3>
-      <div class="date">${entry.date}</div>
-      <div class="news-highlight">
-        ${entry.image ? `<img src="${entry.image}" alt="${entry.title}" class="news-image clickable-image">` : ""}
-        <div class="news-text">
-          ${entry.content}
-        </div>
-      </div>
+// UNIVERSAL IMAGE LIGHTBOX
+document.addEventListener("DOMContentLoaded", () => {
+  // Crée le lightbox si pas déjà présent
+  if (!document.getElementById("lightbox")) {
+    const lightboxOverlay = document.createElement("div");
+    lightboxOverlay.id = "lightbox";
+    lightboxOverlay.className = "lightbox-overlay";
+    lightboxOverlay.innerHTML = `
+      <span class="close-btn" id="lightbox-close">&times;</span>
+      <img src="" alt="Agrandie">
     `;
+    document.body.appendChild(lightboxOverlay);
+  }
 
-    container.appendChild(div);
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = lightbox.querySelector("img");
+  const closeBtn = document.getElementById("lightbox-close");
+
+  // Ouvre lightbox sur toutes les images cliquables
+  document.addEventListener("click", (e) => {
+    const clickable = e.target.matches(
+      ".production-image img, .news-image, .article-image, .rule-image"
+    );
+    if (clickable) {
+      lightboxImg.src = e.target.src;
+      lightbox.style.display = "flex";
+    }
   });
 
-  // ⚡ Important : activer lightbox sur ces nouvelles images
-  enableImagePopup();
-}
+  // Ferme lightbox
+  closeBtn.addEventListener("click", () => {
+    lightbox.style.display = "none";
+  });
+
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) lightbox.style.display = "none";
+  });
+
+  // Curseur "pointer" sur toutes les images cliquables
+  document.querySelectorAll(
+    ".production-image img, .news-image, .article-image, .rule-image"
+  ).forEach(img => {
+    img.style.cursor = "pointer";
+  });
+});
 

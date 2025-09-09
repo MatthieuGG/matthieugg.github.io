@@ -26,6 +26,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
 </head>
+<!-- Lightbox pour index -->
+<div class="lightbox-overlay" id="index-lightbox">
+  <span class="close-btn" id="index-lightbox-close">&times;</span>
+  <img src="" alt="Agrandie">
+</div>
+<script>
+  // Lightbox spécifique à index
+  const indexLightbox = document.getElementById("index-lightbox");
+  const indexLightboxImg = indexLightbox.querySelector("img");
+  const indexCloseBtn = document.getElementById("index-lightbox-close");
+
+  document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("article-image") || e.target.classList.contains("rule-image")) {
+      indexLightboxImg.src = e.target.src;
+      indexLightbox.style.display = "flex";
+    }
+  });
+
+  indexCloseBtn.addEventListener("click", () => {
+    indexLightbox.style.display = "none";
+  });
+
+  indexLightbox.addEventListener("click", (e) => {
+    if (e.target === indexLightbox) indexLightbox.style.display = "none";
+  });
+</script>
 
 <body>
     <!-- Wrapper cartouche -->
@@ -35,8 +61,7 @@
 
             <!-- INTRO (cartouche en haut) -->
             <div class="intro-column">
-                <img src="img/IDpicture1.jpg" alt="Photo de profil">
-
+                <img src="img/IDpicture1.jpg" alt="Photo de profil" class="clickable-image">
                 <div class="intro-text">
                     <p style="font-size: 145%;">Matthieu <strong>Gallou-Guyot</strong></p>
                     <p style="font-size: 80%;">Chercheur postdoctoral | Kinésithérapeute | Enseignant</p>

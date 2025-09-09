@@ -96,3 +96,23 @@ document.addEventListener("DOMContentLoaded", function () {
   displayProductions(currentPage);
   setupPagination();
 });
+
+// Lightbox pour toutes les images
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = lightbox.querySelector("img");
+const closeBtn = document.getElementById("lightbox-close");
+
+document.addEventListener("click", (e) => {
+  if (e.target.tagName === "IMG" && e.target.closest(".production-highlight")) {
+    lightboxImg.src = e.target.src;
+    lightbox.style.display = "flex";
+  }
+});
+
+closeBtn.addEventListener("click", () => {
+  lightbox.style.display = "none";
+});
+
+lightbox.addEventListener("click", (e) => {
+  if (e.target === lightbox) lightbox.style.display = "none";
+});
