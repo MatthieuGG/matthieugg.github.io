@@ -3,7 +3,7 @@ const newsEntries = [
   {
     date: `2025-09-09`,
     title: `Congrès à Osaka, et passage en français`, 
-    image: "img/news/2024_oasaka.jpg",  
+    image: "img/news/2024_osaka.jpg",  
     content: 
     `
       <p>
