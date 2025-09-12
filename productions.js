@@ -40,14 +40,37 @@ function displayProductions(page) {
         <img src="${item.img}" alt="${item.alt}">
       </div>
       <div class="production-text">
-        <strong>${item.year}</strong><br>
+        <strong>${item.date || item.year}</strong><br>
         ${item.text || `<a href="${item.href}" target="_blank" rel="noopener noreferrer">${item.alt}</a>`}
+        ${item.citation ? `
+          <div class="citation-block" style="margin-top:0.8em;">
+            <div class="citation" style="font-size:85%; color:#333; margin-bottom:0.5em;">
+              ${item.citation}
+            </div>
+            <button class="cite-btn" onclick="copyCitation(this)">📑 Citer</button>
+          </div>
+        ` : ""}
       </div>
     `;
 
     container.appendChild(div);
   });
 }
+
+function copyCitation(btn) {
+  const citationText = btn.parentElement.querySelector(".citation").innerText;
+
+  navigator.clipboard.writeText(citationText).then(() => {
+    btn.textContent = "✅ Copié !";
+    setTimeout(() => {
+      btn.textContent = "📑 Citer";
+    }, 1500);
+  }).catch(() => {
+    btn.textContent = "❌ Erreur";
+  });
+}
+
+
 
 function setupPagination() {
   const pagination = document.getElementById("pagination");
@@ -116,3 +139,9 @@ closeBtn.addEventListener("click", () => {
 lightbox.addEventListener("click", (e) => {
   if (e.target === lightbox) lightbox.style.display = "none";
 });
+
+// Citation
+function toggleCitation(btn) {
+  const citeDiv = btn.nextElementSibling;
+  citeDiv.style.display = (citeDiv.style.display === "none") ? "block" : "none";
+}

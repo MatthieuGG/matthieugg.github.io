@@ -16,18 +16,18 @@ const newsEntries = [
       J’ai d’abord eu droit à une visite guidée du centre. Entièrement neuf, quatre IRM 3T, une IRM 7T, un MEG, des EEG, 
       plus de 200 spécialistes… Magnifique ! Puis nous avons eu une réunion de travail très instructive avec 
       <a href="https://cinet.jp/english/people/2014465/">Ikuhiro Kida</a>. Beaucoup de travail reste à faire pour 
-      améliorer mon projet de recherche actuel. Espérons que cette collaboration perdure !
+      améliorer mon projet de recherche actuel. Espérons que cette collaboration perdure à travers les frontières.
       </p>
     `
   },
   {
     date: `2025-09-10`,
-    title: "Journée mondiale de la physiothérapie 2025 : vieillir en santé grâce à l’activité physique", 
+    title: "Journée Mondiale de la Physiothérapie 2025 : vieillir en santé grâce à l’activité physique", 
     image: "img/news/2025_hesav.png",  
     content: 
     `
       <p>
-      Première micro-prise de parole à <strong>HESAV</strong> pour la Journée mondiale de la physiothérapie,
+      Première micro-prise de parole pour <strong>HESAV</strong> à l'occasion de la Journée Mondiale de la Physiothérapie,
       consacrée au rôle de la physiothérapie et de l’activité physique dans le vieillissement 
       en bonne santé en 2025.
       <br>
@@ -55,8 +55,8 @@ const newsEntries = [
       <br><br>
       Le poster dans son ensemble est consultable 
       <a href="https://drive.google.com/file/d/1oH6xeO38jlgjcyndYTl1tHBvIRZNTaB-/view?usp=drive_link">ici</a>. Encore merci 
-      aux co-auteur·e·s M. Kato, S. Furukawa, S. Watanabe, M. Okamoto et K. Touhara. Mais surtout, merci à l’Université de Tokyo 
-      pour le soutien financier !
+      aux co-auteur·e·s Mugihiko Kato, Seita Furukawa, Shin Watanabe, Masako Okamoto et Kazushige Touhara. 
+      Mais surtout, merci à l’Université de Tokyo pour le soutien financier !
       </p>
       
       <p>
@@ -74,12 +74,12 @@ const newsEntries = [
       Nouvelle section sur ce site !  
       J’y publierai des actualités liées à la science : recherche, clinique, enseignement, congrès, projets, événements sociaux, etc.  
       J’en ai aussi profité pour rafraîchir le site, notamment la présentation de la page d’accueil et la mise en place d’un  
-      <a href="https://matthieugg.github.io/resume.html">lecteur PDF dynamique</a> pour mon CV (mis à jour).
+      lecteur PDF dynamique pour <a href="https://matthieugg.github.io/resume.html">mon CV</a> (mis à jour).
       </p>
 
       <p>
       Pas de "likes", pas de réactions, pas de commentaires — juste une diffusion d’informations volontairement ciblée.  
-      Trop peu pour qu’une newsletter fasse sens, du moins pour le moment.  
+      Trop peu pour qu’une newsletter ait du sens, du moins pour le moment.  
       Inspiré par le <em><a href="https://calnewport.com/writing/">digital minimalism</a></em>, avec du texte et peu de médias.  
       Un bon début pour un internet décentralisé — en utilisant moins  
       <a href="https://linkedin.com/in/matthieu-gallou-guyot">LinkedIn</a> et  
