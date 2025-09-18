@@ -352,7 +352,8 @@ const productionsEntries = [
         , en passant cette fois du Commission Scientifique de 
         <a href="https://web.archive.org/web/20220220172047/https:/www.congres-jfk.fr/fr/le-congres/commission-scientifique">l'edition 2021</a> 
         au Commite de Pilotage de 
-        <a href="https://web.archive.org/web/20220629071403/https:/www.congres-jfk.fr/fr/le-congres/le-comite-pilotage">l'edition 2023</a>!
+        <a href="https://web.archive.org/web/20220629071403/https:/www.congres-jfk.fr/fr/le-congres/le-comite-pilotage">l'edition 2023</a> 
+        du congres des <a href="https://www.congres-jfk.fr/fr/">JFK</a>!
         </p>
         <p>
         Un peu decu de ne pas pouvoir y assister en etant a Tokyo, mais je suis heureux que 
@@ -372,7 +373,7 @@ const productionsEntries = [
       //   text: ""
       // },
       {
-        date: "2023-02-02",
+        date: "2023-02",
         href: "https://www.frontiersin.org/articles/10.3389/fnagi.2023.1046676",
         img: "img/carousel/2023-frontiers2.jpg",
         alt: "10.3389/fnagi.2023.1046676",
@@ -537,13 +538,13 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Nous avons collabore avec Flavien Quijoux pour l'ecriture d'un chapitre traitant du vieillissement 
+        Nous avons collabore avec Flavien pour l'ecriture d'un chapitre traitant du vieillissement 
         cognitif, en passant de la neurophysiologie aux impacts cliniques - notamment de chute. Ce chapitre 
         s'inscrit dans un ouvrage de neurologie s'adressant aux kinesitherapeute, lui-meme partie d'une 
         <a href="https://www.elsevier.com/fr-fr/connect/les-indispensables-en-kinesitherapie-et-physiotherapie">collection plus large</a>. 
         </p>
         <p>
-        Quel honneur et quelle chance ! Encore merci a Adrien Pallot, mon ancien directeur de memoire 
+        Quel honneur et quelle chance ! Encore merci a Adrien, mon ancien directeur de memoire 
         de fin d'etudes de kinesitherapie, pour cette opportunite. 
         </p>
         <p>
@@ -627,11 +628,10 @@ const productionsEntries = [
         <p>
         Nous nous sommes appercu, au fil des lectures et des experimentations, que l'efficacite d'un 
         programme d'entrainement etait un critere necessaire, mais pas suffisant. Le cout, la securite, 
-        ou encore l'appreciation sont egalement des clefs de reussite. Et cette appreciation concerne 
-        tout autant les utilisateurs "primaires" (les joueurs) que les "secondaires" (les encadrants). 
+        ou encore l'appreciation sont egalement des clefs de reussite.
         </p>
         <p>
-        Nous avons donc cherche a connaitre le retour des utilisateurs sur notre exergame concu et developpe 
+        Nous avons donc cherche a connaitre le retour des utilisateurs et des encadrants sur notre exergame concu et developpe 
         sur mesure par 
         <a href="https://www.3il-ingenieurs.fr/">3iL</a>. Encore merci a Fanny pour cette decouverte de la recherche 
         en SHS via des focus groupes !
@@ -697,7 +697,7 @@ const productionsEntries = [
         </p>
         <p>
         Nous avons compare le niveau de performances en taches de travail de memoire visuospatiale 
-        en espace proche et en espace lointain, entre des sujets jeunes et ages. Nous nous 
+        en espace proche et en espace lointain, entre 31 sujets jeunes et 24 sujets ages. Nous nous 
         sommes egalement interesse au niveau d'activite cerebrale prefrontale, reflete par 
         mesure de fNIRS. 
         <br>
@@ -818,14 +818,14 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Il ne s'agit pas ici d'une production personnelle directe, mais de ma premiere 
-        "interview" pour un  article de presse grand public !
+        Il ne s'agit pas ici d'une production personnelle directe, mais de mon premier
+        entretien pour un  article de presse grand public !
         </p>
         <p>
         La <a href="https://www.limoges.fr/">Ville de Limoges</a>, financeur de mon projet de these sous 
         <a href="https://www.anrt.asso.fr/fr/accueil-cifre">CIFRE</a>, s'est assure des le lancement 
-        d'une bonne couverture mediatique. Ceci est passe avec un certain nombre de videos de 
-        <a href="https://www.7alimoges.tv/">7aLimoges</a> 
+        d'une bonne couverture par leurs services mediatiques. 
+        Ceci via un certain nombre de videos de <a href="https://www.7alimoges.tv/">7aLimoges</a> 
         (<a href="https://www.youtube.com/watch?v=yeb-704OSb8&list=PLNIiGGpEKastfEcatC4cxnRyiZY23dTKK&index=5">comme celle-ci</a>), 
         ainsi que cet article dans le journal municipal 
         <a href="https://www.limoges.fr/publications">Vivre a Limoges</a>.
@@ -856,13 +856,13 @@ const productionsEntries = [
         Seconde presentation en congres lors de lu 
         <a href="https://sofpel.com/xxvieme-congres-de-la-sofpel-2019-montreal/">26e congres de la SOFPEL</a>, 
         mais egalement premiere valorisation de travaux durant ma these ! 
-        Enfin, j'ai obtenu la la "Bourse de Mobilite Transatlantique" 
+        J'ai obtenu la la "Bourse de Mobilite Transatlantique" 
         grace a cette presentation , me permettant ce voyage jusqu'a Montreal.
         </p>
         <p>
         Nous avons recrutes 24 seniors, a qui nous avons propose un programme d'entrainement 
         de 60 minutes, 3 fois par semaines, durant 6 semaines. Ce programme etait en double tache pour la moitie 
-        d'entre eux, et en simple tache pour les autres. Entre autres choses, nous observons que ceci n'est pas suffisant 
+        d'entre eux, et en simple tache pour les autres. Entre autres choses, nous observons que ceci n'etait pas suffisant 
         pour augmenter les capacites de double tache, probablement du a une intensite trop faible. 
         Plus de details dans l'acte de congres !
         </p>
@@ -886,7 +886,7 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Quel lien existe entre les performances des personnes en taches de memoire visuospatiale, 
+        Quel lien existe-t-il entre les performances des personnes en taches de memoire visuospatiale, 
         et leurs caracteristiques propres ? C'etait l'enjeu de cette etude, presentee lors du 
         <a href="https://sofpel.com/xxvieme-congres-de-la-sofpel-2019-montreal/">26e congres de la SOFPEL</a>. 
         Qui a depuis ete publiee! Tous les details sont accessible ici : 
@@ -939,7 +939,7 @@ const productionsEntries = [
         Premiere presentation en congres lors de 
         <a href="https://www.facebook.com/events/1177734885626487/">l'edition 2017 des JFK</a> de la 
         <a href="https://www.sfphysio.fr/">SFP</a>, 
-        issue de mon travail de memoire de fin d'etudes de kinesitherapie.
+        issue de mon travail de memoire de fin d'etudes de kinesitherapie. Encore merci Anne et Adrien.
         </p>
         <p>
         Dans cette etude, nous nous sommes interesses a la correlation qu'il pouvait exister 
@@ -947,7 +947,7 @@ const productionsEntries = [
         chez des patients BPCO en post-operatoire immediat d'exerese pulmonaire. 
         L'objectif etait de proposer une evaluation plus adaptee aux conditions cliniques de ces patients 
         (douleur, drains & redons, insuffisance pulmonaire, etc). Malgre un petit echantillon de 11 personnes, 
-        les resultats semblent prometeurs. Plus de details dans l'acte de congres !
+        les resultats semblaient prometeurs. Plus de details dans l'acte de congres !
         </p>
         <p>
         Acte de congres accessible ici: 
