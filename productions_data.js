@@ -316,14 +316,22 @@ const productionsEntries = [
         `
       },
       {
-        date: "2023-05-18",
+        date: "2023-05",
         href: "https://linkinghub.elsevier.com/retrieve/pii/S1779012323000165",
         img: "img/carousel/2023-klr1.jpg",
         alt: "10.1016/j.kine.2023.01.004",
         text: 
         `
         <p>
-        Pas une production personnelle, mais une interview donnee a Serge Mesure.
+        Il ne s'agit pas ici d'une production personnelle, mais d'une interview donnee a Serge Mesure pour 
+        <a href="">Kinesitherapie, la Revue</a>. 
+        </p>
+        <p>
+        Dans cette serie d'articles "Si tu nous racontais...", Serge retrace les parcours de differents kinesitherapeutes. 
+        J'y expose mon exercice clinique, mes enseignements, mes travaux de these a 
+        <a href="https://www.unilim.fr/havae/">HAVAE</a>, 
+        ainsi que mon role en tant que postdoc <a href="https://www.jsps.go.jp/english/">JSPS</a> 
+        au sein de <a href="https://www.ocha.ac.jp/en/">l'Universite d'Ochanomizu</a> a Tokyo.
         </p>
         <p>
         Entretien accessible ici: 
@@ -332,14 +340,23 @@ const productionsEntries = [
         `
       },
       {
-        date: "2023-02-02",
+        date: "2023-02",
         href: "https://www.sciencedirect.com/science/article/pii/S177901232200537X",
         img: "img/carousel/2023-klr.jpg",
         alt: "10.1016/j.kine.2022.12.176",
         text: 
         `
         <p>
-        Orgq JFK, apres CS -> Copil !
+        Je poursuis mon implication au sein de la 
+        <a href="https://www.sfphysio.fr/">SFP</a>
+        , en passant cette fois du 
+        <a href="https://web.archive.org/web/20220220172047/https:/www.congres-jfk.fr/fr/le-congres/commission-scientifique">Commission Scientifique de l'edition 2021</a> 
+        au <a href="https://web.archive.org/web/20220629071403/https:/www.congres-jfk.fr/fr/le-congres/le-comite-pilotage">Commite de Pilotage de l'edition 2023</a>!
+        </p>
+        <p>
+        Un peu decu de ne pas pouvoir y assister en etant a Tokyo, mais je suis heureux que 
+        cette initiative perdure. Vous trouverez quelques informations sur le contenu et les 
+        intentions dans cette edito !
         </p>
         <p>
         Edito accessible ici: 
@@ -361,7 +378,12 @@ const productionsEntries = [
         text: 
         `
         <p>
-        (description)
+        Resultats centraux de mon travail de these, cette publication presente le niveau d'utilisabilite, 
+        de securite, de plaisance, mais surtout d'efficacite de notre exergame aupres de seniors.
+        Pour faire bref, les resultats etaient tres concluent, et le projet INCOME devrait etre poursuivi 
+        sous la forme d'un essai controle randomise au sein de <a href="https://www.unilim.fr/havae/">HAVAE</a>.
+        <br>
+        Encore merci a Romain, Louise, Patricia, Morgane, Axelle, Natacha et Olivier !
         </p>
         <p>
         Papier accessible librement ici: 
@@ -376,14 +398,21 @@ const productionsEntries = [
         `
       },
       {
-        date: "2023-02-02",
+        date: "2023-02",
         href: "https://games.jmir.org/2023/1/e36126",
         img: "img/carousel/2023-jmir2.jpg",
         alt: "10.2196/36126",
         text: 
         `
         <p>
-        (description)
+        Nous avions precedement identifie que le niveau de solicitation physique d'un exergame etait un facteur clef 
+        pour son niveau d'efficacite et d'impact sur le plan cognitivo-moteur. Nous nous sommes donc penches sur 
+        cette question, en comparant des seances d'entrainement en simple et double tache, via notre exergame ou non. 
+        <br>
+        Evalue aupres de sujets jeunes, il semble que notre jeu, malgre sa nouveaute et ses regles, entraine un 
+        niveau de rythme cardiaque comparable aux autres methodes ! Un bon presage pour la suite.
+        <br>
+        Encore merci Maxence !
         </p>
         <p>
         Papier accessible librement ici: 
@@ -422,6 +451,8 @@ const productionsEntries = [
         Il est important pour les praticients de comprendre qui, parmi les patients eligibles, vont accepter 
         des traitement, et pourquoi. C'est ce que nous avons presente via un poster lors de 
         <a href="https://isprm.org/events/16th-isprm-world-congress-isprm-2022/">l'edition 2022 de l'ISPRM</a> a Lisbonne. 
+        <br>
+        Encore merci Patricia !
         </p>
         <p>
         Acte de congres acessible ici: 
@@ -445,10 +476,9 @@ const productionsEntries = [
         <p>
         Toutes les bonnes choses ont une fin ! Apres 39 mois a Limoges, il est temps pour moi de deposer et soutenir ma these. 
         Des publications, des congres, des rencontres, des heures de cours, des etudes interventionnelles, observationnelles, 
-        qualitatives; et plein de nouveaux outils, c'est la fin de l'aventure. Encore un immense merci a Stephane Mandigout, 
-        Anaick Perrochon et Elisabeth Digbeu-Labbe.
-        <br>
-        Au final, que valait notre exergame ? Reponse dans le manuscrit !
+        qualitatives; et plein de nouveaux outils, c'est la fin de l'aventure. Au final, que valait notre exergame ? Reponse dans le manuscrit !
+        <br> 
+        Encore un immense merci a Stephane, Anaick et Elisabeth.    
         </p>
         <p>
         These consultable librement ici: 
@@ -480,7 +510,7 @@ const productionsEntries = [
         <p>
         Apres une etude approfondie de la litterature concernant les exergames, 
         une identification des besoins sur le fond et la forme pour notre entrainement specifique, 
-        un developpement de l'outil par les ingenieurs de 3iL, 
+        un developpement de l'outil par les ingenieurs de <a href="https://www.3il-ingenieurs.fr/">3iL</a>, 
         des etudes pilotes concernant l'utilisabilite et l'acceptabilite ainsi que l'intensite physique, 
         il etait temps pour nous de definir notre protocole d'etude precisement, 
         et de le deposer afin d'assurer une 
@@ -508,8 +538,8 @@ const productionsEntries = [
         <p>
         Nous avons collabore avec Flavien Quijoux pour l'ecriture d'un chapitre traitant du vieillissement 
         cognitif, en passant de la neurophysiologie aux impacts cliniques - notamment de chute. Ce chapitre 
-        s'inscrit dans un ouvrage de neurologie s'adressant aux kinesitherapeute, lui-meme partie d'une collection 
-        plus large. 
+        s'inscrit dans un ouvrage de neurologie s'adressant aux kinesitherapeute, lui-meme partie d'une 
+        <a href="https://www.elsevier.com/fr-fr/connect/les-indispensables-en-kinesitherapie-et-physiotherapie">collection plus large</a>. 
         </p>
         <p>
         Quel honneur et quelle chance ! Encore merci a Adrien Pallot, mon ancien directeur de memoire 
@@ -566,10 +596,13 @@ const productionsEntries = [
         `
         <p>
         Nous poursuivons ici nos travaux sur l'interet des exergames, cette fois pratiques a domicile 
-        par des patients atteints de la maladie de Parkinsons. Via cette revues systematique de a litterature, 
+        par des patients atteints de la maladie de Parkinsons. Via cette revue systematique de a litterature 
+        en partenariat avec <a href="https://institutducerveau.org/">l'ICM</a>, 
         nous avons pu etablir que cette solution etait ici pertinente sur le plan moteur, mais 
         nous ne pouvons pas conclure sur le plan cognitif, ni sur l'impact quand a la qualite de vie. 
         A nouveau, les exergames semblent surs, fiables et apprecies. 
+        <br>
+        Bravo et merci a Dijana!
         </p>
         <p>
         Papier accessible librement ici: 
@@ -599,8 +632,8 @@ const productionsEntries = [
         <p>
         Nous avons donc cherche a connaitre le retour des utilisateurs sur notre exergame concu et developpe 
         sur mesure par 
-        <a href="https://www.3il-ingenieurs.fr/">3iL</a>. Encore merci a Fanny Thomas pour cette decouverte de la recherche 
-        en Sciences Humaines et Sociales via des focus groupes !
+        <a href="https://www.3il-ingenieurs.fr/">3iL</a>. Encore merci a Fanny pour cette decouverte de la recherche 
+        en SHS via des focus groupes !
         </p>
         <p>
         Papier accessible librement ici: 
@@ -622,7 +655,7 @@ const productionsEntries = [
         `
         <p>
         Encore un travail d'etudiante valorise; felicitations Marion ! Il s'agit cette fois d'un 
-        partenariat entre HAVAE et <a href="https://www.ilfomer.unilim.fr/">ILFOMER</a>.
+        partenariat entre <a href="https://www.unilim.fr/havae/">HAVAE</a> et <a href="https://www.ilfomer.unilim.fr/">ILFOMER</a>.
         </p>
         <p>
         Dans cette revue systematique de la litterature, nous nous sommes interesse a l'impact des 
@@ -788,11 +821,13 @@ const productionsEntries = [
         "interview" pour un  article de presse grand public !
         </p>
         <p>
-        La Ville de Limoges, financeur de mon projet de these sous 
+        La <a href="https://www.limoges.fr/">Ville de Limoges</a>, financeur de mon projet de these sous 
         <a href="https://www.anrt.asso.fr/fr/accueil-cifre">CIFRE</a>, s'est assure des le lancement 
-        d'une bonne couverture mediatique. Ceci est passe avec un certain nombre de videos 
+        d'une bonne couverture mediatique. Ceci est passe avec un certain nombre de videos de 
+        <a href="https://www.7alimoges.tv/">7aLimoges</a> 
         (<a href="https://www.youtube.com/watch?v=yeb-704OSb8&list=PLNIiGGpEKastfEcatC4cxnRyiZY23dTKK&index=5">comme celle-ci</a>), 
-        ainsi que cet article dans le journal municipal. 
+        ainsi que cet article dans le journal municipal 
+        <a href="https://www.limoges.fr/publications">Vivre a Limoges</a>.
         <br>
         L'objectif ici etait de presenter le programme qui allait etre propose quelques mois plus tard, 
         afin de donner envie aux seniors eligibles de participer. 
@@ -817,12 +852,14 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Seconde presentation en congres lors de la 26e edition du congres de la SOFPEL, mais egalement 
-        premiere valorisation de travaux durant ma these ! Enfin, j'ai obtenu la la "Bourse de Mobilite Transatlantique"
+        Seconde presentation en congres lors de lu 
+        <a href="https://sofpel.com/xxvieme-congres-de-la-sofpel-2019-montreal/">26e congres de la SOFPEL</a>, 
+        mais egalement premiere valorisation de travaux durant ma these ! 
+        Enfin, j'ai obtenu la la "Bourse de Mobilite Transatlantique" 
         grace a cette presentation , me permettant ce voyage jusqu'a Montreal.
         </p>
         <p>
-        Nous avons recrutes 24 seniors (70 +/- 5 ans), a qui nous avons propose un programme d'entrainement 
+        Nous avons recrutes 24 seniors, a qui nous avons propose un programme d'entrainement 
         de 60 minutes, 3 fois par semaines, durant 6 semaines. Ce programme etait en double tache pour la moitie 
         d'entre eux, et en simple tache pour les autres. Entre autres choses, nous observons que ceci n'est pas suffisant 
         pour augmenter les capacites de double tache, probablement du a une intensite trop faible. 
@@ -849,9 +886,8 @@ const productionsEntries = [
         `
         <p>
         Quel lien existe entre les performances des personnes en taches de memoire visuospatiale, 
-        et leurs caracteristiques propres ? C'etait l'enjeu de cette etude, presentee lors du 26e congres de la 
-        <a href="https://sofpel.com/xxvieme-congres-de-la-sofpel-2019-montreal/">SOFPEL</a>.
-        <br>
+        et leurs caracteristiques propres ? C'etait l'enjeu de cette etude, presentee lors du 
+        <a href="https://sofpel.com/xxvieme-congres-de-la-sofpel-2019-montreal/">26e congres de la SOFPEL</a>. 
         Qui a depuis ete publiee! Tous les details sont accessible ici : 
         <a href="https://www.sciencedirect.com/science/article/pii/S016801022030420X">Biopsychosocial determinants of visuospatial memory performance according to different spaces.</a>
         </p>
@@ -899,7 +935,8 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Premiere presentation en congres lors de l'edition 2017 des JFK de la 
+        Premiere presentation en congres lors de 
+        <a href="https://www.facebook.com/events/1177734885626487/">l'edition 2017 des JFK</a> de la 
         <a href="https://www.sfphysio.fr/">SFP</a>, 
         issue de mon travail de memoire de fin d'etudes de kinesitherapie.
         </p>
