@@ -297,6 +297,10 @@ const productionsEntries = [
         Le software et sa documentation sont accessibles librement et gratuitement ici: 
         <a href="https://github.com/MatthieuGG/GPAQ-scores">https://github.com/MatthieuGG/GPAQ-scores</a>
         </p>
+        `,
+        citation:
+        `
+        Matthieu Gallou-Guyot. (2023). GPAQ-scores. Zenodo. https://doi.org/10.5281/zenodo.10060405
         `
       },
       {
@@ -313,6 +317,10 @@ const productionsEntries = [
         Le software et sa documentation sont accessibles librement et gratuitement ici: 
         <a href="https://github.com/MatthieuGG/SF36-scores">https://github.com/MatthieuGG/SF36-scores</a>
         </p>
+        `,
+        citation:
+        `
+        Matthieu Gallou-Guyot. (2023). SF36-scores. Zenodo. https://doi.org/10.5281/zenodo.10060411
         `
       },
       {
@@ -337,6 +345,10 @@ const productionsEntries = [
         Entretien accessible ici: 
         <a href="https://linkinghub.elsevier.com/retrieve/pii/S1779012323000165">https://doi.org/10.1016/j.kine.2023.01.004</a>
         </p>
+        `,
+        citation:
+        `
+        Mesure, S. (2023). Si tu nous racontais… Matthieu Gallou-Guyot. Kinésithérapie, la Revue, 23(258), 61-62.
         `
       },
       {
@@ -364,6 +376,11 @@ const productionsEntries = [
         Edito accessible ici: 
         <a href="https://www.sciencedirect.com/science/article/pii/S177901232200537X">https://doi.org/10.1016/j.kine.2022.12.176</a>
         </p>
+        `,
+        citation:
+        `
+        Quentin, J., Bozon-Verduraz, A., Cervantes, A., Deneuville, J.-P., Gallou-Guyot, M., Martin, J., Saltarelli, O., &
+        Guemann, M. (2023). Bienvenue au 9e congrès des JFK ! Kinésithérapie, la Revue.
         `
       },      
       // {
