@@ -349,9 +349,10 @@ const productionsEntries = [
         <p>
         Je poursuis mon implication au sein de la 
         <a href="https://www.sfphysio.fr/">SFP</a>
-        , en passant cette fois du 
-        <a href="https://web.archive.org/web/20220220172047/https:/www.congres-jfk.fr/fr/le-congres/commission-scientifique">Commission Scientifique de l'edition 2021</a> 
-        au <a href="https://web.archive.org/web/20220629071403/https:/www.congres-jfk.fr/fr/le-congres/le-comite-pilotage">Commite de Pilotage de l'edition 2023</a>!
+        , en passant cette fois du Commission Scientifique de 
+        <a href="https://web.archive.org/web/20220220172047/https:/www.congres-jfk.fr/fr/le-congres/commission-scientifique">l'edition 2021</a> 
+        au Commite de Pilotage de 
+        <a href="https://web.archive.org/web/20220629071403/https:/www.congres-jfk.fr/fr/le-congres/le-comite-pilotage">l'edition 2023</a>!
         </p>
         <p>
         Un peu decu de ne pas pouvoir y assister en etant a Tokyo, mais je suis heureux que 
