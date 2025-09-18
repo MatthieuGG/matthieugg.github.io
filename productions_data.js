@@ -403,15 +403,52 @@ const productionsEntries = [
     year: 2022,
     title: "2022",
     entries: [
+      // {
+      //   href: "https://osf.io/kt54b/",
+      //   img: "img/carousel/2022-osf.png",
+      //   alt: "Every INCOME documents",
+      //   text: ""
+      // },
       {
-        date: "2022-06-21",
+        date: "2022-07",
+        href: "https://drive.google.com/file/d/1CwjOqKzTO8DN2PyiCCkRB2V8Ace_ZevZ/view",
+        img: "img/carousel/2022-isprm.jpg",
+        alt: "10.4103/2349-7904.351394",
+        text: 
+        `
+        <p>
+        Quelles etaient les caracteristiques des personnes qui ont decide de participer dans notre protocole d'entrainement ? 
+        <br>
+        Il est important pour les praticients de comprendre qui, parmi les patients eligibles, vont accepter 
+        des traitement, et pourquoi. C'est ce que nous avons presente via un poster lors de 
+        <a href="https://isprm.org/events/16th-isprm-world-congress-isprm-2022/">l'edition 2022 de l'ISPRM</a> a Lisbonne. 
+        </p>
+        <p>
+        Acte de congres acessible ici: 
+        <a href="https://drive.google.com/file/d/1CwjOqKzTO8DN2PyiCCkRB2V8Ace_ZevZ/view">https://doi.org/10.4103/2349-7904.351394</a>
+        </p>
+        `,
+        citation:
+        `
+        Gallou-Guyot, M., Mandigout, S., Almeida Prado, P. S., & Perrochon, A. (2022). Participants’ characteristics of an
+        exergaming training program: The INCOME project. The Journal of the International Society of Physical and
+        Rehabilitation Medicine, 5(2), 249–250. 
+        `
+      },
+      {
+        date: "2022-06",
         href: "https://tel.archives-ouvertes.fr/tel-03715392",
         img: "img/carousel/2023-thesis.jpg",
         alt: "Thesis MGG PhD",
         text: 
         `
         <p>
-        (description)
+        Toutes les bonnes choses ont une fin ! Apres 39 mois a Limoges, il est temps pour moi de deposer et soutenir ma these. 
+        Des publications, des congres, des rencontres, des heures de cours, des etudes interventionnelles, observationnelles, 
+        qualitatives; et plein de nouveaux outils, c'est la fin de l'aventure. Encore un immense merci a Stephane Mandigout, 
+        Anaick Perrochon et Elisabeth Digbeu-Labbe.
+        <br>
+        Au final, que valait notre exergame ? Reponse dans le manuscrit !
         </p>
         <p>
         These consultable librement ici: 
@@ -428,48 +465,26 @@ const productionsEntries = [
         `
       },
       // {
-      //   href: "https://osf.io/kt54b/",
-      //   img: "img/carousel/2022-osf.png",
-      //   alt: "Every INCOME documents",
-      //   text: ""
-      // },
-      {
-        date: "2022-07-03",
-        href: "https://drive.google.com/file/d/1CwjOqKzTO8DN2PyiCCkRB2V8Ace_ZevZ/view",
-        img: "img/carousel/2022-isprm.jpg",
-        alt: "10.4103/2349-7904.351394",
-        text: 
-        `
-        <p>
-        (description)
-        </p>
-        <p>
-        Acte de congres acessible ici: 
-        <a href="https://drive.google.com/file/d/1CwjOqKzTO8DN2PyiCCkRB2V8Ace_ZevZ/view">https://doi.org/10.4103/2349-7904.351394</a>
-        </p>
-        `,
-        citation:
-        `
-        Gallou-Guyot, M., Mandigout, S., Almeida Prado, P. S., & Perrochon, A. (2022). Participants’ characteristics of an
-        exergaming training program: The INCOME project. The Journal of the International Society of Physical and
-        Rehabilitation Medicine, 5(2), 249–250. 
-        `
-      },
-      // {
       //   href: "",
       //   img: "img/carousel/2022-isprm2.png",
       //   alt: "10.4103/2349-7904.351394",
       //   text: ""
       // },
       {
-        date: "2022-03-01",
+        date: "2022-03",
         href: "https://rehab-journal.com/index.php/home/article/view/8",
         img: "img/carousel/2022-erj2.jpg",
         alt: "10.52057/erj.v2i1.8",
         text: 
         `
         <p>
-        (description)
+        Apres une etude approfondie de la litterature concernant les exergames, 
+        une identification des besoins sur le fond et la forme pour notre entrainement specifique, 
+        un developpement de l'outil par les ingenieurs de 3iL, 
+        des etudes pilotes concernant l'utilisabilite et l'acceptabilite ainsi que l'intensite physique, 
+        il etait temps pour nous de definir notre protocole d'etude precisement, 
+        et de le deposer afin d'assurer une 
+        <a href= "https://www.redactionmedicale.fr/?s=protocole">meilleure qualite scientifique</a> !
         </p>
         <p>
         Papier accessible librement ici: 
@@ -484,28 +499,6 @@ const productionsEntries = [
         `
       },
       {
-        date: "2022-01-04",
-        href: "https://www.tandfonline.com/doi/full/10.1080/09638288.2021.2022780",
-        img: "img/carousel/2022-dr.jpg",
-        alt: "10.1080/09638288.2021.2022780",
-        text: 
-        `
-        <p>
-        (description)
-        </p>
-        <p>
-        Papier accessible librement ici: 
-        <a href="https://www.tandfonline.com/doi/full/10.1080/09638288.2021.2022780">https://doi.org/10.1080/09638288.2021.2022780</a>
-        </p>
-        `,
-        citation:
-        `
-        Gallou-Guyot, M., Nuic, D., Mandigout, S., Compagnat, M., Welter, M.-L., Daviet, J.-C., & Perrochon, A. (2022). 
-        Effectiveness of home-based rehabilitation using active video games on quality of life, cognitive and motor functions 
-        in people with Parkinson’s disease: a systematic review. Disability and Rehabilitation.
-        `
-      },
-      {
         date: "2022-01",
         href: "https://www.elsevier-masson.fr/reeducation-en-neurologie-9782294770524.html",
         img: "img/carousel/2022-elsevier.jpg",
@@ -513,7 +506,14 @@ const productionsEntries = [
         text: 
         `
         <p>
-        (description)
+        Nous avons collabore avec Flavien Quijoux pour l'ecriture d'un chapitre traitant du vieillissement 
+        cognitif, en passant de la neurophysiologie aux impacts cliniques - notamment de chute. Ce chapitre 
+        s'inscrit dans un ouvrage de neurologie s'adressant aux kinesitherapeute, lui-meme partie d'une collection 
+        plus large. 
+        </p>
+        <p>
+        Quel honneur et quelle chance ! Encore merci a Adrien Pallot, mon ancien directeur de memoire 
+        de fin d'etudes de kinesitherapie, pour cette opportunite. 
         </p>
         <p>
         Ouvrage accessible ici: ISBN = 
@@ -558,14 +558,49 @@ const productionsEntries = [
       //   text: ""
       // },
       {
-        date: "2021-11-04",
+        date: "2021-12",
+        href: "https://www.tandfonline.com/doi/full/10.1080/09638288.2021.2022780",
+        img: "img/carousel/2022-dr.jpg",
+        alt: "10.1080/09638288.2021.2022780",
+        text: 
+        `
+        <p>
+        Nous poursuivons ici nos travaux sur l'interet des exergames, cette fois pratiques a domicile 
+        par des patients atteints de la maladie de Parkinsons. Via cette revues systematique de a litterature, 
+        nous avons pu etablir que cette solution etait ici pertinente sur le plan moteur, mais 
+        nous ne pouvons pas conclure sur le plan cognitif, ni sur l'impact quand a la qualite de vie. 
+        A nouveau, les exergames semblent surs, fiables et apprecies. 
+        </p>
+        <p>
+        Papier accessible librement ici: 
+        <a href="https://www.tandfonline.com/doi/full/10.1080/09638288.2021.2022780">https://doi.org/10.1080/09638288.2021.2022780</a>
+        </p>
+        `,
+        citation:
+        `
+        Gallou-Guyot, M., Nuic, D., Mandigout, S., Compagnat, M., Welter, M.-L., Daviet, J.-C., & Perrochon, A. (2022). 
+        Effectiveness of home-based rehabilitation using active video games on quality of life, cognitive and motor functions 
+        in people with Parkinson’s disease: a systematic review. Disability and Rehabilitation.
+        `
+      },
+      {
+        date: "2021-11",
         href: "https://www.unilim.fr/trahs/3945",
         img: "img/home/income.jpg",
         alt: "10.25965/TRAHS.3945",
         text: 
         `
         <p>
-        Encore merci a Fanny Thomas pour cette decouverte de la recherche en Sciences Humaines et Sociales.
+        Nous nous sommes appercu, au fil des lectures et des experimentations, que l'efficacite d'un 
+        programme d'entrainement etait un critere necessaire, mais pas suffisant. Le cout, la securite, 
+        ou encore l'appreciation sont egalement des clefs de reussite. Et cette appreciation concerne 
+        tout autant les utilisateurs "primaires" (les joueurs) que les "secondaires" (les encadrants). 
+        </p>
+        <p>
+        Nous avons donc cherche a connaitre le retour des utilisateurs sur notre exergame concu et developpe 
+        sur mesure par 
+        <a href="https://www.3il-ingenieurs.fr/">3iL</a>. Encore merci a Fanny Thomas pour cette decouverte de la recherche 
+        en Sciences Humaines et Sociales via des focus groupes !
         </p>
         <p>
         Papier accessible librement ici: 
@@ -579,15 +614,23 @@ const productionsEntries = [
         `
       },
       {
-        date: "2021-03-28",
+        date: "2021-03",
         href: "https://linkinghub.elsevier.com/retrieve/pii/S2211034821001954",
         img: "img/carousel/2021-ms.jpg",
         alt: "10.1016/j.msard.2021.102928",
         text: 
         `
         <p>
-        Encore un travail d'etudiante valorise; felicitations Marion !
+        Encore un travail d'etudiante valorise; felicitations Marion ! Il s'agit cette fois d'un 
+        partenariat entre HAVAE et <a href="https://www.ilfomer.unilim.fr/">ILFOMER</a>.
         </p>
+        <p>
+        Dans cette revue systematique de la litterature, nous nous sommes interesse a l'impact des 
+        exergames pratiques a domicile sur les capacites d'equilibre et de marche de patients 
+        atteints de sclerose en plaque.
+        <br>
+        C'est un outil qui semble fiable, sur et apprecie, et efficace sur l'equilibre. 
+        Tous les details dans l'article !
         <p>
         Papier accessible ici: 
         <a href="https://linkinghub.elsevier.com/retrieve/pii/S2211034821001954">https://doi.org/10.1016/j.msard.2021.102928</a>
@@ -607,14 +650,25 @@ const productionsEntries = [
     title: "2020",
     entries: [
         {
-        date: "2020-11-02",
+        date: "2020-10",
         href: "https://linkinghub.elsevier.com/retrieve/pii/S016643282030680X",
         img: "img/carousel/2020-bbr2.jpg",
         alt: "10.1016/j.bbr.2020.112981",
         text: 
         `
         <p>
-        Encore un travail d'etudiant valorise; felicitations Teo !
+        Preuve de l'excellente dynamique entre enseignement et recherche au sein du 
+        <a href="https://www.unilim.fr/havae/">laboratoire HAVAE</a>, 
+        ce papier est issu des travaux d'un etudiant de master. Encore felicitations Teo !
+        </p>
+        <p>
+        Nous avons compare le niveau de performances en taches de travail de memoire visuospatiale 
+        en espace proche et en espace lointain, entre des sujets jeunes et ages. Nous nous 
+        sommes egalement interesse au niveau d'activite cerebrale prefrontale, reflete par 
+        mesure de fNIRS. 
+        <br>
+        Au global, il semble que les jeunes performent mieux que les seniors, 
+        avec de meilleures performances et un plus haut niveau d'activation cerebrale. 
         </p>
         <p>
         Papier accessible ici: 
@@ -629,14 +683,21 @@ const productionsEntries = [
         `
       },
       {
-        date: "2020-10-26",
+        date: "2020-10",
         href: "http://www.sciencedirect.com/science/article/pii/S0987705320301209",
         img: "img/carousel/2020-nccn.jpg",
         alt: "10.1016/j.neucli.2020.10.010",
         text: 
         `
         <p>
-        Poursuite travaux precedents.
+        Dans la suite de la 
+        <a href="https://www.sciencedirect.com/science/article/pii/S1568163720302701#fig0010">publication precedente</a>
+        , nous avons ici evalue l'impact des entrainements 
+        en double tache cognito-motrice sur les capacites cognitives, motrices et de double tache 
+        des seniors, cette fois cognitivement diminues. 
+        <br>
+        Ce type d'entrainement semble efficace sur les plans cognitifs et moteurs, mais nous manquons 
+        d'information pour conclure sur les performances de double tache.
         </p>
         <p>
         Papier accessible ici: 
@@ -651,14 +712,26 @@ const productionsEntries = [
         `
       },
       {
-        date: "2020-08-05",
+        date: "2020-07",
         href: "http://www.sciencedirect.com/science/article/pii/S1568163720302701",
         img: "img/carousel/2020-arr2.jpg",
         alt: "10.1016/j.arr.2020.101135",
         text: 
         `
         <p>
-        Reccord metriques labo.
+        Cette publication gardera une saveur particuliere: acceptee dans un journal a impact eleve, 
+        elle m'aura apporte de nombreuses citations, mais surtout une reconnaissance, avec de nombreuses 
+        propositions de collaboration. 
+        </p>
+        <p>
+        Il s'agit d'une revue systematique de revues systematique, permettannt une vue d'ensemble vaste et large de la litterature. 
+        L'objectif pour moi etait la construction d'un cadre theorique solide pour la these, 
+        en comprenant mieux ce qui etait fait, comment et pourquoi concernant les entrainements 
+        en double tache et les exergames comme programme d'entrainement chez les seniors. 
+        <br>
+        Si les entrainements classiques semblent efficaces sur tous les volets, les exergames 
+        peuvent manquer d'efficacite sur le plan moteur, et les informations manquent au sujet 
+        des capacites de double tache. 
         </p>
         <p>
         Papier accessible ici: 
@@ -673,14 +746,23 @@ const productionsEntries = [
         `
       },
       {
-        date: "2020-07-27",
+        date: "2020-07",
         href: "http://www.sciencedirect.com/science/article/pii/S016801022030420X",
         img: "img/carousel/2020-nr.jpg",
         alt: "10.1016/j.neures.2020.07.012",
         text: 
         `
         <p>
-        Premiere publication !!
+        Premiere publication scientifique dans un journal international indexe et impacte avec commite de lecture !! 
+        Immense soulagement a l'epoque, car il s'agit de l'une des conditions indispensables afin 
+        de pouvoir soutenir sa these. 
+        </p>
+        <p>
+        Nous avons recrute 61 jeunes sujets sains, et leur avons demande de completer une tache de memoire 
+        visuospatiale en espace proche et en espace lointain. En parallele, nous avons characterise ces participants 
+        a l'aide de nombreux parametres. Il apparait que les rotations mentales d'un cote, et l'activite physique de 
+        l'autres, sont des parametres explicatifs des capacites de memoire visuospatiale. Cette information 
+        doit permettre d'adapter nos evaluations et nos interventions. 
         </p>
         <p>
         Papier accessible ici: 
@@ -702,13 +784,22 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Pas une production personnelle directe, mais un article de presse grand public. 
+        Il ne s'agit pas ici d'une production personnelle directe, mais de ma premiere 
+        "interview" pour un  article de presse grand public !
+        </p>
+        <p>
+        La Ville de Limoges, financeur de mon projet de these sous 
+        <a href="https://www.anrt.asso.fr/fr/accueil-cifre">CIFRE</a>, s'est assure des le lancement 
+        d'une bonne couverture mediatique. Ceci est passe avec un certain nombre de videos 
+        (<a href="https://www.youtube.com/watch?v=yeb-704OSb8&list=PLNIiGGpEKastfEcatC4cxnRyiZY23dTKK&index=5">comme celle-ci</a>), 
+        ainsi que cet article dans le journal municipal. 
         <br>
-        Presentation programme these.
+        L'objectif ici etait de presenter le programme qui allait etre propose quelques mois plus tard, 
+        afin de donner envie aux seniors eligibles de participer. 
         </p>
         <p>
         Article accessible ici: 
-        <a href="https://www.limoges.fr/citoyenne/magazine-vivre-limoges">https://www.limoges.fr/citoyenne/magazine-vivre-limoges</a>
+        <a href="https://www.limoges.fr/sites/default/files/media/downloads/VAL%20147-INTERNET_0.pdf">https://www.limoges.fr/citoyenne/magazine-vivre-limoges</a>
         </p>
         `
       }
@@ -719,19 +810,23 @@ const productionsEntries = [
     title: "2019",
     entries: [
       {
-        date: "2019-12-04",
+        date: "2019-12",
         href: "https://linkinghub.elsevier.com/retrieve/pii/S0987705319302679",
         img: "img/carousel/2019-sofpel.jpg",
         alt: "10.1016/j.neucli.2019.10.045",
         text: 
         `
         <p>
-        Seconde presentation en congres lors de (...). Valorisation travaux en debut de these. 
-        <br>
-        Obtention bourse / prix (...)
+        Seconde presentation en congres lors de la 26e edition du congres de la SOFPEL, mais egalement 
+        premiere valorisation de travaux durant ma these ! Enfin, j'ai obtenu la la "Bourse de Mobilite Transatlantique"
+        grace a cette presentation , me permettant ce voyage jusqu'a Montreal.
         </p>
         <p>
-        Dans cette etude, (...)
+        Nous avons recrutes 24 seniors (70 +/- 5 ans), a qui nous avons propose un programme d'entrainement 
+        de 60 minutes, 3 fois par semaines, durant 6 semaines. Ce programme etait en double tache pour la moitie 
+        d'entre eux, et en simple tache pour les autres. Entre autres choses, nous observons que ceci n'est pas suffisant 
+        pour augmenter les capacites de double tache, probablement du a une intensite trop faible. 
+        Plus de details dans l'acte de congres !
         </p>
         <p>
         Acte de congres acessible ici: 
@@ -746,14 +841,19 @@ const productionsEntries = [
         `
       },
       {
-        date: "2019-12-04",
+        date: "2019-12",
         href: "https://linkinghub.elsevier.com/retrieve/pii/S0987705319303041",
         img: "img/carousel/2019-sofpel1.jpg",
         alt: "10.1016/j.neucli.2019.10.082",
         text: 
         `
         <p>
-        (description)
+        Quel lien existe entre les performances des personnes en taches de memoire visuospatiale, 
+        et leurs caracteristiques propres ? C'etait l'enjeu de cette etude, presentee lors du 26e congres de la 
+        <a href="https://sofpel.com/xxvieme-congres-de-la-sofpel-2019-montreal/">SOFPEL</a>.
+        <br>
+        Qui a depuis ete publiee! Tous les details sont accessible ici : 
+        <a href="https://www.sciencedirect.com/science/article/pii/S016801022030420X">Biopsychosocial determinants of visuospatial memory performance according to different spaces.</a>
         </p>
         <p>
         Acte de congres acessible ici: 
@@ -792,14 +892,15 @@ const productionsEntries = [
       //   text: ""
       // },
       {
-        date: "2017-04-27",
+        date: "2017-04",
         href: "https://linkinghub.elsevier.com/retrieve/pii/S1779012317301274",
         img: "img/carousel/2017-jfk2.jpg",
         alt: "10.1016/j.kine.2017.02.066",
         text: 
         `
         <p>
-        Premiere presentation en congres lors de l'edition 2017 des JFK, 
+        Premiere presentation en congres lors de l'edition 2017 des JFK de la 
+        <a href="https://www.sfphysio.fr/">SFP</a>, 
         issue de mon travail de memoire de fin d'etudes de kinesitherapie.
         </p>
         <p>
@@ -809,8 +910,6 @@ const productionsEntries = [
         L'objectif etait de proposer une evaluation plus adaptee aux conditions cliniques de ces patients 
         (douleur, drains & redons, insuffisance pulmonaire, etc). Malgre un petit echantillon de 11 personnes, 
         les resultats semblent prometeurs. Plus de details dans l'acte de congres !
-        <br>
-        Encore merci a mes co-encadrants de l'epoque, Adrien Pallot et Anne Bisserier.
         </p>
         <p>
         Acte de congres accessible ici: 

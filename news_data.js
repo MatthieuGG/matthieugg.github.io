@@ -68,7 +68,7 @@ const newsEntries = [
   {
     date: `2025-07-29`,
     title: `Lancement de la section "Actualités" !`,
-    image: "img/news/Breaking_News_Alert.png",
+    // image: "img/news/Breaking_News_Alert.png",
     content: `
       <p>
       Nouvelle section sur ce site !  
