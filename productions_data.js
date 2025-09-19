@@ -235,14 +235,25 @@ const productionsEntries = [
         `
       },      
       {
-        date: "2023-08-30",
+        date: "2023-08",
         href: "https://doi.org/10.20693/jspehssconf.73.0_463",
         img: "img/carousel/2023-jspehs.jpg",
         alt: "10.20693/jspehssconf.73.0_463",
         text: 
         `
         <p>
-        Premiere valorisation de mon postdoc a Ochadai.
+        Premiere valorisation de mon postdoc 
+        <a href="https://www.jsps.go.jp/english/">JSPS</a> au 
+        <a href="http://www.eng.ocha.ac.jp/Tripette_Site/home.html"> Physical Activity Measurement Lab</a>
+        de <a href="https://www.ocha.ac.jp/en/">Ochadai</a> ! Encore merci Julien.
+        </p>
+        <p>
+        Dans ce poster presente lors du 
+        <a href="https://confit.atlas.jp/guide/event/jspehss73/top?lang=en">73e congres de la JSPEHSS</a> a Kyoto, 
+        nous apportons les resultats preliminaires du projet 
+        <a href="https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000048880">drePAnon</a>: 
+        le comportement en activite physique des patients drepanocitaires ne semble pas lie 
+        a la survenue ou a la gravite d'evenements indesirables.
         </p>
         <p>
         Acte de congres accessible librement ici: 
@@ -771,6 +782,11 @@ const productionsEntries = [
         d'information pour conclure sur les performances de double tache.
         </p>
         <p>
+        Nous poursuivons ici notre collaboration <a href="https://www.unilim.fr/havae/">HAVAE</a> x 
+        <a href="https://lesca.ca/">Universite de Montreal</a>, en incluant cette fois l'
+        <a href="https://www.efom.fr/">EFOM</a>.
+        </p>
+        <p>
         Papier accessible ici: 
         <a href="http://www.sciencedirect.com/science/article/pii/S0987705320301209">https://doi.org/10.1016/j.neucli.2020.10.010</a>
         </p>
@@ -792,7 +808,7 @@ const productionsEntries = [
         <p>
         Cette publication gardera une saveur particuliere: acceptee dans un journal a impact eleve, 
         elle m'aura apporte de nombreuses citations, mais surtout une reconnaissance, avec de nombreuses 
-        propositions de collaboration. 
+        propositions de collaboration. L'occasion egalement de battre quelques reccords de metriques a <a href="https://www.unilim.fr/havae/">HAVAE</a>!
         </p>
         <p>
         Il s'agit d'une revue systematique de revues systematique, permettannt une vue d'ensemble vaste et large de la litterature. 
@@ -826,7 +842,7 @@ const productionsEntries = [
         <p>
         Premiere publication scientifique dans un journal international indexe et impacte avec commite de lecture !! 
         Immense soulagement a l'epoque, car il s'agit de l'une des conditions indispensables afin 
-        de pouvoir soutenir sa these. 
+        de pouvoir soutenir sa these a <a href="https://www.unilim.fr/havae/">HAVAE</a>. 
         </p>
         <p>
         Nous avons recrute 61 jeunes sujets sains, et leur avons demande de completer une tache de memoire 
@@ -894,7 +910,7 @@ const productionsEntries = [
         <a href="https://sofpel.com/xxvieme-congres-de-la-sofpel-2019-montreal/">26e congres de la SOFPEL</a>, 
         mais egalement premiere valorisation de travaux durant ma these ! 
         J'ai obtenu la la "Bourse de Mobilite Transatlantique" 
-        grace a cette presentation , me permettant ce voyage jusqu'a Montreal.
+        grace a cette presentation , me permettant ce voyage de <a href="https://www.unilim.fr/havae/">HAVAE</a> jusqu'a Montreal.
         </p>
         <p>
         Nous avons recrutes 24 seniors, a qui nous avons propose un programme d'entrainement 
@@ -923,9 +939,13 @@ const productionsEntries = [
         text: 
         `
         <p>
+        Premiere valorisation comme doctorant au sein du laboratoire 
+        <a href="https://www.unilim.fr/havae/">HAVAE</a>! Merci Anaick et Stephane.
+        <p>
         Quel lien existe-t-il entre les performances des personnes en taches de memoire visuospatiale, 
         et leurs caracteristiques propres ? C'etait l'enjeu de cette etude, presentee lors du 
-        <a href="https://sofpel.com/xxvieme-congres-de-la-sofpel-2019-montreal/">26e congres de la SOFPEL</a>. 
+        <a href="https://sofpel.com/xxvieme-congres-de-la-sofpel-2019-montreal/">26e congres de la SOFPEL</a> a Montreal. 
+        <br>
         Qui a depuis ete publiee! Tous les details sont accessible ici : 
         <a href="https://www.sciencedirect.com/science/article/pii/S016801022030420X">Biopsychosocial determinants of visuospatial memory performance according to different spaces.</a>
         </p>
@@ -976,7 +996,8 @@ const productionsEntries = [
         Premiere presentation en congres lors de 
         <a href="https://www.facebook.com/events/1177734885626487/">l'edition 2017 des JFK</a> de la 
         <a href="https://www.sfphysio.fr/">SFP</a>, 
-        issue de mon travail de memoire de fin d'etudes de kinesitherapie. Encore merci Anne et Adrien.
+        issue de mon travail de memoire de fin d'etudes de kinesitherapie - une collaboration 
+        <a href="https://www.hpevm.fr/Presentation/2/142">ENKRE</a> x <a href="https://www.aphp.fr/hopitaux/cochin">Rea Cochin</a>. Encore merci Anne et Adrien.
         </p>
         <p>
         Dans cette etude, nous nous sommes interesses a la correlation qu'il pouvait exister 
