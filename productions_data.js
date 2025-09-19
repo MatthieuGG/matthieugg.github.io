@@ -25,16 +25,23 @@ const productionsEntries = [
         `
       },
       {
-        date: "2025-06-18", 
+        date: "2025-06-18",
         href: "https://journals.humankinetics.com/view/journals/jmpb/8/1/article-jmpb.2024-0053.xml",
         img: "img/carousel/2025-jmpb2.png",
         alt: "ActiWearCheck",
         text: 
         `
         <p>
-        Enfin une publication comme premier auteur issue mon postdoc a Ochadai!
-        <br>
-        (description)
+        Enfin une publication comme premier auteur issue mon mon postdoc 
+        <a href="https://www.jsps.go.jp/english/">JSPS</a> au 
+        <a href="http://www.eng.ocha.ac.jp/Tripette_Site/home.html"> Physical Activity Measurement Lab</a>
+        de <a href="https://www.ocha.ac.jp/en/">Ochadai</a> ! Encore merci Julien, Mor et Philippe. 
+        Et bravo Keyne pour le schema !
+        </p>
+        <p>
+        Dans cette publication, nous mettons entre autre en lumiere le fait que la frequence et la gravite des 
+        evenements cliniques chez les patients drepanocytaires n'est pas lie a leur comportement en activite physique. 
+        Un changement de point de vue et de prescription a venir ?
         </p>
         <p>
         Papier accessible librement ici: <a href="https://journals.humankinetics.com/view/journals/jmpb/8/1/article-jmpb.2024-0053.xml">https://doi.org/10.1123/jmpb.2024-0053</a>
@@ -75,17 +82,23 @@ const productionsEntries = [
         `
       },
       {
-        date: "2025-05-19", 
+        date: "2025-05", 
         href: "https://onlinelibrary.wiley.com/doi/full/10.1111/bjh.20150",
         img: "img/carousel/2025-bjh2.jpg",
         alt: "drePAnon 1",
         text:
         `
         <p>
-        Premiere publication issue de mon post-doc a Ochadai!
+        Enfin une publication comme premier auteur issue mon mon postdoc 
+        <a href="https://www.jsps.go.jp/english/">JSPS</a> au 
+        <a href="http://www.eng.ocha.ac.jp/Tripette_Site/home.html"> Physical Activity Measurement Lab</a>
+        de <a href="https://www.ocha.ac.jp/en/">Ochadai</a> ! Encore merci Julien, Mor et Philippe. 
+        Et bravo Keyne pour le schema !
         </p>
         <p>
-        (description)
+        Dans cette publication, nous mettons entre autre en lumiere le fait que la frequence et la gravite des 
+        evenements cliniques chez les patients drepanocytaires n'est pas lie a leur comportement en activite physique. 
+        Un changement de point de vue et de prescription a venir ?
         </p>
         <p>
         Papier accessible librement ici: 
@@ -100,16 +113,21 @@ const productionsEntries = [
         `
       },
       {
-        date: "2025-03-11", 
+        date: "2025-03", 
         href: "https://rehab-journal.com/index.php/home/article/view/58",
         img: "img/carousel/2025-erj2.png",
         alt: "DTP",
         text: 
         `
         <p>
-        Derniere publication de these: proposition d'un modele!
-        <br>
-        Egalement premiere collaboration avec la Suisse. Et premier software! Encore merci a Peyo pour son aide.
+        Point final a la valorisation de mes travaux de these au sein de <a href="https://www.unilim.fr/havae/">HAVAE</a>, 
+        avec la proposition d'un modele! L'idee est simple: fournir une webapp aux clinicien, leur permettant de chiffrer 
+        les modifications au cours du temps des performances en double tache de leurs patients. L'objectif etant de 
+        pouvoir proposer des protocoles d'intervention adaptes aux profils initiaux cognitivo-moteurs, et en evaluer l'evolution.
+        </p>
+        <p>
+        Premiere collaboration Suisse, peut etre annonciatrice de la suite? Mais egalement premier software;
+        encore merci a Peyo pour son aide.
         </p>
         <p>
         Papier accessible librement ici: 
@@ -138,16 +156,22 @@ const productionsEntries = [
     title: "2024",
     entries: [
       {
-        date: "2024-08-14",
+        date: "2024-08",
         href: "https://www.sciencedirect.com/science/article/pii/S1568163724002769?via%3Dihub",
         img: "img/carousel/2024-arr2.png",
         alt: "10.1016/j.arr.2024.102458",
         text: 
         `
         <p>
-        Encore une collaboration avec HAVAE. Nouveaux reccords etablis par Nathan!
+        Encore une collaboration avec <a href="https://www.unilim.fr/havae/">HAVAE</a>. mais surtout
+        de nouveaux reccords etablis par Nathan! Felicitations.
+        </p>
+        <p>
+        Dans ce long article, nous synthetisons de nombreux elements de litterature, afin de proposer un 
+        cadre theorique pour la definition de ce qu'est la marche complexe. Nous tentons ainsi de nous rapprocher 
+        des conditions ecologiques, de "la vraie vie", pour les outils de bilan comme de reeducation. 
         <br>
-        Definition d'un cadre theorique.
+        Merci aux expert.e.s reunis autour de la table !
         </p>
         <p>
         Papier ccessible ici: 
@@ -169,7 +193,17 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Tres importante !
+        Cette publication me tient particulierement a coeur.
+        <br>
+        Nous constatons tous un veritable raz-de-maree des publications. Tous les acteurs sont responsables: 
+        auteurs, editeurs, relecteurs, etc. 
+        Raccourcis, generalites, exageration etaient deja de veritables problemes. A toujours vouloir synthetiser, 
+        on perd en precision du discours, en subtilites. Ce que l'on gagne en puissance statistique se perd sur la finesse 
+        et la complexite. Sans parler de tourner en rond en l'absence d'etudes novatrices.
+        </p>
+        <p>
+        Et ce n'etait qu'un debut 
+        <a href="https://www.redactionmedicale.fr/2025/08/la-generation-darticles-par-lia-nous-questionne-le-plagiat-didees-est-impossible-a-prouver-panique">avant l'arrivee de l'IA</a> ...
         </p>
         <p>
         Papier accessible ici: 
@@ -183,14 +217,24 @@ const productionsEntries = [
         `
       },      
       {
-        date: "2024-02-23",
+        date: "2024-02",
         href: "https://rehab-journal.com/index.php/home/article/view/46",
         img: "img/carousel/2024-erj2.jpg",
         alt: "10.52057/erj.v4i1.46",
         text: 
         `
         <p>
-        Importance de se remettre en question, ERJ - SFP - JFK.
+        Au sein de la <a href="https://www.sfphysio.fr/">SFP</a>, nous croyons en la necessite de toujours se remettre en question. 
+        C'est donc ce que nous avons decide de faire au sein du CoPil des 
+        <a href="https://www.congres-jfk.fr/fr/">JFK</a>, en realisant une auto-evaluation 
+        du systeme d'evaluation des experts pour la selection des communications au sein du congres. 
+        Engages dans les demarches de science ouverte, nous publions les resultats au sein de 
+        l'<a href="https://rehab-journal.com/index.php/home">ERJ</a>.
+        </p>
+        <p>
+        Pour faire court, il semble que les processus utilises actuellement pour selectionner les communications 
+        ne sont pas necessairement des plus fiables. Des pistes d'ameliorations sont en reflexion, comme 
+        le passage par une appreciation globale et qualitative.
         </p>
         <p>
         Papier accessible librement ici: 
@@ -214,14 +258,21 @@ const productionsEntries = [
     title: "2023",
     entries: [
       {
-        date: "2023-10-18",
+        date: "2023-10",
         href: "https://www.em-consulte.com/article/1624922/figures/soutien-ou-maintien-a-domicile-des-personnes-agees",
         img: "img/carousel/2024-emc.jpg",
         alt: "10.1016/S1283-0887(23)69392-2",
         text: 
         `
         <p>
-        Super heureux collab, notamment France Mourey.
+        Tres fier et heureux de cette publication, et ce pour de nombreuses raisons ! Litterature en Francais, tres clinique, 
+        orientee vers les professionnels, au sein du reoconnu 
+        <a href="https://www.em-consulte.com/traite/KI/presentation/kinesitherapie-medecine-physique-readaptation">EMC</a>, 
+        avec des collegues de renoms, notamment France Mourey. Cerise sur le gateau, je suis dernier auteur !
+        </p>
+        <p>
+        Concretement, que faire, comment et pourquoi en tant que kinesitherapeute pour soutenir les seniors 
+        a se maintenir a domicile ? De nombreux elements de reponses et pistes de reeducation dans l'ouvrage.
         </p>
         <p>
         Chapitre accessible ici: 
@@ -524,11 +575,15 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Toutes les bonnes choses ont une fin ! Apres 39 mois a Limoges, il est temps pour moi de deposer et soutenir ma these. 
+        Toutes les bonnes choses ont une fin ! Apres 39 mois entre 
+        <a href="https://www.limoges.fr/">Ville de Limoges</a>, <a href="https://www.unilim.fr/havae/">HAVAE</a> 
+        et <a href="https://www.ilfomer.unilim.fr/">ILFOMER</a>, 
+        il est temps pour moi de deposer et soutenir ma these. 
         Des publications, des congres, des rencontres, des heures de cours, des etudes interventionnelles, observationnelles, 
         qualitatives; et plein de nouveaux outils, c'est la fin de l'aventure. Au final, que valait notre exergame ? Reponse dans le manuscrit !
         <br> 
-        Encore un immense merci a Stephane, Anaick et Elisabeth.    
+        Encore un immense merci a Stephane, Anaick et Elisabeth, ainsi qu'au 
+        CEBIMER du CHU et a <a href="3il-ingenieurs.fr/en/">3iL</a>.
         </p>
         <p>
         These consultable librement ici: 
@@ -566,6 +621,9 @@ const productionsEntries = [
         et de le deposer afin d'assurer une 
         <a href= "https://www.redactionmedicale.fr/?s=protocole">meilleure qualite scientifique</a> !
         </p>
+        <p>
+        Premiere action de soutien de <a href="https://www.unilim.fr/havae/">HAVAE</a> pour le journal 
+        <a href="https://rehab-journal.com/index.php/home">ERJ</a>. Vive la science libre !
         <p>
         Papier accessible librement ici: 
         <a href="https://rehab-journal.com/index.php/home/article/view/8">https://doi.org/10.52057/erj.v2i1.8</a>
@@ -646,8 +704,8 @@ const productionsEntries = [
         `
         <p>
         Nous poursuivons ici nos travaux sur l'interet des exergames, cette fois pratiques a domicile 
-        par des patients atteints de la maladie de Parkinsons. Via cette revue systematique de a litterature 
-        en partenariat avec <a href="https://institutducerveau.org/">l'ICM</a>, 
+        par des patients atteints de la maladie de Parkinsons. Via cette revue systematique de a litterature, 
+        fruits d'une collab <a href="https://www.unilim.fr/havae/">HAVAE</a> x <a href="https://institutducerveau.org/">ICM</a>, 
         nous avons pu etablir que cette solution etait ici pertinente sur le plan moteur, mais 
         nous ne pouvons pas conclure sur le plan cognitif, ni sur l'impact quand a la qualite de vie. 
         A nouveau, les exergames semblent surs, fiables et apprecies. 
@@ -739,8 +797,8 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Preuve de l'excellente dynamique entre enseignement et recherche au sein du 
-        <a href="https://www.unilim.fr/havae/">laboratoire HAVAE</a>, 
+        Preuve de l'excellente dynamique entre enseignement et recherche au sein du laboratoire 
+        <a href="https://www.unilim.fr/havae/">HAVAE</a>, 
         ce papier est issu des travaux d'un etudiant de master. Encore felicitations Teo !
         </p>
         <p>
@@ -773,8 +831,8 @@ const productionsEntries = [
         `
         <p>
         Dans la suite de la 
-        <a href="https://www.sciencedirect.com/science/article/pii/S1568163720302701#fig0010">publication precedente</a>
-        , nous avons ici evalue l'impact des entrainements 
+        <a href="https://www.sciencedirect.com/science/article/pii/S1568163720302701#fig0010">publication precedente</a>, 
+        nous avons ici evalue l'impact des entrainements 
         en double tache cognito-motrice sur les capacites cognitives, motrices et de double tache 
         des seniors, cette fois cognitivement diminues. 
         <br>
@@ -783,8 +841,7 @@ const productionsEntries = [
         </p>
         <p>
         Nous poursuivons ici notre collaboration <a href="https://www.unilim.fr/havae/">HAVAE</a> x 
-        <a href="https://lesca.ca/">Universite de Montreal</a>, en incluant cette fois l'
-        <a href="https://www.efom.fr/">EFOM</a>.
+        <a href="https://lesca.ca/">Universite de Montreal</a>, en incluant cette fois l'<a href="https://www.efom.fr/">EFOM</a>.
         </p>
         <p>
         Papier accessible ici: 
@@ -840,7 +897,8 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Premiere publication scientifique dans un journal international indexe et impacte avec commite de lecture !! 
+        Premiere publication scientifique dans un journal international indexe et impacte avec commite de lecture !!
+        <br>
         Immense soulagement a l'epoque, car il s'agit de l'une des conditions indispensables afin 
         de pouvoir soutenir sa these a <a href="https://www.unilim.fr/havae/">HAVAE</a>. 
         </p>
