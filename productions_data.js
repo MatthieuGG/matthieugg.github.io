@@ -262,14 +262,27 @@ const productionsEntries = [
       //   text: ""
       // },
       {
-        date: "2023-07-21",
+        date: "2023-07",
         href: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10360332/",
         img: "img/carousel/2023-bmc.jpg",
         alt: "10.1186/s12906-023-04074-w",
         text: 
         `
         <p>
-        Encore une publication issue des travaux d'etudiantes - felicitations Nina !
+        Encore une publication issue des travaux d'etudiantes de 
+        <a href="https://www.ilfomer.unilim.fr/">ILFOMER</a> en stage a 
+        <a href="https://www.unilim.fr/havae/">HAVAE</a> - felicitations Nina !
+        </p>
+        <p>
+        Dans cette revue systematique de revues systematiques, nous nous sommes interesses a la 
+        pertinence de l'utilisation du yoga comme therapie aupres de patients atteints de 
+        syndromes de stress post-traumatique. Si la technique semble pertinente, nous notons 
+        une grande disparite dans les pratiques de yoga, ainsi que le public cible, qui allait 
+        d'enfants a des veterans de guerre.
+        <br>
+        Faisant suite a un 
+        <a href="https://www.researchsquare.com/article/rs-1834126/v1">preprint</a>, 
+        cette publication est interessante pour une future kinesitherapeute !
         </p>
         <p>
         Papier accessible librement ici: 
@@ -291,7 +304,10 @@ const productionsEntries = [
         text: 
         `
         <p>
-        (description)
+        Petit software python qui permet d'obtenir les valeurs de depense energetique 
+        dans les differentes tranches d'intensite, ainsi que dans les types d'activites, 
+        base sur les 22 items initiaux du questionnaire 
+        <a href="https://www.who.int/publications/m/item/global-physical-activity-questionnaire">GPAQ</a>.
         </p>
         <p>
         Le software et sa documentation sont accessibles librement et gratuitement ici: 
@@ -311,7 +327,9 @@ const productionsEntries = [
         text: 
         `
         <p>
-        (description)
+        Petit software python qui permet d'obtenir les scores par sous-domaines puis par domaines generaux,
+        base sur les 36 items initiaux du questionnaire 
+        <a href="https://pubmed.ncbi.nlm.nih.gov/1593914/">SF-36</a>.
         </p>
         <p>
         Le software et sa documentation sont accessibles librement et gratuitement ici: 
@@ -360,8 +378,7 @@ const productionsEntries = [
         `
         <p>
         Je poursuis mon implication au sein de la 
-        <a href="https://www.sfphysio.fr/">SFP</a>
-        , en passant cette fois du Commission Scientifique de 
+        <a href="https://www.sfphysio.fr/">SFP</a>, en passant cette fois du Commission Scientifique de 
         <a href="https://web.archive.org/web/20220220172047/https:/www.congres-jfk.fr/fr/le-congres/commission-scientifique">l'edition 2021</a> 
         au Commite de Pilotage de 
         <a href="https://web.archive.org/web/20220629071403/https:/www.congres-jfk.fr/fr/le-congres/le-comite-pilotage">l'edition 2023</a> 
@@ -431,7 +448,10 @@ const productionsEntries = [
         Evalue aupres de sujets jeunes, il semble que notre jeu, malgre sa nouveaute et ses regles, entraine un 
         niveau de rythme cardiaque comparable aux autres methodes ! Un bon presage pour la suite.
         <br>
-        Encore merci Maxence !
+        Encore merci Maxence ! Nouvel essai transforme de 
+        <a href="https://www.ilfomer.unilim.fr/">ILFOMER</a> x 
+        <a href="https://www.unilim.fr/havae/">HAVAE</a>
+        pour ce <a href="https://preprints.jmir.org/preprint/36126">preprint</a>.
         </p>
         <p>
         Papier accessible librement ici: 
