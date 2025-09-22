@@ -12,9 +12,9 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Première valorisation de mon postdoc a 
-        <a href="http://park.itc.u-tokyo.ac.jp/biological-chemistry/">l'Université de Tokyo</a>,
-        il s'agit d'un poster présenté lors du 
+        Première valorisation de mon postdoc à 
+        <a href="http://park.itc.u-tokyo.ac.jp/biological-chemistry/">l'Université de Tokyo</a> ! 
+        Il s'agit d'un poster présenté lors du 
         <a href="https://jasts59.umin.jp/">59e congrès de la JASTS</a>. 
         </p>
         <p>
@@ -47,16 +47,15 @@ const productionsEntries = [
         Publication comme premier auteur issue de mon postdoc 
         <a href="https://www.jsps.go.jp/english/">JSPS</a> au 
         <a href="http://www.eng.ocha.ac.jp/Tripette_Site/home.html"> Physical Activity Measurement Lab</a>
-        de <a href="https://www.ocha.ac.jp/en/">Ochadai</a> !
+        de <a href="https://www.ocha.ac.jp/en/">Ochadai</a> - un immense merci à Nat et Julien !
         </p>
         <p>
         Les capteurs inertiels sont très utiles pour etudier l'activité physique des 
-        personnes, et sont accessibles en prix et utilisation de nos jours. Toutefois, peut-on être 
+        personnes, et sont accessibles de nos jours. Toutefois, peut-on être 
         sûrs des données recoltées, notamment en conditions réelles ?
         <br>
         C'est à cette problématique que nous essayons de répondre ici, avec un software
-         permettant de faire le tri entre les jours correctement portés, synchronisés et chargés.
-         Un immense merci a Nat et Julien !
+        permettant de faire le tri entre les jours correctement portés, synchronisés et chargés.
         </p>
         <p>
         Papier accessible librement ici: <a href="https://journals.humankinetics.com/view/journals/jmpb/8/1/article-jmpb.2024-0053.xml">https://doi.org/10.1123/jmpb.2024-0053</a>
@@ -80,10 +79,10 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Dernière collaboration en date avec <a href="https://www.unilim.fr/havae/">HAVAE</a>! Bravo et merci Louise. 
+        Dernière collaboration en date avec <a href="https://www.unilim.fr/havae/">HAVAE</a> ! Bravo et merci Louise. 
         </p>
         <p>
-        Dans cette étude, nous nous sommes intéressé à la propension des séniors a spontanément 
+        Dans cette étude, nous nous sommes intéressé à la propension des séniors à spontanément 
         s'inscrire et participer à un programme d'entraînement proposé gratuitement et sur leur lieu de 
         résidence. A la surprise générale, le taux d'adhésion n'etait pas si élevé, car seuls 
         50 des 174 résidents éligibles se sont inscrits. Les freins principaux à l'activité physique 
@@ -118,7 +117,7 @@ const productionsEntries = [
         <p>
         Dans cette publication, nous mettons entre autre en lumière le fait que la fréquence et la gravité des 
         événements cliniques chez les patients drépanocytaires n'est pas lié à leur comportement en activité physique. 
-        Un changement de point de vue et de prescription a venir ?
+        Un changement de point de vue et de prescription à venir ?
         </p>
         <p>
         Papier accessible librement ici: 
@@ -140,14 +139,16 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Point final a la valorisation de mes travaux de these au sein de <a href="https://www.unilim.fr/havae/">HAVAE</a>, 
-        avec la proposition d'un modèle! L'idee est simple: fournir une webapp aux cliniciens, leur permettant de chiffrer 
+        Point final à la valorisation de mes travaux de thèse au sein de <a href="https://www.unilim.fr/havae/">HAVAE</a>, 
+        avec la proposition d'un modèle.
+        <br>
+        L'idée est simple: fournir une webapp aux cliniciens, leur permettant de chiffrer 
         les modifications au cours du temps des performances en double tache de leurs patients. L'objectif étant de 
-        pouvoir proposer des protocoles d'intervention adaptes aux profils initiaux cognitivo-moteurs, et en évaluer l'evolution.
+        pouvoir proposer des protocoles d'intervention adaptés aux profils cognitivo-moteurs initiaux, et en évaluer l'évolution.
         </p>
         <p>
-        Première collaboration Suisse, peut être annonciatrice de la suite? Mais egalement premier software;
-        encore merci a Peyo pour son aide.
+        Première collaboration Suisse, peut être annonciatrice de la suite? Mais également premier software;
+        encore merci à Peyo pour son aide.
         </p>
         <p>
         Papier accessible librement ici: 
@@ -183,15 +184,13 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Encore une collaboration avec <a href="https://www.unilim.fr/havae/">HAVAE</a>. mais surtout
-        de nouveaux reccords etablis par Nathan! Felicitations.
+        Encore une collaboration avec <a href="https://www.unilim.fr/havae/">HAVAE</a>, mais surtout
+        de nouveaux reccords etablis par Nathan ! Félicitations à lui, et merci aux expert.e.s reunis autour de la table.
         </p>
         <p>
-        Dans ce long article, nous synthetisons de nombreux elements de litterature, afin de proposer un 
+        Dans ce long article, nous synthétisons de nombreux éléments de litterature, afin de proposer un 
         cadre théorique pour la definition de ce qu'est la marche complexe. Nous tentons ainsi de nous rapprocher 
-        des conditions écologiques, de "la vraie vie", pour les outils de bilan comme de reeducation. 
-        <br>
-        Merci aux expert.e.s reunis autour de la table !
+        des conditions écologiques, de "la vraie vie", pour les outils de bilan comme de réeducation. 
         </p>
         <p>
         Papier accessible ici: 
@@ -213,16 +212,16 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Cette publication me tient particuliérement a coeur.
+        Cette publication me tient particuliérement à coeur.
         <br>
-        Nous constatons tous un veritable raz-de-maree des publications. Tous les acteurs sont responsables: 
-        auteurs, editeurs, relecteurs, etc. 
-        Raccourcis, généralités, exagération etaient deja de veritables problemes. A toujours vouloir synthetiser, 
-        on perd en precision du discours, en subtilités. Ce que l'on gagne en puissance statistique se perd sur la finesse 
-        et la complexite. Sans parler de tourner en rond en l'absence d'etudes novatrices.
+        Nous constatons tous un véritable raz-de-marée des publications. Tous les acteurs sont responsables: 
+        auteurs, éditeurs, relecteurs, etc. 
+        Raccourcis, généralités, exagération étaient deja de véritables problèmes. A toujours vouloir synthetiser, 
+        on perd en précision du discours, en subtilités. Ce que l'on gagne en puissance statistique se perd sur la finesse 
+        et la complexite. Sans parler de tourner en rond en l'absence d'études novatrices...
         </p>
         <p>
-        Et ce n'etait qu'un debut 
+        Et ce n'était qu'un début 
         <a href="https://www.redactionmedicale.fr/2025/08/la-generation-darticles-par-lia-nous-questionne-le-plagiat-didees-est-impossible-a-prouver-panique">avant l'arrivee de l'IA</a> ...
         </p>
         <p>
@@ -244,17 +243,17 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Au sein de la <a href="https://www.sfphysio.fr/">SFP</a>, nous croyons en la necessite de toujours se remettre en question. 
-        C'est donc ce que nous avons decide de faire au sein du CoPil des 
-        <a href="https://www.congres-jfk.fr/fr/">JFK</a>, en realisant une auto-evaluation 
-        du systeme d'evaluation des experts pour la selection des communications au sein du congres. 
-        Engages dans les demarches de science ouverte, nous publions les resultats au sein de 
+        Au sein de la <a href="https://www.sfphysio.fr/">SFP</a>, nous croyons en la nécessité de toujours se remettre en question. 
+        C'est ce que nous avons décidé de faire au sein du CoPil des 
+        <a href="https://www.congres-jfk.fr/fr/">JFK</a>, en réalisant une auto-évaluation 
+        du systeme d'évaluation des experts pour la sélection des communications au sein du congrès. 
+        Engagés dans les démarches de science ouverte, nous publions les résultats au sein de 
         l'<a href="https://rehab-journal.com/index.php/home">ERJ</a>.
         </p>
         <p>
-        Pour faire court, il semble que les processus utilises actuellement pour selectionner les communications 
-        ne sont pas necessairement des plus fiables. Des pistes d'ameliorations sont en reflexion, comme 
-        le passage par une appreciation globale et qualitative.
+        Pour faire court, il semble que les processus utilisés actuellement afin de sélectionner les communications 
+        ne sont pas necessairement des plus fiables. Des pistes d'améliorations sont en reflexion, comme 
+        le passage par une appréciation globale et qualitative.
         </p>
         <p>
         Papier accessible librement ici: 
@@ -285,14 +284,14 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Tres fier et heureux de cette publication, et ce pour de nombreuses raisons ! Litterature en Francais, très clinique, 
-        orientee vers les professionnels, au sein du reoconnu 
+        Très fier et heureux de cette publication, et ce pour de nombreuses raisons ! Littérature en Francais, très clinique, 
+        orientée vers les professionnels, au sein du reoconnu 
         <a href="https://www.em-consulte.com/traite/KI/presentation/kinesitherapie-medecine-physique-readaptation">EMC</a>, 
-        avec des collegues de renoms, notamment France Mourey. Cerise sur le gateau, je suis dernier auteur !
+        avec des collègues de renoms, notamment France Mourey. Cerise sur le gateau, je suis dernier auteur !
         </p>
         <p>
-        Concretement, que faire, comment et pourquoi en tant que kinesitherapeute pour soutenir les seniors 
-        a se maintenir a domicile ? De nombreux elements de reponses et pistes de reeducation dans l'ouvrage.
+        Concrétement, que faire, comment et pourquoi en tant que kinésitherapeute pour soutenir les séniors 
+        à se maintenir à domicile ? De nombreux éléments de réponses et pistes de réeducation dans l'ouvrage.
         </p>
         <p>
         Chapitre accessible ici: 
@@ -316,18 +315,21 @@ const productionsEntries = [
         Première valorisation de mon postdoc 
         <a href="https://www.jsps.go.jp/english/">JSPS</a> au 
         <a href="http://www.eng.ocha.ac.jp/Tripette_Site/home.html"> Physical Activity Measurement Lab</a>
-        de <a href="https://www.ocha.ac.jp/en/">Ochadai</a> ! Encore merci Julién.
+        de <a href="https://www.ocha.ac.jp/en/">Ochadai</a> ! Encore merci Julien.
         </p>
         <p>
         Dans ce poster présenté lors du 
-        <a href="https://confit.atlas.jp/guide/event/jspehss73/top?lang=en">73e congres de la JSPEHSS</a> a Kyoto, 
-        nous apportons les resultats preliminaires du projet 
+        <a href="https://confit.atlas.jp/guide/event/jspehss73/top?lang=en">73e congrès de la JSPEHSS</a> à Kyoto, 
+        nous apportons les résultats préliminaires du projet 
         <a href="https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000048880">drePAnon</a>: 
-        le comportement en activité physique des patients drepanocitaires ne semble pas lié 
-        a la survenue ou a la gravité d'evenements indesirables.
+        le comportement en activité physique des patients drépanocitaires ne semble pas lié 
+        à la survenue ou à la gravité d'événements indésirables.
+        <br>
+        Il existe un tres court résumé de ce travail en vidéo, issue des 
+        <a href="youtube.com/watch?v=rvv7D49a3po&list=PLNIiGGpEKastfEcatC4cxnRyiZY23dTKK&index=9">JFR 2024</a> de Tokyo.
         </p>
         <p>
-        Acte de congres accessible librement ici: 
+        Acte de congrès accessible librement ici: 
         <a href="https://doi.org/10.20693/jspehssconf.73.0_463">https://doi.org/10.20693/jspehssconf.73.0_463</a>
         </p>
         `,
@@ -351,20 +353,20 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Encore une publication issue des travaux d'etudiantes de 
-        <a href="https://www.ilfomer.unilim.fr/">ILFOMER</a> en stage a 
-        <a href="https://www.unilim.fr/havae/">HAVAE</a> - felicitations Nina !
+        Encore une publication issue des travaux d'étudiantes de 
+        <a href="https://www.ilfomer.unilim.fr/">ILFOMER</a> en stage à 
+        <a href="https://www.unilim.fr/havae/">HAVAE</a> - félicitations Nina !
         </p>
         <p>
-        Dans cette revue systematique de revues systematiques, nous nous sommes intéressés a la 
-        pertinence de l'utilisation du yoga comme therapie aupres de patients atteints de 
-        syndromes de strèss post-traumatique. Si la technique semble pertinente, nous notons 
-        une grande disparite dans les pratiques de yoga, ainsi que le public cible, qui allait 
-        d'enfants a des veterans de guerre.
+        Dans cette revue systematique de revues systematiques, nous nous sommes intéressés à la 
+        pertinence de l'utilisation du yoga comme thérapie auprès de patients atteints de 
+        syndromes de stress post-traumatique. Si la technique semble pertinente, nous notons 
+        une grande disparité dans les pratiques de yoga, ainsi que le public cible, qui allait 
+        d'enfants à des vétérans de guerre.
         <br>
-        Faisant suite a un 
+        Faisant suite à un 
         <a href="https://www.researchsquare.com/article/rs-1834126/v1">preprint</a>, 
-        cette publication est interessanté pour une future kinesitherapeute !
+        cette publication est interessante pour une future kinésitherapeute !
         </p>
         <p>
         Papier accessible librement ici: 
@@ -386,9 +388,9 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Petit software python qui permet d'obtenir les valeurs de depense energetique 
-        dans les differentes tranches d'intensite, ainsi que dans les types d'activités, 
-        base sur les 22 items initiaux du questionnaire 
+        Petit software python qui permet d'obtenir les valeurs de dépense énergétique 
+        dans les différentes tranches d'intensité, ainsi que dans les types d'activités, 
+        basé sur les 22 items initiaux du questionnaire 
         <a href="https://www.who.int/publications/m/item/global-physical-activity-questionnaire">GPAQ</a>.
         </p>
         <p>
@@ -410,7 +412,7 @@ const productionsEntries = [
         `
         <p>
         Petit software python qui permet d'obtenir les scores par sous-domaines puis par domaines generaux,
-        base sur les 36 items initiaux du questionnaire 
+        basé sur les 36 items initiaux du questionnaire 
         <a href="https://pubmed.ncbi.nlm.nih.gov/1593914/">SF-36</a>.
         </p>
         <p>
@@ -431,15 +433,15 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Il ne s'agit pas ici d'une production personnelle, mais d'une interview donnee a Serge Mesure pour 
+        Il ne s'agit pas ici d'une production personnelle, mais d'une interview donnée à Serge Mesure pour 
         <a href="">Kinesitherapie, la Revue</a>. 
         </p>
         <p>
-        Dans cette serie d'articles "Si tu nous racontais...", Serge retrace les parcours de differents kinesitherapeutes. 
-        J'y expose mon exercice clinique, mes enseignements, mes travaux de these a 
+        Dans cette serie d'articles "Si tu nous racontais...", Serge retrace les parcours de differents kinésitherapeutes. 
+        J'y expose mon exercice clinique, mes enseignements, mes travaux de thèse à 
         <a href="https://www.unilim.fr/havae/">HAVAE</a>, 
         ainsi que mon role en tant que postdoc <a href="https://www.jsps.go.jp/english/">JSPS</a> 
-        au sein de <a href="https://www.ocha.ac.jp/en/">l'Université d'Ochanomizu</a> a Tokyo.
+        au sein de <a href="https://www.ocha.ac.jp/en/">l'Université d'Ochanomizu</a> à Tokyo.
         </p>
         <p>
         Entretien accessible ici: 
@@ -460,14 +462,14 @@ const productionsEntries = [
         `
         <p>
         Je poursuis mon implication au sein de la 
-        <a href="https://www.sfphysio.fr/">SFP</a>, en passant cette fois du Commission Scientifique de 
-        <a href="https://web.archive.org/web/20220220172047/https:/www.congres-jfk.fr/fr/le-congres/commission-scientifique">l'edition 2021</a> 
-        au Commite de Pilotage de 
-        <a href="https://web.archive.org/web/20220629071403/https:/www.congres-jfk.fr/fr/le-congres/le-comite-pilotage">l'edition 2023</a> 
-        du congres des <a href="https://www.congres-jfk.fr/fr/">JFK</a>!
+        <a href="https://www.sfphysio.fr/">SFP</a>, en passant cette fois de la Commission Scientifique de 
+        <a href="https://web.archive.org/web/20220220172047/https:/www.congres-jfk.fr/fr/le-congres/commission-scientifique">l'édition 2021</a> 
+        au Commité de Pilotage de 
+        <a href="https://web.archive.org/web/20220629071403/https:/www.congres-jfk.fr/fr/le-congres/le-comite-pilotage">l'édition 2023</a> 
+        du congrès des <a href="https://www.congres-jfk.fr/fr/">JFK</a> !
         </p>
         <p>
-        Un peu decu de ne pas pouvoir y assister en étant a Tokyo, mais je suis heureux que 
+        Un peu déçu de ne pas pouvoir y assister en étant à Tokyo, mais je suis heureux que 
         cette initiative perdure. Vous trouverez quelques informations sur le contenu et les 
         intentions dans cette edito !
         </p>
@@ -496,12 +498,12 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Résultats centraux de mon travail de these, cette publication présenté le niveau d'utilisabilité, 
-        de sécurité, de plaisir, mais surtout d'efficacite de notre exergame aupres de seniors.
-        Pour faire bref, les resultats etaient très concluants, et le projet INCOME devrait être poursuivi 
-        sous la forme d'un essai controle randomise au sein de <a href="https://www.unilim.fr/havae/">HAVAE</a>.
+        Résultats centraux de mon travail de thèse, cette publication présente le niveau d'utilisabilité, 
+        de sécurité, de plaisir, mais surtout d'efficacité de notre exergame auprès de séniors.
+        Pour faire bref, les résultats étaient très concluants, et le projet INCOME devrait être poursuivi 
+        sous la forme d'un essai controlé randomisé au sein de <a href="https://www.unilim.fr/havae/">HAVAE</a>.
         <br>
-        Encore merci a Romain, Louise, Patricia, Morgane, Axelle, Natacha et Olivier !
+        Encore merci à Romain, Louise, Patricia, Morgane, Axelle, Natacha et Olivier !
         </p>
         <p>
         Papier accessible librement ici: 
@@ -523,14 +525,14 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Nous avions précédemment identifie que le niveau de sollicitation physique d'un exergame etait un facteur clef 
-        pour son niveau d'efficacite et d'impact sur le plan cognitivo-moteur. Nous nous sommes donc penches sur 
-        cette question, en comparant des seances d'entraînement en simple et double tache, via notre exergame ou non. 
+        Nous avions précédemment identifié que le niveau de sollicitation physique d'un exergame était un facteur clef 
+        pour son niveau d'efficacité et d'impact sur le plan cognitivo-moteur. Nous nous sommes donc penchés sur 
+        cette question, en comparant des séances d'entraînement en simple et double tache, via notre exergame ou non. 
         <br>
-        Evalue aupres de sujets jeunes, il semble que notre jeu, malgre sa nouveaute et ses regles, entraine un 
-        niveau de rythme cardiaque comparable aux autrès methodes ! Un bon presage pour la suite.
+        Evalué auprès de sujets jeunes, il semble que notre jeu, malgré sa nouveauté et ses règles, entraine un 
+        niveau de rythme cardiaque comparable aux autres méthodes ! Un bon presage pour la suite.
         <br>
-        Encore merci Maxence ! Nouvel essai transforme de 
+        Encore merci Maxence ! Nouvel essai transformé de 
         <a href="https://www.ilfomer.unilim.fr/">ILFOMER</a> x 
         <a href="https://www.unilim.fr/havae/">HAVAE</a>
         pour ce <a href="https://preprints.jmir.org/preprint/36126">preprint</a>.
@@ -567,16 +569,17 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Quelles etaient les caracteristiques des personnes qui ont decide de participer dans notre protocole d'entraînement ? 
+        Quelles étaient les caractéristiques des personnes qui ont décidé de participer dans notre protocole d'entraînement ? 
         <br>
-        Il est important pour les praticients de comprendre qui, parmi les patients eligibles, vont accepter 
+        Il est important pour les praticiens de comprendre qui, parmi les patients éligibles, vont accepter 
         des traitement, et pourquoi. C'est ce que nous avons présenté via un poster lors de 
-        <a href="https://isprm.org/events/16th-isprm-world-congress-isprm-2022/">l'edition 2022 de l'ISPRM</a> a Lisbonne. 
+        <a href="https://isprm.org/events/16th-isprm-world-congress-isprm-2022/">l'édition 2022 de l'ISPRM</a> à Lisbonne. 
         <br>
-        Encore merci Patricia !
+        Encore merci à 
+        <a href="https://www.unilim.fr/">l'Université de Limoges</a> pour la bourse de mobilité; ainsi qu'à Patricia !
         </p>
         <p>
-        Acte de congres acessible ici: 
+        Acte de congrès acessible ici: 
         <a href="https://drive.google.com/file/d/1CwjOqKzTO8DN2PyiCCkRB2V8Ace_ZevZ/view">https://doi.org/10.4103/2349-7904.351394</a>
         </p>
         `,
@@ -595,18 +598,20 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Toutes les bonnes choses ont une fin ! Apres 39 mois entre 
+        Toutes les bonnes choses ont une fin. Apres 39 mois entre 
         <a href="https://www.limoges.fr/">Ville de Limoges</a>, <a href="https://www.unilim.fr/havae/">HAVAE</a> 
         et <a href="https://www.ilfomer.unilim.fr/">ILFOMER</a>, 
-        il est temps pour moi de deposer et soutenir ma these. 
-        Des publications, des congres, des rencontrès, des heures de cours, des etudes interventionnelles, observationnelles, 
-        qualitatives; et plein de nouveaux outils, c'est la fin de l'aventure. Au final, que valait notre exergame ? Reponse dans le manuscrit !
+        il est temps pour moi de déposer et soutenir ma thèse. 
+        Plein d'experiences de recherche et d'enseignement, qui nous ont amenées jusqu'en 
+        <a href="https://docs.google.com/document/d/1D1pAk-8zxZSSUDdHA4uYgbqwLC2u_r4n/edit?rtpof=true&usp=drive_fs">finale du prix de thèse</a> et au prix 
+        <a href="https://web.archive.org/web/20240706032428/https:/observatoireterritoria.fr/index.php/prix-territoria-2022">Territoria d'argent</a>.
+        Au final, que valait notre exergame ? Réponse dans le manuscrit !
         <br> 
-        Encore un immense merci a Stephane, Anaick et Elisabeth, ainsi qu'au 
-        CEBIMER du CHU et a <a href="3il-ingenieurs.fr/en/">3iL</a>.
+        Encore un immense merci à Stephane, Anaick et Elisabeth, ainsi qu'au 
+        CEBIMER du CHU et à <a href="3il-ingenieurs.fr/en/">3iL</a>.
         </p>
         <p>
-        These consultable librement ici: 
+        Thèse consultable librement ici: 
         <a href="https://tel.archives-ouvertes.fr/tel-03715392">https://tel.archives-ouvertes.fr/tel-03715392</a>
         <br>
         L'ensemble des documents annexes sont consultables librement ici (programme d'entraînement, installation du materiel, explication des regles et jeu, etc.):
@@ -633,13 +638,13 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Apres une etude approfondie de la litterature concernant les exergames, 
+        Apres une étude approfondie de la litterature concernant les exergames, 
         une identification des besoins sur le fond et la forme pour notre entraînement specifique, 
         un developpement de l'outil par les ingenieurs de <a href="https://www.3il-ingenieurs.fr/">3iL</a>, 
-        des etudes pilotes concernant l'utilisabilité et l'acceptabilite ainsi que l'intensite physique, 
-        il etait temps pour nous de definir notre protocole d'etude precisement, 
-        et de le deposer afin d'assurer une 
-        <a href= "https://www.redactionmedicale.fr/?s=protocole">meilleure qualite scientifique</a> !
+        des études pilotes concernant l'utilisabilité et l'acceptabilité ainsi que l'intensité physique, 
+        il était temps pour nous de définir notre protocole d'étude précisement, 
+        et de le déposer afin d'assurer une 
+        <a href= "https://www.redactionmedicale.fr/?s=protocole">meilleure qualité scientifique</a> !
         </p>
         <p>
         Première action de soutien de <a href="https://www.unilim.fr/havae/">HAVAE</a> pour le journal 
@@ -664,14 +669,13 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Nous avons collabore avec Flavien pour l'écriture d'un chapitre traitant du vieillissement 
+        Nous avons collaboré avec Flavien pour l'écriture d'un chapitre traitant du vieillissement 
         cognitif, en passant de la neurophysiologie aux impacts cliniques - notamment de chute. Ce chapitre 
-        s'inscrit dans un ouvrage de neurologie s'adressant aux kinesitherapeute, lui-meme partie d'une 
+        s'inscrit dans un ouvrage de neurologie s'adressant aux kinésitherapeute, lui-meme partie d'une 
         <a href="https://www.elsevier.com/fr-fr/connect/les-indispensables-en-kinesitherapie-et-physiotherapie">collection plus large</a>. 
         </p>
         <p>
-        Quel honneur et quelle chance ! Encore merci a Adrien, mon ancien directeur de memoire 
-        de fin d'etudes de kinesitherapie, pour cette opportunite. 
+        Quel honneur et quelle chance ! Encore merci à Adrien our cette opportunité. 
         </p>
         <p>
         Ouvrage accessible ici: ISBN = 
@@ -723,14 +727,14 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Nous poursuivons ici nos travaux sur l'interet des exergames, cette fois pratiques a domicile 
-        par des patients atteints de la maladie de Parkinsons. Via cette revue systematique de a litterature, 
+        Nous poursuivons ici nos travaux sur l'interet des exergames, cette fois pratiqués à domicile 
+        par des patients atteints de la maladie de Parkinsons. Via cette revue systematique de à litterature, 
         fruits d'une collab <a href="https://www.unilim.fr/havae/">HAVAE</a> x <a href="https://institutducerveau.org/">ICM</a>, 
-        nous avons pu etablir que cette solution etait ici pertinente sur le plan moteur, mais 
-        nous ne pouvons pas conclure sur le plan cognitif, ni sur l'impact quand a la qualite de vie. 
-        A nouveau, les exergames semblent surs, fiables et appréciés. 
+        nous avons pu établir que cette solution était ici pertinente sur le plan moteur, mais 
+        nous ne pouvons pas conclure sur le plan cognitif, ni sur l'impact quand à la qualité de vie. 
+        A nouveau, les exergames semblent sûrs, fiables et appréciés. 
         <br>
-        Bravo et merci a Dijana!
+        Bravo et merci à Dijana !
         </p>
         <p>
         Papier accessible librement ici: 
@@ -752,14 +756,14 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Nous nous sommes appercu, au fil des lectures et des experimentations, que l'efficacite d'un 
-        programme d'entraînement etait un critere necessaire, mais pas suffisant. Le cout, la sécurité, 
-        ou encore l'appreciation sont egalement des clefs de reussite.
+        Nous nous sommes appercu, au fil des lectures et des experimentations, que l'efficacité d'un 
+        programme d'entraînement etait un critère nécessaire, mais pas suffisant. Le cout, la sécurité, 
+        ou encore l'appréciation sont également des clefs de réussite.
         </p>
         <p>
-        Nous avons donc cherche a connaitre le retour des utilisateurs et des encadrants sur notre exergame concu et developpe 
+        Nous avons donc cherché à connaitre le retour des utilisateurs et des encadrants sur notre exergame conçu et developpé 
         sur mesure par 
-        <a href="https://www.3il-ingenieurs.fr/">3iL</a>. Encore merci a Fanny pour cette découverte de la recherche 
+        <a href="https://www.3il-ingenieurs.fr/">3iL</a>. Encore merci à Fanny pour cette découverte de la recherche 
         en SHS via des focus groupes !
         </p>
         <p>
@@ -781,16 +785,16 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Encore un travail d'etudiante valorise; felicitations Marion ! Il s'agit cette fois d'un 
+        Encore un travail d'étudiante valorisé; félicitations Marion ! Il s'agit cette fois d'un 
         partenariat entre <a href="https://www.unilim.fr/havae/">HAVAE</a> et <a href="https://www.ilfomer.unilim.fr/">ILFOMER</a>.
         </p>
         <p>
-        Dans cette revue systematique de la litterature, nous nous sommes intéressé a l'impact des 
-        exergames pratiques a domicile sur les capacites d'equilibre et de marche de patients 
-        atteints de sclerose en plaque.
+        Dans cette revue systematique de la litterature, nous nous sommes intéressé à l'impact des 
+        exergames pratiqués à domicile sur les capacités d'équilibre et de marche de patients 
+        atteints de sclérose en plaque.
         <br>
-        C'est un outil qui semble fiable, sur et apprécié, et efficace sur l'equilibre. 
-        Tous les details dans l'article !
+        C'est un outil qui semble fiable, sûr et apprécié, et efficace sur l'équilibre. 
+        Tous les détails dans l'article !
         <p>
         Papier accessible ici: 
         <a href="https://linkinghub.elsevier.com/retrieve/pii/S2211034821001954">https://doi.org/10.1016/j.msard.2021.102928</a>
@@ -819,16 +823,16 @@ const productionsEntries = [
         <p>
         Preuve de l'excellente dynamique entre enseignement et recherche au sein du laboratoire 
         <a href="https://www.unilim.fr/havae/">HAVAE</a>, 
-        ce papier est issu des travaux d'un etudiant de master. Encore felicitations Teo !
+        ce papier est issu des travaux d'un étudiant de master. Encore félicitations Teo !
         </p>
         <p>
-        Nous avons compare le niveau de performances en taches de travail de memoire visuospatiale 
-        en espace proche et en espace lointain, entre 31 sujets jeunes et 24 sujets ages. Nous nous 
-        sommes egalement intéressé au niveau d'activité cerebrale prefrontale, reflete par 
+        Nous avons comparé le niveau de performances en taches de travail de memoire visuospatiale 
+        en espace proche et en espace lointain, entre 31 sujets jeunes et 24 sujets agés. Nous nous 
+        sommes également intéressé au niveau d'activité cérébrale préfrontale, reflété par 
         mesure de fNIRS. 
         <br>
-        Au global, il semble que les jeunes performent mieux que les seniors, 
-        avec de meilleures performances et un plus haut niveau d'activation cerebrale. 
+        Au global, il semble que les jeunes performent mieux que les séniors, 
+        avec de meilleures performances et un plus haut niveau d'activation cérébrale. 
         </p>
         <p>
         Papier accessible ici: 
@@ -851,10 +855,10 @@ const productionsEntries = [
         `
         <p>
         Dans la suite de la 
-        <a href="https://www.sciencedirect.com/science/article/pii/S1568163720302701#fig0010">publication precedente</a>, 
-        nous avons ici evalue l'impact des entraînements 
-        en double tache cognito-motrice sur les capacites cognitives, motrices et de double tache 
-        des seniors, cette fois cognitivement diminues. 
+        <a href="https://www.sciencedirect.com/science/article/pii/S1568163720302701#fig0010">publication précédente</a>, 
+        nous avons ici évalué l'impact des entraînements 
+        en double tache cognito-motrice sur les capacités cognitives, motrices et de double tache 
+        des séniors, cette fois cognitivement diminués. 
         <br>
         Ce type d'entraînement semble efficace sur les plans cognitifs et moteurs, mais nous manquons 
         d'information pour conclure sur les performances de double tache.
@@ -883,19 +887,20 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Cette publication gardera une saveur particuliére: acceptee dans un journal a impact eleve, 
-        elle m'aura apporte de nombreuses citations, mais surtout une reconnaissance, avec de nombreuses 
-        propositions de collaboration. L'occasion egalement de battre quelques reccords de metriques a <a href="https://www.unilim.fr/havae/">HAVAE</a>!
+        Cette publication gardera une saveur particuliére: acceptée dans un journal à impact élevé, 
+        elle m'aura apporté de nombreuses citations, mais surtout une reconnaissance, avec de nombreuses 
+        propositions de collaboration. L'occasion également de battre quelques reccords de métriques à 
+        <a href="https://www.unilim.fr/havae/">HAVAE</a> !
         </p>
         <p>
-        Il s'agit d'une revue systematique de revues systematique, permettannt une vue d'ensemble vaste et large de la litterature. 
-        L'objectif pour moi etait la construction d'un cadre théorique solide pour la these, 
-        en comprenant mieux ce qui etait fait, comment et pourquoi concernant les entraînements 
-        en double tache et les exergames comme programme d'entraînement chez les seniors. 
+        Il s'agit d'une revue systematique de revues systematiques, permettannt une vue d'ensemble vaste et large de la litterature. 
+        L'objectif pour moi était la construction d'un cadre théorique solide pour la thèse, 
+        en comprenant mieux ce qui était fait, comment et pourquoi concernant les entraînements 
+        en double tache et les exergames comme programme d'entraînement chez les séniors. 
         <br>
         Si les entraînements classiques semblent efficaces sur tous les volets, les exergames 
-        peuvent manquer d'efficacite sur le plan moteur, et les informations manquent au sujet 
-        des capacites de double tache. 
+        peuvent manquer d'éfficacité sur le plan moteur, et les informations manquent au sujet 
+        des capacités de double tache. 
         </p>
         <p>
         Papier accessible ici: 
@@ -917,17 +922,17 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Première publication scientifique dans un journal international indexe et impacte avec commite de lecture !!
+        Première publication scientifique dans un journal international indexé et impacté avec commité de lecture !
         <br>
-        Immense soulagement a l'epoque, car il s'agit de l'une des conditions indispensables afin 
-        de pouvoir soutenir sa these a <a href="https://www.unilim.fr/havae/">HAVAE</a>. 
+        Immense soulagement à l'époque, car il s'agit de l'une des conditions indispensables afin 
+        de pouvoir soutenir sa thèse à <a href="https://www.unilim.fr/havae/">HAVAE</a>. 
         </p>
         <p>
-        Nous avons recrute 61 jeunes sujets sains, et leur avons demande de completer une tache de memoire 
-        visuospatiale en espace proche et en espace lointain. En parallele, nous avons characterise ces participants 
-        a l'aide de nombreux parametrès. Il apparait que les rotations mentales d'un cote, et l'activité physique de 
-        l'autrès, sont des parametrès explicatifs des capacites de memoire visuospatiale. Cette information 
-        doit permettre d'adapter nos evaluations et nos interventions. 
+        Nous avons recruté 61 jeunes sujets sains, et leur avons demandé de compléter une tache de memoire 
+        visuospatiale en espace proche et en espace lointain. En parallèle, nous avons characterisé ces participants 
+        à l'aide de nombreux parametres. Il apparait que les rotations mentales d'un coté, et l'activité physique de 
+        l'autres, sont des parametres explicatifs des capacités de mémoire visuospatiale. Cette information 
+        doit permettre d'adapter nos évaluations et nos interventions. 
         </p>
         <p>
         Papier accessible ici: 
@@ -945,24 +950,24 @@ const productionsEntries = [
         date: "2020-03",      
         href: "https://www.limoges.fr/citoyenne/magazine-vivre-limoges",
         img: "img/carousel/2020-val.png",
-        alt: "Vivre a Limoges",
+        alt: "Vivre à Limoges",
         text: 
         `
         <p>
         Il ne s'agit pas ici d'une production personnelle directe, mais de mon premier
-        entretien pour un  article de presse grand public !
+        entretien pour un article de presse grand public !
         </p>
         <p>
-        La <a href="https://www.limoges.fr/">Ville de Limoges</a>, financeur de mon projet de these sous 
-        <a href="https://www.anrt.asso.fr/fr/accueil-cifre">CIFRE</a>, s'est assure des le lancement 
-        d'une bonne couverture par leurs services mediatiques. 
+        La <a href="https://www.limoges.fr/">Ville de Limoges</a>, financeur de mon projet de thèse sous 
+        <a href="https://www.anrt.asso.fr/fr/accueil-cifre">CIFRE</a>, s'est assuré dès le lancement 
+        d'une bonne couverture par leurs services médiatiques. 
         Ceci via un certain nombre de videos de <a href="https://www.7alimoges.tv/">7aLimoges</a> 
         (<a href="https://www.youtube.com/watch?v=yeb-704OSb8&list=PLNIiGGpEKastfEcatC4cxnRyiZY23dTKK&index=5">comme celle-ci</a>), 
         ainsi que cet article dans le journal municipal 
-        <a href="https://www.limoges.fr/publications">Vivre a Limoges</a>.
+        <a href="https://www.limoges.fr/publications">Vivre à Limoges</a>.
         <br>
-        L'objectif ici etait de présentér le programme qui allait être propose quelques mois plus tard, 
-        afin de donner envie aux seniors eligibles de participer. 
+        L'objectif était de présenter le programme qui allait être proposé quelques mois plus tard, 
+        afin de donner envie aux séniors éligibles de participer. 
         </p>
         <p>
         Article accessible ici: 
@@ -984,21 +989,21 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Seconde presentation en congres lors de lu 
-        <a href="https://sofpel.com/xxvieme-congres-de-la-sofpel-2019-montreal/">26e congres de la SOFPEL</a>, 
-        mais egalement premiere valorisation de travaux durant ma these ! 
+        Seconde présentation en congrès lors du
+        <a href="https://sofpel.com/xxvieme-congres-de-la-sofpel-2019-montreal/">26e congrès de la SOFPEL</a>, 
+        mais egalement premiere valorisation de travaux durant ma thèse ! 
         J'ai obtenu la la "Bourse de Mobilite Transatlantique" 
-        grace a cette presentation , me permettant ce voyage de <a href="https://www.unilim.fr/havae/">HAVAE</a> jusqu'a Montreal.
+        grace à cette presentation , me permettant ce voyage de <a href="https://www.unilim.fr/havae/">HAVAE</a> jusqu'à Montreal.
         </p>
         <p>
-        Nous avons recrutes 24 seniors, a qui nous avons propose un programme d'entraînement 
-        de 60 minutes, 3 fois par semaines, durant 6 semaines. Ce programme etait en double tache pour la moitie 
-        d'entre eux, et en simple tache pour les autrès. Entre autrès choses, nous observons que ceci n'etait pas suffisant 
-        pour augmenter les capacites de double tache, probablement du a une intensite trop faible. 
-        Plus de details dans l'acte de congres !
+        Nous avons recrutés 24 seniors, à qui nous avons proposé un programme d'entraînement 
+        de 60 minutes, 3 fois par semaines, durant 6 semaines. Ce programme était en double tache pour la moitié 
+        d'entre eux, et en simple tache pour les autres. Nous observons que ceci n'était pas suffisant 
+        pour augmenter les capacités de double tache, probablement du à une intensité trop faible. 
+        Plus de détails dans l'acte de congrès !
         </p>
         <p>
-        Acte de congres acessible ici: 
+        Acte de congrès acessible ici: 
         <a href="https://linkinghub.elsevier.com/retrieve/pii/S0987705319302679">https://doi.org/10.1016/j.neucli.2019.10.045</a>
         </p>
         `,
@@ -1018,17 +1023,17 @@ const productionsEntries = [
         `
         <p>
         Première valorisation comme doctorant au sein du laboratoire 
-        <a href="https://www.unilim.fr/havae/">HAVAE</a>! Merci Anaick et Stephane.
+        <a href="https://www.unilim.fr/havae/">HAVAE</a> ! Merci Anaick et Stephane.
         <p>
-        Quel lién existe-t-il entre les performances des personnes en taches de memoire visuospatiale, 
-        et leurs caracteristiques propres ? C'etait l'enjeu de cette etude, présentée lors du 
-        <a href="https://sofpel.com/xxvieme-congres-de-la-sofpel-2019-montreal/">26e congres de la SOFPEL</a> a Montreal. 
+        Quel lien existe-t-il entre les performances des personnes en taches de mémoire visuospatiale, 
+        et leurs caracteristiques propres ? C'était l'enjeu de cette étude, présentée lors du 
+        <a href="https://sofpel.com/xxvieme-congres-de-la-sofpel-2019-montreal/">26e congrès de la SOFPEL</a> à Montreal. 
         <br>
-        Qui a depuis ete publiée! Tous les details sont accessible ici : 
+        Qui à depuis ete publiée ! Tous les details sont accessible ici : 
         <a href="https://www.sciencedirect.com/science/article/pii/S016801022030420X">Biopsychosocial determinants of visuospatial memory performance according to different spaces.</a>
         </p>
         <p>
-        Acte de congres acessible ici: 
+        Acte de congrès acessible ici: 
         <a href="https://linkinghub.elsevier.com/retrieve/pii/S0987705319303041">https://doi.org/10.1016/j.neucli.2019.10.082</a>
         </p>
         `,
@@ -1071,22 +1076,23 @@ const productionsEntries = [
         text: 
         `
         <p>
-        Première presentation en congres lors de 
-        <a href="https://www.facebook.com/events/1177734885626487/">l'edition 2017 des JFK</a> de la 
+        Première présentation en congrès lors de 
+        <a href="https://www.facebook.com/events/1177734885626487/">l'édition 2017 des JFK</a> de la 
         <a href="https://www.sfphysio.fr/">SFP</a>, 
-        issue de mon travail de memoire de fin d'etudes de kinesitherapie - une collaboration 
-        <a href="https://www.hpevm.fr/Presentation/2/142">ENKRE</a> x <a href="https://www.aphp.fr/hopitaux/cochin">Rea Cochin</a>. Encore merci Anne et Adrien.
+        issue de mon travail de mémoire de fin d'études de kinésitherapie - une collaboration 
+        <a href="https://www.hpevm.fr/Presentation/2/142">ENKRE</a> x <a href="https://www.aphp.fr/hopitaux/cochin">Rea Cochin</a>. 
+        Encore merci Anne et Adrien.
         </p>
         <p>
-        Dans cette etude, nous nous sommes intéressés a la correlation qu'il pouvait exister 
+        Dans cette étude, nous nous sommes intéressés à la correlation qu'il pouvait exister 
         entre le score au test de marche de 6 minutes et le score au test d'assis-debout de 1 minute 
-        chez des patients BPCO en post-operatoire immediat d'exerese pulmonaire. 
-        L'objectif etait de proposer une evaluation plus adaptee aux conditions cliniques de ces patients 
-        (douleur, drains & redons, insuffisance pulmonaire, etc). Malgre un petit echantillon de 11 personnes, 
-        les resultats semblaient prometeurs. Plus de details dans l'acte de congres !
+        chez des patients BPCO en post-operatoire immédiat d'exerese pulmonaire. 
+        L'objectif etait de proposer une évaluation plus adaptée aux conditions cliniques de ces patients 
+        (douleur, drains & redons, insuffisance pulmonaire, etc). Malgré un petit echantillon de 11 personnes, 
+        les resultats semblaient prometeurs. Plus de détails dans l'acte de congrès !
         </p>
         <p>
-        Acte de congres accessible ici: 
+        Acte de congrès accessible ici: 
         <a href="https://linkinghub.elsevier.com/retrieve/pii/S1779012317301274">https://doi.org/10.1016/j.kine.2017.02.066</a>
         </p>
         `,
