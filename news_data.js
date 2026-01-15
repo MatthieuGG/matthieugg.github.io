@@ -1,6 +1,38 @@
 // news_data.js
 const newsEntries = [
   {
+    date: `2026-01-05`,
+    title: "Engagé comme Professeur Assistant à HESAV", 
+    image: "img/news/2026_arrivee_HESAV.jpg",  
+    content: 
+    `
+      <p>
+      Nouvelle aventure pour la rentrée 2026, cette fois en Suisse!
+      </p>
+
+      <p>
+      Je rejoins 
+      <a href="https://hesav.ch/">HESAV / Haute Ecole de Santé - Vaud</a> 
+      comme Professeur Assistant en physiothérapie. 
+      Un défi de recherche / enseignement / clinique au moins égal à celui de s'installer au Japon.
+      Encore merci au doyen de la filière 
+      <a href="https://hesav.ch/annuaire/profil/claude-pichonnaz/">Claude Pichonnaz</a>, 
+      au directeur de la formation Luc Jeanrenaud, ainsi qu'à la directrice de la recherche 
+      <a href="https://hesav.ch/annuaire/profil/veronika-schoeb/">Veronika Schoeb</a>
+       pour leur confiance.
+       </p>
+
+       <p>
+      Lausanne, c'est partit!
+      </p>
+
+      <p>
+      Mon profil <a href="https://people.hes-so.ch/en/profile/12038580157-matthieu-gallou-guyot">HES-SO</a> 
+      et <a href="">HESAV</a>.
+      </p>
+    `
+  },  
+  {
     date: `2025-09-11`,
     title: "Visite du CiNet à l'Université d'Osaka", 
     image: "img/news/2025_cinet.jpg",  
