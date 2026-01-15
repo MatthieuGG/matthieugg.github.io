@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="footer">
                 <a>Tentez la science ouverte !</a>
                 <a href="index.html"><b>MGG</b></a>
-                <a>Dernière mise à jour: Sept. 2025</a>
+                <a>Dernière mise à jour: Janv. 2026</a>
             </div>
         </div>
     `;
