@@ -184,18 +184,25 @@ hr.fine-line {
 }
 
 .intro-column img {
-    max-width: 120px;
-    width: 100%;
+    width: clamp(200px, 22vw, 220px);
     height: auto;
-    border-radius: 8px;
     flex-shrink: 0;
 }
+
 
 .intro-text {
     display: flex;
     flex-direction: column;
-    gap: 0.4em;
+    gap: 0.1em;
     text-align: left;
+}
+
+.intro-text p,
+.intro-text h1,
+.intro-text h2,
+.intro-text h3 {
+    line-height: 2; /* ajuste entre 1.2 et 1.4 selon ton goût */
+    margin: 0;        /* important pour éviter l'espace auto */
 }
 
 .content-column {
