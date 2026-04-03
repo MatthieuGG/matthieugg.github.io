@@ -1,6 +1,39 @@
 // news_data.js
 const newsEntries = [
   {
+    date: `2026-03-16`,
+    title: "A vos votes !", 
+    image: "img/news/2026_jpmb.jpg",  
+    content: 
+    `
+      <p>
+      Notre article traitant de la validation des jours de ports de traqueur d'activité physique 
+      (accessible librement dans la revue <a href="https://journals.humankinetics.com/view/journals/jmpb/8/1/article-jmpb.2024-0053.xml">JMPB</a>) 
+      a été retenu comme lauréat pour le prix du meilleur article scientifique pour un jeune chercheur.
+      <br>
+      J'ai besoin de vos votes ! Ça se passe en 3 clics 
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScA0QD_BZWrvQdg_0VJUJxL-Eou5IawOQ262Cqm3Wr65RQohg/viewformd">à cette adresse</a>.
+      <br>
+      Merci, et croisons les doigts !
+       </p>
+    `
+  }, 
+  {
+    date: `2026-02-12`,
+    title: "Nouvelle publication issue du projet drePAnon", 
+    content: 
+    `
+      <p>
+      Et de 3 !
+      <br>
+      Dernière publication en date pour drePAnon, accessible librement en accès anticipé sur le site d' 
+      <a href="https://haematologica.org/article/view/13146">Haematologica</a>.
+      <br>
+      Un descriptif plus poussé sera fourni dans la section "Productions" dès la mise en page effectuée par l'éditeur.
+       </p>
+    `
+  }, 
+  {
     date: `2026-01-05`,
     title: "Engagé comme Professeur Assistant à HESAV", 
     image: "img/news/2026_arrivee_HESAV.jpg",  
