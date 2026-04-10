@@ -1,6 +1,24 @@
 // news_data.js
 const newsEntries = [
   {
+    date: `2026-04-16`,
+    title: "Lancement du judo bien-être chez l'adolescent", 
+    image: "img/news/2026_04_hesav.png",  
+    content: 
+    `
+      <p>
+      C'est officiel, notre projet de recherche utilisant le judo pour le bien-être physique et mental 
+      d'enfants atteints de paralysie cérébrale est lancé !
+      <br>
+      Une illustration très claire 
+      <a href="https://uts.sport/breaking-barriers-advancing-inclusion-in-sports-for-all-how-marina-draskovic-pioneers-adaptive-judo/">des travaux de Marina Drašković</a> 
+      est disponible.
+      <br>
+      On a hâte ! Encore merci à Veronika, Jennifer et Réhane (entre autres).
+       </p>
+    `
+  }, 
+  {
     date: `2026-03-16`,
     title: "A vos votes !", 
     image: "img/news/2026_jpmb.jpg",  
