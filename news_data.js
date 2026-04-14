@@ -1,14 +1,48 @@
 // news_data.js
 const newsEntries = [
   {
-    date: `2026-04-16`,
-    title: "Lancement du judo bien-être chez l'adolescent", 
-    image: "img/news/2026_04_hesav.png",  
+    date: `2026-04-13`,
+    title: "Judo bien-être seniors : retourner au sol en douceur", 
+    image: "img/news/2026_04_judo_s.png",  
+    content: 
+    `
+      <p>
+      L’association <a href="https://www.linkedin.com/company/association-qualia/posts/?feedView=all">QUALIA</a>, 
+      en partenariat avec <a href="https://vd.prosenectute.ch/fr.html">Pro Senectute Vaud</a>, 
+      la <a href="https://sjv.ch/fr">Fédération Suisse de Judo</a> 
+      et <a href="https://hesav.ch/">HESAV</a>, 
+      propose deux mois d’essai gratuit pour découvrir le judo bien-être adapté aux seniors. 
+      </p>
+      <p>
+      L’objectif : retrouver agilité et confiance pour retourner au sol sans difficulté. 
+      Les séances proposent un travail de l’équilibre, de l’ancrage, des exercices de chutes et de relevés, dans une approche progressive et sécurisée. 
+      Les échanges, le contact et l’apprentissage font également partie intégrante du programme.<br>
+      Encadrement assuré par des judokates expertes (2e et 4e dan). Venez en tenue de sport habituelle avec une gourde : les judogi (kimono) sont fournis.
+      </p>
+      <p>
+      ✅ Deux mois d’essai gratuit grâce à l’association QUALIA<br>
+      📅 Tous les vendredis dès le 24 avril, de 14h à 15h, durant 2 mois<br>
+      📍 Mikami Judo Club Lausanne, Avenue des Bergières 24, 1004 Lausanne<br>
+      ♿ Accès PMR au dojo, aux tatamis, vestiaires, douches et toilettes<br>
+      🚌 Bus 2, 21 et N21, arrêt « Presbytère »<br>
+      🚗 Places de parking disponibles sur place ainsi que Parking de Beaulieu<br>
+      💰 Les frais de déplacement (transports publics) et les consommations sont à la charge des participants<br>
+      ℹ️ Renseignements et inscriptions : Pro Senectute Vaud – Mouvement et sport, 021 646 17 21 ou 
+      <a href="mailto:sport@vd.prosenectute.ch">sport@vd.prosenectute.ch</a><br>
+      <br>
+      <i>À noter : à la rentrée de septembre, les cours deviendront payants</i>
+       </p>
+    `
+  }, 
+  {
+    date: `2026-04-13`,
+    title: "Financement du judo bien-être chez l'adolescent", 
+    image: "img/news/2026_04_judo_cp.png",  
     content: 
     `
       <p>
       C'est officiel, notre projet de recherche utilisant le judo pour le bien-être physique et mental 
-      d'enfants atteints de paralysie cérébrale est lancé !
+      d'enfants atteints de paralysie cérébrale est financé !
       <br>
       Une illustration très claire 
       <a href="https://uts.sport/breaking-barriers-advancing-inclusion-in-sports-for-all-how-marina-draskovic-pioneers-adaptive-judo/">des travaux de Marina Drašković</a> 
