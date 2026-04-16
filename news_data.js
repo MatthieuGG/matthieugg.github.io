@@ -1,5 +1,21 @@
 // news_data.js
 const newsEntries = [
+    {
+    date: `2026-04-15`,
+    title: "Champions mon frère !", 
+    image: "img/news/2026_04_jmpb.jpeg",  
+    content: 
+    `
+      <p>
+      Actualité chargée en ce mois d'avril, car notre papier sur le port de traqueur d'activité physique 
+      (<a href="https://journals.humankinetics.com/view/journals/jmpb/8/1/article-jmpb.2024-0053.xml">accessible librement ici</a>) 
+      a remporté le prix du meilleur article scientifique JMPB 2025 pour un jeune chercheur.
+       </p>
+       <p>
+       Encore merci pour les votes !
+       </p>
+    `
+  }, 
   {
     date: `2026-04-13`,
     title: "Judo bien-être seniors : retourner au sol en douceur", 
