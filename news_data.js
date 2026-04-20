@@ -14,7 +14,7 @@ const newsEntries = [
        <p>
        Encore merci pour les votes !
        <br>
-       Pour plus de détails, c'est <a href="https://matthieugg.github.io//productions.html#prod-2">par ici</a>.
+       Pour plus de détails, c'est <a href="https://matthieugg.github.io//productions.html#prod-2025-06-journal-for-the-measurement-of-physical-behaviour">par ici</a>.
        </p>
     `
   }, 
@@ -85,7 +85,7 @@ const newsEntries = [
       <br>
       Traitement, prévention, ordonnance, on fait le point !
       <br>
-       Pour plus de détails, c'est <a href="https://matthieugg.github.io//productions.html#prod-0">par ici</a>.
+       Pour plus de détails, c'est <a href="https://matthieugg.github.io//productions.html#prod-2026-04-mains-libres">par ici</a>.
        </p>
     `
   }, 
