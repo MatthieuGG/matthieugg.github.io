@@ -13,6 +13,8 @@ const newsEntries = [
        </p>
        <p>
        Encore merci pour les votes !
+       <br>
+       Pour plus de détails, c'est <a href="https://matthieugg.github.io//productions.html#prod-2">par ici</a>.
        </p>
     `
   }, 
@@ -65,6 +67,25 @@ const newsEntries = [
       est disponible.
       <br>
       On a hâte ! Encore merci à Veronika, Jennifer et Réhane (entre autres).
+       </p>
+    `
+  }, 
+  {
+    date: `2026-04-09`,
+    title: "Sport santé en Suisse, on fait le point", 
+    image: "img/news/2026_04_ml.png",  
+    content: 
+    `
+      <p>
+      Dans ce nouvel article "Lu pour vous" publié dans 
+      <a href="https://www.mainslibres.ch/mains-libres/2026/mains-libres-1-26"><i>Mains Libres</i></a>,
+       je reviens sur le rapport de l'
+       <a href="https://www.bag.admin.ch/fr/rapports-de-recherche-activite-physique-et-poids-corporel">Office Fédéral de la Santé Publique</a> 
+       concernant le "sport santé" et "sport sur ordonance" en Suisse.
+      <br>
+      Traitement, prévention, ordonnance, on fait le point !
+      <br>
+       Pour plus de détails, c'est <a href="https://matthieugg.github.io//productions.html#prod-0">par ici</a>.
        </p>
     `
   }, 

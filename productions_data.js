@@ -1,11 +1,52 @@
 // productions_data.js
 const productionsEntries = [
   {
+    year: 2026,
+    title: "2026",
+    entries: [
+      {
+        date: "2026-04", 
+        subtitle:"Mains Libres",
+        href: "https://www.mainslibres.ch/mains-libres/2026/mains-libres-1-26/exercise-is-medicine-eim-referentiel-pour-la-suisse",
+        img: "img/carousel/2026-ml.png",
+        alt: "Mains Libres avril 2026",
+        text: 
+        `
+        <p>
+        Première publication depuis ma prise de poste à  
+        <a href="https://hesav.ch/">HESAV</a>, dans laquelle je reviens pour 
+        <a href="https://www.mainslibres.ch/mains-libres/2026/mains-libres-1-26"><i>Mains Libres</i></a> 
+        sur le rapport <i>Exercise is Medicine</i> de 
+        l'<a href="https://www.bag.admin.ch/fr/rapports-de-recherche-activite-physique-et-poids-corporel">Office Fédéral de la Santé Publique</a>.
+        </p>
+        <p>
+        Dans cet exercise "Lu pour vous", nous revenons sur les volontés fédérales et les freins à la mise en place d'une politique de santé 
+        publique autour de l'intégration de l'activité physique à visée thérapeutique. Qualification spécifique, prescription individuelle, 
+        prise en charge par l'assurance obligatoire des soins pour rembrousement LAMal, les choses évoluent, et les physiothérapeutes ont tout 
+        intérêt à se saisir de la question ! 
+        <br>
+        Encore merci aux Pr Pichonnaz et Pr Nicolo pour cette invitation à collaborer au sein de <i>Mains Libres</i>, une initiative de science ouverte 
+        de la <a href="https://www.hes-so.ch/accueil">HES-SO</a> (diamond open access) !
+        </p>
+        <p>
+        Papier accessible librement ici:
+        <a href="https://www.mainslibres.ch/mains-libres/2026/mains-libres-1-26/exercise-is-medicine-eim-referentiel-pour-la-suisse">https://doi.org/10.55498/MAINSLIBRES.2026.02.1.083</a>
+        </p>
+        `,
+        citation:
+        `
+        Gallou-Guyot, M. (2026). Exercise is Medicine (EIM) – Référentiel pour la Suisse. Mains Libres, 126, 83–83. https://doi.org/10.55498/MAINSLIBRES.2026.02.1.083
+        `
+      }
+    ]
+  },  
+  {
     year: 2025,
     title: "2025",
     entries: [
       {
         date: "2025-09", 
+        subtitle:"Japanse Association for the Study of Taste and Smell",
         href: "https://drive.google.com/file/d/1oH6xeO38jlgjcyndYTl1tHBvIRZNTaB-/view?usp=drive_link",
         img: "img/carousel/2025-jasts.png",
         alt: "59 JASTS",
@@ -38,6 +79,7 @@ const productionsEntries = [
       },
       {
         date: "2025-06",
+        subtitle:"Journal for the Measurement of Physical Behaviour ",
         href: "https://journals.humankinetics.com/view/journals/jmpb/8/1/article-jmpb.2024-0053.xml",
         img: "img/carousel/2025-jmpb2.png",
         alt: "ActiWearCheck",
@@ -73,6 +115,7 @@ const productionsEntries = [
       },
       {
         date: "2025-05", 
+        subtitle:"SportRXiv",
         href: "https://sportrxiv.org/index.php/server/preprint/view/550/version/705",
         img: "img/carousel/2025-sportrxiv2.jpg",
         alt: "sportXRiv",
@@ -102,6 +145,7 @@ const productionsEntries = [
       },
       {
         date: "2025-05", 
+        subtitle:"British Journal of Haematology",
         href: "https://onlinelibrary.wiley.com/doi/full/10.1111/bjh.20150",
         img: "img/carousel/2025-bjh2.jpg",
         alt: "drePAnon 1",
@@ -133,6 +177,7 @@ const productionsEntries = [
       },
       {
         date: "2025-03", 
+        subtitle:"European Rehabilitation Journal",
         href: "https://rehab-journal.com/index.php/home/article/view/58",
         img: "img/carousel/2025-erj2.png",
         alt: "DTP",
@@ -178,6 +223,7 @@ const productionsEntries = [
     entries: [
       {
         date: "2024-08",
+        subtitle:"Ageing Research Reviews",
         href: "https://www.sciencedirect.com/science/article/pii/S1568163724002769?via%3Dihub",
         img: "img/carousel/2024-arr2.png",
         alt: "10.1016/j.arr.2024.102458",
@@ -206,6 +252,7 @@ const productionsEntries = [
       },
       {
         date: "2024-03",
+        subtitle:"Kinésithérapie, la Revue",
         href: "https://www.sciencedirect.com/science/article/pii/S1779012323003315",
         img: "img/carousel/2024-klr.jpg",
         alt: "10.1016/j.kine.2023.11.004",
@@ -237,6 +284,7 @@ const productionsEntries = [
       },      
       {
         date: "2024-02",
+        subtitle:"European Rehabilitation Journal",
         href: "https://rehab-journal.com/index.php/home/article/view/46",
         img: "img/carousel/2024-erj2.jpg",
         alt: "10.52057/erj.v4i1.46",
@@ -278,6 +326,7 @@ const productionsEntries = [
     entries: [
       {
         date: "2023-10",
+        subtitle:"EMC - Kinésithérapie - Médecine Physique - Réadaptation",
         href: "https://www.em-consulte.com/article/1624922/figures/soutien-ou-maintien-a-domicile-des-personnes-agees",
         img: "img/carousel/2024-emc.jpg",
         alt: "10.1016/S1283-0887(23)69392-2",
@@ -306,6 +355,7 @@ const productionsEntries = [
       },      
       {
         date: "2023-08",
+        subtitle:"Japan Society of Physical Education, Health and Sport Sciences",
         href: "https://doi.org/10.20693/jspehssconf.73.0_463",
         img: "img/carousel/2023-jspehs.jpg",
         alt: "10.20693/jspehssconf.73.0_463",
@@ -347,6 +397,7 @@ const productionsEntries = [
       // },
       {
         date: "2023-07",
+        subtitle:"BMC Complementary Medicine",
         href: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10360332/",
         img: "img/carousel/2023-bmc.jpg",
         alt: "10.1186/s12906-023-04074-w",
@@ -382,6 +433,7 @@ const productionsEntries = [
       },
       {
         date: "2023-06",
+        subtitle:"GitHub GPAQ",
         href: "https://github.com/MatthieuGG/GPAQ-scores",
         img: "img/carousel/2023-gpaq-b.png",
         alt: "10.5281/zenodo.10086826",
@@ -405,6 +457,7 @@ const productionsEntries = [
       },
       {
         date: "2023-06",
+        subtitle:"GitHub SF-36",
         href: "https://github.com/MatthieuGG/SF36-scores",
         img: "img/carousel/2023-sf36-b.png",
         alt: "10.5281/zenodo.10086861",
@@ -427,6 +480,7 @@ const productionsEntries = [
       },
       {
         date: "2023-05",
+        subtitle:"Kinésithérapie, la Revue",
         href: "https://linkinghub.elsevier.com/retrieve/pii/S1779012323000165",
         img: "img/carousel/2023-klr1.jpg",
         alt: "10.1016/j.kine.2023.01.004",
@@ -455,6 +509,7 @@ const productionsEntries = [
       },
       {
         date: "2023-02",
+        subtitle:"Kinésithérapie, la Revue",
         href: "https://www.sciencedirect.com/science/article/pii/S177901232200537X",
         img: "img/carousel/2023-klr.jpg",
         alt: "10.1016/j.kine.2022.12.176",
@@ -492,6 +547,7 @@ const productionsEntries = [
       // },
       {
         date: "2023-02",
+        subtitle:"Frontiers in Aging Neuroscience",
         href: "https://www.frontiersin.org/articles/10.3389/fnagi.2023.1046676",
         img: "img/carousel/2023-frontiers2.jpg",
         alt: "10.3389/fnagi.2023.1046676",
@@ -519,6 +575,7 @@ const productionsEntries = [
       },
       {
         date: "2023-02",
+        subtitle:"JMIR Serious Games",
         href: "https://games.jmir.org/2023/1/e36126",
         img: "img/carousel/2023-jmir2.jpg",
         alt: "10.2196/36126",
@@ -563,6 +620,7 @@ const productionsEntries = [
       // },
       {
         date: "2022-07",
+        subtitle:"International Society of Physical and Rehabilitation Medicine",
         href: "https://drive.google.com/file/d/1CwjOqKzTO8DN2PyiCCkRB2V8Ace_ZevZ/view",
         img: "img/carousel/2022-isprm.jpg",
         alt: "10.4103/2349-7904.351394",
@@ -592,6 +650,7 @@ const productionsEntries = [
       },
       {
         date: "2022-06",
+        subtitle:"Thèse de Doctorat",
         href: "https://tel.archives-ouvertes.fr/tel-03715392",
         img: "img/carousel/2023-thesis.jpg",
         alt: "Thesis MGG PhD",
@@ -632,6 +691,7 @@ const productionsEntries = [
       // },
       {
         date: "2022-03",
+        subtitle:"European Rehabilitation Journal",
         href: "https://rehab-journal.com/index.php/home/article/view/8",
         img: "img/carousel/2022-erj2.jpg",
         alt: "10.52057/erj.v2i1.8",
@@ -663,6 +723,7 @@ const productionsEntries = [
       },
       {
         date: "2022-01",
+        subtitle:"Les indispensables en kinésithérapie et physiothérapie",
         href: "https://www.elsevier-masson.fr/reeducation-en-neurologie-9782294770524.html",
         img: "img/carousel/2022-elsevier.jpg",
         alt: "978-2-294-77123-1",
@@ -721,6 +782,7 @@ const productionsEntries = [
       // },
       {
         date: "2021-12",
+        subtitle:"Disability and Rehabilitation",
         href: "https://www.tandfonline.com/doi/full/10.1080/09638288.2021.2022780",
         img: "img/carousel/2022-dr.jpg",
         alt: "10.1080/09638288.2021.2022780",
@@ -750,6 +812,7 @@ const productionsEntries = [
       },
       {
         date: "2021-11",
+        subtitle:"TraHs",
         href: "https://www.unilim.fr/trahs/3945",
         img: "img/home/income.jpg",
         alt: "10.25965/TRAHS.3945",
@@ -779,6 +842,7 @@ const productionsEntries = [
       },
       {
         date: "2021-03",
+        subtitle:"Multiple Sclerosis and Related Disorders",
         href: "https://linkinghub.elsevier.com/retrieve/pii/S2211034821001954",
         img: "img/carousel/2021-ms.jpg",
         alt: "10.1016/j.msard.2021.102928",
@@ -815,6 +879,7 @@ const productionsEntries = [
     entries: [
         {
         date: "2020-10",
+        subtitle:"Behavioural Brain Research",
         href: "https://linkinghub.elsevier.com/retrieve/pii/S016643282030680X",
         img: "img/carousel/2020-bbr2.jpg",
         alt: "10.1016/j.bbr.2020.112981",
@@ -848,6 +913,7 @@ const productionsEntries = [
       },
       {
         date: "2020-10",
+        subtitle:"Clinical Neurophysiology",
         href: "http://www.sciencedirect.com/science/article/pii/S0987705320301209",
         img: "img/carousel/2020-nccn.jpg",
         alt: "10.1016/j.neucli.2020.10.010",
@@ -881,6 +947,7 @@ const productionsEntries = [
       },
       {
         date: "2020-07",
+        subtitle:"Ageing Research Reviews",
         href: "http://www.sciencedirect.com/science/article/pii/S1568163720302701",
         img: "img/carousel/2020-arr2.jpg",
         alt: "10.1016/j.arr.2020.101135",
@@ -916,6 +983,7 @@ const productionsEntries = [
       },
       {
         date: "2020-07",
+        subtitle:"Neuroscience Research",
         href: "http://www.sciencedirect.com/science/article/pii/S016801022030420X",
         img: "img/carousel/2020-nr.jpg",
         alt: "10.1016/j.neures.2020.07.012",
@@ -947,7 +1015,8 @@ const productionsEntries = [
         `
       },
       {
-        date: "2020-03",      
+        date: "2020-03",
+        subtitle:"Vivre à Limoges",      
         href: "https://www.limoges.fr/citoyenne/magazine-vivre-limoges",
         img: "img/carousel/2020-val.png",
         alt: "Vivre à Limoges",
@@ -983,6 +1052,7 @@ const productionsEntries = [
     entries: [
       {
         date: "2019-12",
+        subtitle:"Société Francophone Posture Équilibre et Locomotion 1",
         href: "https://linkinghub.elsevier.com/retrieve/pii/S0987705319302679",
         img: "img/carousel/2019-sofpel.jpg",
         alt: "10.1016/j.neucli.2019.10.045",
@@ -1016,6 +1086,7 @@ const productionsEntries = [
       },
       {
         date: "2019-12",
+        subtitle:"Société Francophone Posture Équilibre et Locomotion 2",
         href: "https://linkinghub.elsevier.com/retrieve/pii/S0987705319303041",
         img: "img/carousel/2019-sofpel1.jpg",
         alt: "10.1016/j.neucli.2019.10.082",
@@ -1070,6 +1141,7 @@ const productionsEntries = [
       // },
       {
         date: "2017-04",
+        subtitle:"Journées Francophones de Kinésithérapie",
         href: "https://linkinghub.elsevier.com/retrieve/pii/S1779012317301274",
         img: "img/carousel/2017-jfk2.jpg",
         alt: "10.1016/j.kine.2017.02.066",
