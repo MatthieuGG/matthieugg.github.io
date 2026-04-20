@@ -4,7 +4,17 @@ let currentYear = "all";
 
 const productions = productionsEntries;
 
-// 🔹 Liste plate (globale) → nécessaire pour navigation par index
+// 🔹 slug propre (accents, espaces, etc.)
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+// 🔹 liste plate (globale)
 function getAllProductionsFlat() {
   return productions.flatMap(yearObj =>
     yearObj.entries.map(entry => ({
@@ -36,18 +46,13 @@ function displayProductions(page) {
   const end = start + productionsPerPage;
   const pageItems = filtered.slice(start, end);
 
-  const allItems = getAllProductionsFlat();
-
   pageItems.forEach((item) => {
     const div = document.createElement("div");
     div.className = "production-highlight";
 
-    // 🔹 index GLOBAL (clé du système)
-    const globalIndex = allItems.findIndex(p =>
-      p.date === item.date && p.subtitle === item.subtitle
-    );
-
-    const anchorId = `prod-${globalIndex}`;
+    // 🔹 ID stable basé sur date + subtitle
+    const base = `${item.date || item.year}-${item.subtitle || item.alt || "item"}`;
+    const anchorId = `prod-${slugify(base)}`;
     div.id = anchorId;
 
     div.innerHTML = `
@@ -131,17 +136,22 @@ function setupYearFilter() {
   });
 }
 
-// 🔥 NAVIGATION PAR HASH (corrige ton problème)
+// 🔥 navigation vers ancre avec pagination
 function handleHashNavigation() {
   const hash = window.location.hash;
   if (!hash) return;
 
   const id = hash.replace("#", "");
-  const index = parseInt(id.replace("prod-", ""));
+  const allItems = getAllProductionsFlat();
 
-  if (isNaN(index)) return;
+  const targetIndex = allItems.findIndex(item => {
+    const base = `${item.date || item.year}-${item.subtitle || item.alt || "item"}`;
+    return `prod-${slugify(base)}` === id;
+  });
 
-  const targetPage = Math.floor(index / productionsPerPage) + 1;
+  if (targetIndex === -1) return;
+
+  const targetPage = Math.floor(targetIndex / productionsPerPage) + 1;
 
   currentPage = targetPage;
   displayProductions(currentPage);
@@ -159,7 +169,7 @@ function handleHashNavigation() {
 
 document.addEventListener("DOMContentLoaded", function () {
   setupYearFilter();
-  handleHashNavigation(); // ⚠️ AVANT display
+  handleHashNavigation();
   displayProductions(currentPage);
   setupPagination();
 });
