@@ -14,6 +14,7 @@ const newsEntries = [
        <p>
        Encore merci pour les votes !
        <br>
+       <br>
        Pour plus de détails, c'est <a href="https://matthieugg.github.io//productions.html#prod-2025-06-journal-for-the-measurement-of-physical-behaviour">par ici</a>.
        </p>
     `
@@ -61,8 +62,6 @@ const newsEntries = [
       <p>
       C'est officiel, notre projet de recherche utilisant le judo pour le bien-être physique et mental 
       d'enfants atteints de paralysie cérébrale est financé !
-      <br>
-      Plus d'informations <a href="https://hesav.ch/recherche/projets-engages/projets-de-recherche/projet/le-judo-adapte-au-service-du-bien-etre-une-approche-ou-inclusive-pour-ameliorer-le-bien-etre-psychosocial-des-enfants-et-adolescent-es-atteint-es-de-paralysie-cerebrale/">par ici</a>.
       </p>
       <p>
       Une illustration très claire 
@@ -70,6 +69,9 @@ const newsEntries = [
       est également disponible.
       <br>
       On a hâte ! Encore merci à Veronika, Jennifer et Réhane (entre autres).
+      <br>
+      <br>
+      Plus d'informations <a href="https://hesav.ch/recherche/projets-engages/projets-de-recherche/projet/le-judo-adapte-au-service-du-bien-etre-une-approche-ou-inclusive-pour-ameliorer-le-bien-etre-psychosocial-des-enfants-et-adolescent-es-atteint-es-de-paralysie-cerebrale/">par ici</a>.
        </p>
     `
   }, 
@@ -87,6 +89,7 @@ const newsEntries = [
        concernant le "sport santé" et "sport sur ordonance" en Suisse.
       <br>
       Traitement, prévention, ordonnance, on fait le point !
+      <br>
       <br>
        Pour plus de détails, c'est <a href="https://matthieugg.github.io//productions.html#prod-2026-04-mains-libres">par ici</a>.
        </p>
