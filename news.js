@@ -2,6 +2,17 @@ const postsPerPage = 10;
 let currentPage = 1;
 let currentYear = "all";
 
+// 🔹 slug propre (accents, espaces, etc.)
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+// 🔹 liste filtrée
 function getFilteredNews() {
   if (currentYear === "all") return newsEntries;
   return newsEntries.filter(entry => entry.date.startsWith(currentYear));
@@ -20,8 +31,15 @@ function displayNews(page) {
     const div = document.createElement("div");
     div.className = "news-entry";
 
+    // 🔹 ID stable basé sur le titre
+    const anchorId = `news-${slugify(entry.title)}`;
+    div.id = anchorId;
+
     div.innerHTML = `
-      <h3>${entry.title}</h3>
+      <h3>
+        ${entry.title}
+        <a href="#${anchorId}" style="text-decoration:none; font-size:0.8em; margin-left:6px;">🔗</a>
+      </h3>
       <div class="date">${entry.date}</div>
       <div class="news-highlight">
         ${entry.image ? `<img src="${entry.image}" alt="${entry.title}" class="news-image clickable-image">` : ""}
@@ -77,8 +95,39 @@ function setupYearFilter() {
   });
 }
 
+// 🔥 navigation vers ancre avec pagination
+function handleHashNavigation() {
+  const hash = window.location.hash;
+  if (!hash) return;
+
+  const id = hash.replace("#", "");
+
+  // retrouver l'index via slug
+  const targetIndex = newsEntries.findIndex(entry => {
+    return `news-${slugify(entry.title)}` === id;
+  });
+
+  if (targetIndex === -1) return;
+
+  const targetPage = Math.floor(targetIndex / postsPerPage) + 1;
+
+  currentPage = targetPage;
+  displayNews(currentPage);
+  setupPagination();
+
+  setTimeout(() => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+      el.style.backgroundColor = "#fff8cc";
+      setTimeout(() => el.style.backgroundColor = "", 2000);
+    }
+  }, 100);
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   setupYearFilter();
+  handleHashNavigation(); // ⚠️ important
   displayNews(currentPage);
   setupPagination();
 });

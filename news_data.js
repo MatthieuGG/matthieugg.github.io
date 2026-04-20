@@ -55,16 +55,19 @@ const newsEntries = [
   {
     date: `2026-04-13`,
     title: "Financement du judo bien-être chez l'adolescent", 
-    image: "img/news/2026_04_judo_cp.png",  
+    image: "img/news/2026_04_judo_cp.jpeg",  
     content: 
     `
       <p>
       C'est officiel, notre projet de recherche utilisant le judo pour le bien-être physique et mental 
       d'enfants atteints de paralysie cérébrale est financé !
       <br>
+      Plus d'informations <a href="https://hesav.ch/recherche/projets-engages/projets-de-recherche/projet/le-judo-adapte-au-service-du-bien-etre-une-approche-ou-inclusive-pour-ameliorer-le-bien-etre-psychosocial-des-enfants-et-adolescent-es-atteint-es-de-paralysie-cerebrale/">par ici</a>.
+      </p>
+      <p>
       Une illustration très claire 
       <a href="https://uts.sport/breaking-barriers-advancing-inclusion-in-sports-for-all-how-marina-draskovic-pioneers-adaptive-judo/">des travaux de Marina Drašković</a> 
-      est disponible.
+      est également disponible.
       <br>
       On a hâte ! Encore merci à Veronika, Jennifer et Réhane (entre autres).
        </p>
