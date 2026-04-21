@@ -9,12 +9,12 @@ const newsEntries = [
       <p>
       Actualité chargée en ce mois d'avril, car notre papier sur le port de traqueur d'activité physique 
       (<a href="https://journals.humankinetics.com/view/journals/jmpb/8/1/article-jmpb.2024-0053.xml">accessible librement ici</a>) 
-      a remporté le prix du meilleur article scientifique JMPB 2025 pour un jeune chercheur.
+      a remporté le prix du <i>meilleur article scientifique JMPB 2025 pour un jeune chercheur</i>.
        </p>
        <p>
        Encore merci pour les votes !
-       <br>
-       <br>
+       </p>
+       <p>
        Pour plus de détails, c'est <a href="https://matthieugg.github.io//productions.html#prod-2025-06-journal-for-the-measurement-of-physical-behaviour">par ici</a>.
        </p>
     `
@@ -40,8 +40,8 @@ const newsEntries = [
       </p>
       <p>
       ✅ Deux mois d’essai gratuit grâce à l’association QUALIA<br>
-      📅 Tous les vendredis dès le 24 avril, de 14h à 15h, durant 2 mois<br>
-      📍 Mikami Judo Club Lausanne, Avenue des Bergières 24, 1004 Lausanne<br>
+      📅 <b>Tous les vendredis dès le 24 avril, de 14h à 15h, durant 2 mois</b><br>
+      📍 <a href="https://www.mjcl.ch/">Mikami Judo Club Lausanne</a>, Avenue des Bergières 24, 1004 Lausanne<br>
       ♿ Accès PMR au dojo, aux tatamis, vestiaires, douches et toilettes<br>
       🚌 Bus 2, 21 et N21, arrêt « Presbytère »<br>
       🚗 Places de parking disponibles sur place ainsi que Parking de Beaulieu<br>
@@ -61,16 +61,26 @@ const newsEntries = [
     `
       <p>
       C'est officiel, notre projet de recherche utilisant le judo pour le bien-être physique et mental 
-      d'enfants atteints de paralysie cérébrale est financé !
+      d'enfants et adolescent.e.s atteint.e.s de paralysie cérébrale est financé !
+      </p>
+      <p>
+      <b>Nous débuterons les cours en septembre 2026</b>
+      </p>
+      <p>
+      Il s'agit d'un partenariat entre 
+      <a href="https://hesav.ch/">HESAV</a>, 
+      <a href="https://www.linkedin.com/company/association-qualia/">QUALIA</a>, 
+      et l'école <a href="https://fondationcombe.ch/la-cassagne/">La Cassagne Fondation Dr Combe</a>, 
+      soutenu par la <a href="https://www.vd.ch/dsas/dgs">Direction Générale de la Santé du canton de Vaud</a>.
       </p>
       <p>
       Une illustration très claire 
       <a href="https://uts.sport/breaking-barriers-advancing-inclusion-in-sports-for-all-how-marina-draskovic-pioneers-adaptive-judo/">des travaux de Marina Drašković</a> 
       est également disponible.
       <br>
-      On a hâte ! Encore merci à Veronika, Jennifer et Réhane (entre autres).
-      <br>
-      <br>
+      On a hâte ! Encore merci à Veronika, Jennifer, Réhane, Florent, Michela et Laure (entre autres).
+      </p>
+      <p>
       Plus d'informations <a href="https://hesav.ch/recherche/projets-engages/projets-de-recherche/projet/le-judo-adapte-au-service-du-bien-etre-une-approche-ou-inclusive-pour-ameliorer-le-bien-etre-psychosocial-des-enfants-et-adolescent-es-atteint-es-de-paralysie-cerebrale/">par ici</a>.
        </p>
     `
