@@ -51,6 +51,11 @@ const newsEntries = [
       <br>
       <i>À noter : à la rentrée de septembre, les cours deviendront payants</i>
        </p>
+       <p>
+       <a href="https://drive.switch.ch/index.php/s/Fv4NPxYZe5h0kay" target="_blank" rel="noopener noreferrer">
+         <!-- <img src="img/news/2026_04_judo_s2.png" style="max-width: 300px; height: auto;" alt="Montage Judo Seniors"> -->
+         Lien vers une viédo explicative
+      </a>
     `
   }, 
   {
