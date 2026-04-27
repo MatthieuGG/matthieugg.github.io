@@ -1,5 +1,23 @@
 // news_data.js
 const newsEntries = [
+   {
+    date: `2026-04-27`,
+    title: "Nouvelle publication issue du projet drePAnon", 
+    image: "img/news/2026_04_ejh.jpeg", 
+    content: 
+    `
+      <p>
+      Et de 4 !
+      </p>
+      <p>
+      Dernière publication en date pour drePAnon, accessible librement sur le site de 
+      l'<a href="https://onlinelibrary.wiley.com/doi/10.1111/ejh.70201"  target="_blank" rel="noopener noreferrer"><i>European Journal of Haematology</i></a>.
+      </p>
+      <p>
+      Pour plus de détails, c'est <a href="https://matthieugg.github.io//productions.html#prod-2026-04-european-journal-of-haematology">par ici</a>.
+      </p>
+    `
+  },  
     {
     date: `2026-04-15`,
     title: "Champions mon frère !", 
@@ -22,7 +40,7 @@ const newsEntries = [
   {
     date: `2026-04-13`,
     title: "Judo bien-être seniors : retourner au sol en douceur", 
-    image: "img/news/2026_04_judo_s.png",  
+    image: "img/news/2026_04_judo_s.jpeg",  
     content: 
     `
       <p>

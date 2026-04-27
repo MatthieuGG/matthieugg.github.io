@@ -6,6 +6,45 @@ const productionsEntries = [
     entries: [
       {
         date: "2026-04", 
+        subtitle:"European Journal of Haematology",
+        href: "https://www.mainslibres.ch/mains-libres/2026/mains-libres-1-26/exercise-is-medicine-eim-referentiel-pour-la-suisse",
+        img: "img/carousel/2026-ejh.jpeg",
+        alt: "Diaw 2026 EJH",
+        text: 
+        `
+        <p>
+        Nouvelle publication issue de mes travaux de postdoc 
+        <a href="https://www.jsps.go.jp/english/">JSPS</a> au sein du 
+        <a href="http://www.eng.ocha.ac.jp/Tripette_Site/home.html"> Physical Activity Measurement Lab</a>
+        de <a href="https://www.ocha.ac.jp/en/">Ochadai</a> - un immense merci à Mor, Phil, Ju, et toutes les équipes !
+        </p>
+        <p>
+        Nous nous interrogeons toujours sur le lien entre le niveau d'activité physique 
+        des patients atteints de drépanocytose, et des critères de jugement biomédicaux. 
+        Est-ce que l'augmentation du nombre de pas quotidien a des conséquences sur 
+        des paramètres cliniques, hématologiques, vasculaires, et fonctionneles ? 
+        <br>
+        C'est à cette problématique que nous essayons de répondre ici, avec une approche 
+        transversale.
+        <br>
+        Au final, il semble qu'un nombre de pas quotidien plus important soit lié à des 
+        marqueurs cliniques plus favorables; mais qui de la poule ou de l'oeuf ?
+        </p>
+        <p>
+        Papier accessible librement ici: <a href="https://onlinelibrary.wiley.com/doi/10.1111/ejh.70201"  target="_blank" rel="noopener noreferrer">https://doi.org/10.1111/ejh.70201</a>  
+        </p>
+        `,
+        citation: 
+        `
+        Diaw, M., Connes, P., Charlot, K., Diop, S., Gallou‐Guyot, M., Coly, M. S., Carin, R., Ducray, M., 
+        Gadji, M., Miyachi, M., Yoshida, T., Seck, M., Gueye, M., Thioune, N. M., Samb, A., Gueye, A., 
+        Nader, E., Ranque, B., & Tripette, J. (2026). Relationship Between Daily Step Count, Biological Markers, and Clinical Outcomes in Patients With Sickle Cell Anemia: A Cross‐Sectional Study. 
+        European Journal of Haematology, ejh.70201. https://doi.org/10.1111/ejh.70201
+
+        `    
+      },      
+      {
+        date: "2026-04", 
         subtitle:"Mains Libres",
         href: "https://www.mainslibres.ch/mains-libres/2026/mains-libres-1-26/exercise-is-medicine-eim-referentiel-pour-la-suisse",
         img: "img/carousel/2026-ml.png",
@@ -98,6 +137,8 @@ const productionsEntries = [
         <br>
         C'est à cette problématique que nous essayons de répondre ici, avec un software
         permettant de faire le tri entre les jours correctement portés, synchronisés et chargés.
+        <br>
+        Cet article a reçu le prix du meilleur papier pour un jeune chercheur !
         </p>
         <p>
         Papier accessible librement ici: <a href="https://journals.humankinetics.com/view/journals/jmpb/8/1/article-jmpb.2024-0053.xml">https://doi.org/10.1123/jmpb.2024-0053</a>
