@@ -18,6 +18,21 @@ const newsEntries = [
       </p>
     `
   },  
+  {
+    date: `2026-04-25`,
+    title: "20km de Lausanne (ou plutôt 5)", 
+    image: "img/news/2026_04_20k.png", 
+    content: 
+    `
+      <p>
+      Participation avec les collègues aux <a href="https://www.20km.ch/">20km de Lausanne</a> - effectivement, une institution !
+      <br>
+      Encore bravo à Sylvie, Tara, Joaquim et Nicolas.
+      <br>
+      Et bien sûr, <a href="https://www.frontale.co.jp/profile/2026sp/mem_01.html"  target="_blank" rel="noopener noreferrer">on représente</a> !
+      </p>
+    `
+  },    
     {
     date: `2026-04-15`,
     title: "Champions mon frère !", 
