@@ -8,8 +8,7 @@ const newsEntries = [
     `
       <p>
       Et de 4 !
-      </p>
-      <p>
+      <br>
       Dernière publication en date pour drePAnon, accessible librement sur le site de 
       l'<a href="https://onlinelibrary.wiley.com/doi/10.1111/ejh.70201"  target="_blank" rel="noopener noreferrer"><i>European Journal of Haematology</i></a>.
       </p>
@@ -43,8 +42,7 @@ const newsEntries = [
       Actualité chargée en ce mois d'avril, car notre papier sur le port de traqueur d'activité physique 
       (<a href="https://journals.humankinetics.com/view/journals/jmpb/8/1/article-jmpb.2024-0053.xml">accessible librement ici</a>) 
       a remporté le prix du <i>meilleur article scientifique JMPB 2025 pour un jeune chercheur</i>.
-       </p>
-       <p>
+       <br>
        Encore merci pour les votes !
        </p>
        <p>
@@ -55,7 +53,7 @@ const newsEntries = [
   {
     date: `2026-04-13`,
     title: "Judo bien-être seniors : retourner au sol en douceur", 
-    image: "img/news/2026_04_judo_s.jpeg",  
+    image: "img/news/2026_04_flyer.png",  
     content: 
     `
       <p>
@@ -85,10 +83,12 @@ const newsEntries = [
       <i>À noter : à la rentrée de septembre, les cours deviendront payants</i>
        </p>
        <p>
+       <a href="https://drive.switch.ch/index.php/s/Fv4NPxYZe5h0kay" target="_blank" rel="noopener noreferrer">Lien vers une viédo explicative</a>
+       <br>
        <a href="https://drive.switch.ch/index.php/s/Fv4NPxYZe5h0kay" target="_blank" rel="noopener noreferrer">
-         <!-- <img src="img/news/2026_04_judo_s2.png" style="max-width: 300px; height: auto;" alt="Montage Judo Seniors"> -->
-         Lien vers une viédo explicative
+         <img src="img/news/2026_04_judo_s.jpeg" style="max-width: 300px; height: auto;" alt="Montage Judo Seniors">
       </a>
+      </p>
     `
   }, 
   {
@@ -138,7 +138,9 @@ const newsEntries = [
       <br>
       Traitement, prévention, ordonnance, on fait le point !
       <br>
-      <br>
+      Encore merci Claude pour l'invitation.
+      </p>
+      <p>
        Pour plus de détails, c'est <a href="https://matthieugg.github.io//productions.html#prod-2026-04-mains-libres">par ici</a>.
        </p>
     `
@@ -192,9 +194,9 @@ const newsEntries = [
       comme Professeur Assistant en physiothérapie. 
       Un défi de recherche / enseignement / clinique au moins égal à celui de s'installer au Japon.
       Encore merci au doyen de la filière 
-      <a href="https://hesav.ch/annuaire/profil/claude-pichonnaz/">Claude Pichonnaz</a>, 
-      au directeur de la formation Luc Jeanrenaud, ainsi qu'à la directrice de la recherche 
-      <a href="https://hesav.ch/annuaire/profil/veronika-schoeb/">Veronika Schoeb</a>
+      <a href="https://hesav.ch/annuaire/profil/claude-pichonnaz/">Claude PICHONNAZ</a>, 
+      au directeur de la formation Luc JEANRENAUD, ainsi qu'à la directrice de la recherche 
+      <a href="https://hesav.ch/annuaire/profil/veronika-schoeb/">Veronika SCHOEB</a>
        pour leur confiance.
        </p>
 
@@ -204,7 +206,7 @@ const newsEntries = [
 
       <p>
       Mon profil <a href="https://people.hes-so.ch/en/profile/12038580157-matthieu-gallou-guyot">HES-SO</a> 
-      et <a href="">HESAV</a>.
+      et <a href="https://hesav.ch/annuaire/profil/matthieu-gallou-guyot/">HESAV</a>.
       </p>
     `
   },  
@@ -223,7 +225,7 @@ const newsEntries = [
       <p>
       J’ai d’abord eu droit à une visite guidée du centre. Entièrement neuf, quatre IRM 3T, une IRM 7T, un MEG, des EEG, 
       plus de 200 spécialistes… Magnifique ! Puis nous avons eu une réunion de travail très instructive avec 
-      <a href="https://cinet.jp/english/people/2014465/">Ikuhiro Kida</a>. Beaucoup de travail reste à faire pour 
+      <a href="https://cinet.jp/english/people/2014465/">Ikuhiro KIDA</a>. Beaucoup de travail reste à faire pour 
       améliorer mon projet de recherche actuel. Espérons que cette collaboration perdure à travers les frontières.
       </p>
     `
