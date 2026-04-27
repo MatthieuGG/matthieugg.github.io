@@ -28,7 +28,8 @@ const newsEntries = [
       <br>
       Encore bravo à Sylvie, Tara, Joaquim et Nicolas.
       <br>
-      Et bien sûr, <a href="https://www.frontale.co.jp/profile/2026sp/mem_01.html"  target="_blank" rel="noopener noreferrer">on représente</a> !
+      Et bien sûr, on représente Kawasaki avec le maillot 
+      <a href="https://www.frontale.co.jp/profile/2026sp/mem_01.html"  target="_blank" rel="noopener noreferrer">du GK1 1山口 </a> !
       </p>
     `
   },    
