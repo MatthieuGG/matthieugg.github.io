@@ -9,7 +9,9 @@ const newsEntries = [
       <p>
       Et de 4 !
       <br>
-      Dernière publication en date pour drePAnon, accessible librement sur le site de 
+      Dernière publication en date pour 
+      <a href="https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000048880">drePAnon</a>
+      , accessible librement sur le site de 
       l'<a href="https://onlinelibrary.wiley.com/doi/10.1111/ejh.70201"  target="_blank" rel="noopener noreferrer"><i>European Journal of Haematology</i></a>.
       </p>
       <p>
@@ -29,7 +31,7 @@ const newsEntries = [
       Encore bravo à Sylvie, Tara, Joaquim et Nicolas.
       <br>
       Et bien sûr, on représente Kawasaki avec le maillot 
-      <a href="https://www.frontale.co.jp/profile/2026sp/mem_01.html"  target="_blank" rel="noopener noreferrer">du GK1 1山口 </a> !
+      <a href="https://www.frontale.co.jp/profile/2026sp/mem_01.html"  target="_blank" rel="noopener noreferrer">du GK1 山口 </a> !
       </p>
     `
   },    
@@ -87,7 +89,7 @@ const newsEntries = [
        <a href="https://drive.switch.ch/index.php/s/Fv4NPxYZe5h0kay" target="_blank" rel="noopener noreferrer">Lien vers une viédo explicative</a>
        <br>
        <a href="https://drive.switch.ch/index.php/s/Fv4NPxYZe5h0kay" target="_blank" rel="noopener noreferrer">
-         <img src="img/news/2026_04_judo_s.jpeg" style="max-width: 300px; height: auto;" alt="Montage Judo Seniors">
+         <img src="img/news/2026_04_judo_s.jpeg" class="news-inline-image">
       </a>
       </p>
     `
@@ -170,9 +172,11 @@ const newsEntries = [
     content: 
     `
       <p>
-      Et de 3 !
+      Jamais 2 sans 3 !
       <br>
-      Dernière publication en date pour drePAnon, accessible librement en accès anticipé sur le site d' 
+      Dernière publication en date pour 
+      <a href="https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000048880">drePAnon</a>
+      , accessible librement en accès anticipé sur le site d' 
       <a href="https://haematologica.org/article/view/13146">Haematologica</a>.
       <br>
       Un descriptif plus poussé sera fourni dans la section "Productions" dès la mise en page effectuée par l'éditeur.

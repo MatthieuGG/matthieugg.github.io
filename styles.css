@@ -411,7 +411,7 @@ hr.fine-line {
 
 .news-text {
     flex: 1;
-    min-width: 200px;
+    min-width: 0;
 }
 
 .news-filter {
@@ -442,6 +442,14 @@ hr.fine-line {
     border: 1px solid #ccc;
     background-color: #fff;
     cursor: pointer;
+}
+
+.news-text img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 4px;
 }
 
 /* =======================
