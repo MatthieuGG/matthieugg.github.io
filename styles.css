@@ -243,9 +243,8 @@ hr.fine-line {
         width: 100%;
         margin: 0;
         padding: 12px;
-        box-sizing: border-box; /* évite que le padding dépasse */
+        box-sizing: border-box;
     }
-}
 
     .home-layout {
         flex-direction: column;
@@ -253,8 +252,8 @@ hr.fine-line {
 
     .content-column {
         width: 100% !important;
-        min-width: 0; /* important pour que le texte et les images ne débordent pas */
-        box-sizing: border-box; /* inclut le padding dans la largeur */
+        min-width: 0;
+        box-sizing: border-box;
     }
 
     .article-highlight,
