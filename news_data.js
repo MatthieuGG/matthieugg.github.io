@@ -1,6 +1,30 @@
 // news_data.js
 const newsEntries = [
    {
+    date: `2026-05-04`,
+    title: "Nouveau projet de revue sur les exergames dans les cartons", 
+    image: "img/news/2026_05_prospero.png", 
+    content: 
+    `
+      <p>
+      Et si l'on parlait à nouveau des exergames ? Ca fait longtemps ! Tout comme les revues systématiques.
+      <br>
+      C'est surtout l'occasion de réunir une nouvelle équipe de rêve, avec 
+      <a href="https://www.unilim.fr/havae/havae-ur20217/membres-de-lequipe-2/elpidio-attoh-mensah/">Elpidio</a>, 
+      <a href="https://i3sp.u-paris.fr/les-membres/neva-beraud-peigne/">Neva</a>, 
+      <a href="https://i3sp.u-paris.fr/les-membres/pauline-maillot/">Pauline</a>, 
+      <a href="https://www.faculte-sciences-sport.universite-paris-saclay.fr/alexandra-perrot">Alexandra</a>, 
+      <a href ="https://www.patrick-manser.com/">Patrick</a>  
+      et <a href="https://www.unilim.fr/havae/havae-ur20217/membres-de-lequipe-2/anaick-perrochon-2/">Anaïck</a>.
+      <br>
+      Plus d'informations à venir au cours des prochains mois.
+      </p>
+      <p>
+      Pour plus de détails, c'est <a href="https://che01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.crd.york.ac.uk%2FPROSPERO%2Fview%2FCRD420261308357&data=05%7C02%7Cmatthieu.gallou-guyot%40hesav.ch%7Cd7c4b8bb05be49f9a06008dea9fb591c%7C378395e374f44e69ab0f1dea40913cb1%7C0%7C0%7C639135094173976510%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=vYqFzAxY9ZP2uE6vKZGDg0B%2FjFpkk1MutQlt7DShSsQ%3D&reserved=0">sur PROSPERO</a>.
+      </p>
+    `
+  },   
+   {
     date: `2026-04-27`,
     title: "Nouvelle publication issue du projet drePAnon", 
     image: "img/news/2026_04_ejh.jpeg", 
