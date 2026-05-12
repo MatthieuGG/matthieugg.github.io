@@ -1,6 +1,21 @@
 // news_data.js
 const newsEntries = [
    {
+    date: `X`,
+    title: "X", 
+    image: "", 
+    content: 
+    `
+      <p>
+      (...)
+      </p>
+      <p>
+      Au fait, il existe une nouvelle page sur ce site, où je rassemble tout le contenu multimédias ici : 
+      <a href="https://matthieugg.github.io/media.html">Médias</a>.
+      </p>
+    `
+  },   
+   {
     date: `2026-05-04`,
     title: "Nouveau projet de revue sur les exergames dans les cartons", 
     image: "img/news/2026_05_prospero.png", 
