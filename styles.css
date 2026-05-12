@@ -501,6 +501,112 @@ hr.fine-line {
 }
 
 /* =======================
+   MEDIA
+======================= */
+.media-entry {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.media-entry h3 { margin: 0; }
+.media-entry .date { font-size: 10px; color: #777; display: block; }
+
+.media-entry a { color: #0066cc; text-decoration: underline; }
+.media-entry a:hover { color: #003366; }
+
+.media-highlight {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: flex-start;
+    margin-top: 1em;
+}
+
+.media-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.media-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.responsive-iframe-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio for most videos */
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.media-filter {
+    text-align: center;
+    margin: 1em auto 2em auto;
+}
+
+.media-filter label { font-size: 90%; margin-right: 0.5em; }
+.media-filter select {
+    padding: 6px 12px;
+    font-size: 90%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* YouTube */
+.youtube-embed {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+.youtube-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Spotify */
+.spotify-embed {
+    width: 100%;
+    max-width: 600px;
+}
+
+.spotify-embed iframe {
+    width: 100%;
+    height: 352px;
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    .media-highlight {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .media-text {
+        text-align: left;
+        width: 100%;
+    }
+}
+
+/* =======================
    RESUME PDF
 ======================= */
 .pdf-frame {

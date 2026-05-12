@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMCFGY2D0N"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-YMCFGY2D0N');
+    </script>
+
+  <meta charset="UTF-8" />
+  <title>Médias | MGG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js"></script>
+</head>
+<body>
+<div class="lightbox-overlay" id="lightbox">
+  <span class="close-btn" id="lightbox-close">&times;</span>
+  <img src="" alt="Agrandie">
+</div>
+
+  <div class="content">
+        <div class="header">
+                <h2>
+                    Média
+                </h2>
+            <a href="https://matthieugg.github.io"><img src="img/carel.jpg" alt="Logo" class="logo-image">
+            </a>
+        </div>
+
+    <div class="media-filter">
+      <label for="year-select">Filtrer par années:</label>
+      <select id="year-select">
+        <option value="all">Toutes</option>
+      </select>
+    </div>
+
+    <div id="media-container"></div>
+    <div class="pagination" id="pagination"></div>
+
+  </div>
+
+  <!-- Chargement des données et logique -->
+  <script src="media_data.js"></script>
+  <script src="media.js"></script>
+</body>
