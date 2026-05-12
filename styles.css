@@ -516,16 +516,14 @@ hr.fine-line {
 .media-entry a:hover { color: #003366; }
 
 .media-highlight {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    align-items: flex-start;
-    margin-top: 1em;
+  display: flex;
+  flex-direction: column; /* 🔥 force le retour à la ligne */
+  gap: 10px; /* optionnel : espace propre entre média et texte */
 }
 
 .media-text {
-    flex: 1;
-    min-width: 0;
+  display: block;
+  white-space: pre-line; /* 🔥 respecte les retours à la ligne dans entry.description */
 }
 
 .media-image {

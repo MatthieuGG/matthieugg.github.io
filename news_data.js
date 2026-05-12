@@ -112,8 +112,8 @@ const newsEntries = [
        <p>
        <a href="https://drive.switch.ch/index.php/s/Fv4NPxYZe5h0kay" target="_blank" rel="noopener noreferrer">Lien vers une viédo explicative</a>
        <br>
-       <a href="https://drive.switch.ch/index.php/s/Fv4NPxYZe5h0kay" target="_blank" rel="noopener noreferrer">
-         <img src="img/news/2026_04_judo_s.jpeg" class="news-inline-image">
+       <!-- <a href="https://drive.switch.ch/index.php/s/Fv4NPxYZe5h0kay" target="_blank" rel="noopener noreferrer">
+         <img src="img/news/2026_04_judo_s.jpeg" class="news-inline-image"> -->
       </a>
       </p>
     `

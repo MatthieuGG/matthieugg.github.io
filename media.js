@@ -1,4 +1,4 @@
-const mediaPerPage = 10;
+const mediaPerPage = 5;
 let currentPage = 1;
 let currentYear = "all";
 
@@ -72,12 +72,12 @@ function displayMedia(page) {
         <a href="#${anchorId}" style="text-decoration:none; font-size:0.8em; margin-left:6px;">🔗</a>
       </h3>
       <div class="date">${entry.date}</div>
-      <div class="media-highlight">
-        ${mediaContent}
-        <div class="media-text">
-          ${entry.description}
+        <div class="media-highlight">
+            ${mediaContent}
+            <div class="media-text">
+               ${entry.description.replace(/\n/g, "<br>")}
+            </div>
         </div>
-      </div>
     `;
 
     container.appendChild(div);
