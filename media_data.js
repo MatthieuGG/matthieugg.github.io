@@ -38,8 +38,8 @@ const mediaEntries = [
     {
     date: `2020-03`,
     title: "Presse - Vivre à Limoges",
-    type: "image",
-    imageUrl: "media/VivreALimoges.png",
+    type: "pdf",
+    pdfUrl: "media/vivre_a_limoges_147.pdf",
     description: "Explications grand public concernant mon projet de thèse : `Chez les seniors, activité physique et amusement font bon menage`."
     },
   {
