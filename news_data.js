@@ -1,20 +1,44 @@
 // news_data.js
 const newsEntries = [
    {
-    date: `X`,
-    title: "X", 
-    image: "", 
+    date: `2026-05-22`,
+    title: "Silence, ça tourne !", 
+    image: "img/news/2026_05_tournage.jpg", 
     content: 
     `
       <p>
-      (...)
+      Jour de tournage aujourd'hui au sein du dojo Mikami. Grosse surprise à venir ! Encore merci à 
+      <a href="https://people.hes-so.ch/en/profile/5682984238-fazia-benhadj">Fazia</a>.
       </p>
       <p>
-      Au fait, il existe une nouvelle page sur ce site, où je rassemble tout le contenu multimédias ici : 
-      <a href="https://matthieugg.github.io/media.html">Médias</a>.
+      Tout sera mis en temps et en heure sur la nouvelle page 
+      <a href="https://matthieugg.github.io/media.html">Médias</a>
+      de ce site, dédiée au contenu multimédias.
       </p>
     `
   },   
+  {
+    date: `2026-05-18`,
+    title: "Journée Scientifique de PhysioVaud", 
+    image: "img/news/2026_05_physiovaud1.jpeg", 
+    content: 
+    `
+      <p>
+      J'aurai la chance de faire une présentation partagée avec le  
+      <a href="https://www.chuv.ch/fr/neurosciences/dnc-home/le-departement-en-bref/equipe-dirigeante">Pr Gilles Hallali</a> 
+      lors de la prochaine Journée Scientifique organisée par 
+      <a href="https://physioswiss.ch/vd/physiovaud-notre-association/">PhysioVaud</a>.
+      <br>
+      Retrouvez-nous le <b>jeudi 17 septembre à 13h30 au EHL Hospitaliy Business School Lausanne</b>
+       pour discuter de vieillissement cognitif et moteur.
+      </p>
+      <p>
+      Les informations et inscriptions  
+      <a href="https://physioswiss.ch/vd/journee-scientifique-physiovaud/">se trouvent ici</a>.
+      </p>
+      
+    `
+  },     
    {
     date: `2026-05-04`,
     title: "Nouveau projet de revue sur les exergames dans les cartons", 
