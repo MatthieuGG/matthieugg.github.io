@@ -1,6 +1,33 @@
 // news_data.js
 const newsEntries = [
    {
+    date: `2026-06-19`,
+    title: "Vidéo de démonstration du judo séniors", 
+    image: "img/news/2026_06_video-png", 
+    content: 
+    `
+      <p>
+      Nous l'annoncions 
+      <a href="https://matthieugg.github.io/news.html#news-silence-ca-tourne">ici</a>, 
+      une vidéo de démonstration et de promotion des cours de judo adapté bien-être pour les séniors a été réalisée par HESAV. 
+      </p>
+      <p>
+      Le résultat est disponible 
+      <a href="https://matthieugg.github.io/media.html#media-video-projet-tatami-du-judo-pour-le-bien-etre-du-corps-et-de-l-esprit">dans la section Médias</a> ! 
+      N'hésitez pas reprendre, diffuser et montrer cette vidéo à toute personne qui pourrait être intéressée.
+      </p>
+      <p>
+      Encore merci à l'ensemble des partenaires.
+      <br>
+      Pour plus d'informations, référez-vous au 
+      <a href="https://drive.switch.ch/index.php/s/IpuULr5XTlHVJbY">flyer</a> 
+      ainsi qu'au  
+      <a href="https://vd.prosenectute.ch/dam/jcr:e64643d0-67f8-4c2f-9a13-1837dc8b29c1/PS-programme-2026-Juillet-Decembre-Lausanne-Web.pdf">programme de la rentrée 2026</a> 
+      de Pro Senectute Vaud
+      </p>  
+    `
+  },      
+   {
     date: `2026-06-05`,
     title: "Démonstration à La Cassagne", 
     image: "img/news/2026_06_cassagne.jpg", 
