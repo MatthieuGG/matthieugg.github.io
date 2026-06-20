@@ -1,6 +1,24 @@
 // news_data.js
 const newsEntries = [
    {
+    date: `2026-06-05`,
+    title: "Démonstration à La Cassagne", 
+    image: "img/news/2026_06_cassagne.jpg", 
+    content: 
+    `
+      <p>
+      Dans le cadre du projet de recherche annoncé 
+      <a href="https://matthieugg.github.io/news.html#news-financement-du-judo-bien-etre-chez-l-adolescent">ici</a>, 
+      nous avons rendu visite avec Réhane et Amélie à 
+      l'école <a href="https://fondationcombe.ch/la-cassagne/">La Cassagne Fondation Dr Combe</a> 
+      pour une session de présentation et démonstration du judo adapté.
+      <br>
+      Vu les sourires et l'excitation des enfants, ainsi que l'entousiasme de l'équipe pédagogique, 
+      je pense que nous allons tous et toutes nous éclater !
+      </p>
+    `
+  },     
+   {
     date: `2026-05-22`,
     title: "Silence, ça tourne !", 
     image: "img/news/2026_05_tournage.jpg", 
