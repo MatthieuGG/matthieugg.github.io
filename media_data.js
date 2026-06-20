@@ -1,6 +1,13 @@
 // media_data.js
 const mediaEntries = [
     {
+    date: `2026-06`,
+    title: "Vidéo - Projet Tatami : du judo pour le bien-être du corps et de l’esprit",
+    type: "youtube",
+    youtubeId: "We3TGmOZ3qI",
+    description: "A quoi ressemble le judo adapté que nous proposons aux séniors ? Les images valant bien des mots, tout devient clair grâce à cette vidéo."
+    },    
+    {
     date: `2024-01`,
     title: "Vidéo - Journée de la Recherche Francophone 2023 | Tokyo",
     type: "youtube",
