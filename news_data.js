@@ -3,7 +3,7 @@ const newsEntries = [
    {
     date: `2026-06-19`,
     title: "Vidéo de démonstration du judo séniors", 
-    image: "img/news/2026_06_video-png", 
+    image: "img/news/2026_06_video.png", 
     content: 
     `
       <p>
