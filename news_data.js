@@ -44,7 +44,32 @@ const newsEntries = [
       je pense que nous allons tous et toutes nous éclater !
       </p>
     `
-  },     
+  },   
+   {
+    date: `2026-06-05`,
+    title: "Partenariat avec Lc65+ et Leenards", 
+    image: "img/news/2026_06_lc65.png", 
+    content: 
+    `
+      <p>
+      Parce qu'il n'y a pas que le judo dans la vie, j'ai le plaisir d'annoncer le lancement officiel de 
+      notre partenariat avec la <i>Lausanne Cohorte 65 ans et plus</i> 
+      <a href="https://www.lc65plus.ch/fr">Lc65+</a> 
+      ainsi que le <a href="https://www.chuv.ch/fr/memoire/clm-home">centre Leenards de la mémoire</a>.
+      </p>
+      <p>
+      L'opportunité scientifique est grande, car il s'agit d'explorer des données acquises auprès de milliers 
+      de résident.e.s de Lausanne au cours des dernières décénies. L'occasion peut-être de définir de nouveaux 
+      concepts dans les phénomènes de vieillissement, à grande échelle ?
+      </p>
+      <p>
+      Affaire à suivre. Encore merci à 
+      <a href="https://www.unisante.ch/fr/formation-recherche/annuaire-chercheurs/chercheur/henchoz-yves">Yves</a> 
+      ainsi qu'à <a href="https://www.chuv.ch/fr/neurosciences/dnc-home/le-departement-en-bref/equipe-dirigeante">Gilles</a> 
+      pour leur confiance dans cette collaboration.
+      </p>
+    `
+  },   
    {
     date: `2026-05-22`,
     title: "Silence, ça tourne !", 
