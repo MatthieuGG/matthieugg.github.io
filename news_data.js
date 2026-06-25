@@ -17,13 +17,14 @@ const newsEntries = [
       N'hésitez pas reprendre, diffuser et montrer cette vidéo à toute personne qui pourrait être intéressée.
       </p>
       <p>
-      Encore merci à l'ensemble des partenaires.
+      Encore merci à l'ensemble des partenaires - QUALIA | Pro Senectute VD | FSJ.
       <br>
       Pour plus d'informations, référez-vous au 
       <a href="https://drive.switch.ch/index.php/s/IpuULr5XTlHVJbY">flyer</a> 
       ainsi qu'au  
       <a href="https://vd.prosenectute.ch/dam/jcr:e64643d0-67f8-4c2f-9a13-1837dc8b29c1/PS-programme-2026-Juillet-Decembre-Lausanne-Web.pdf">programme de la rentrée 2026</a> 
-      de Pro Senectute Vaud
+      de Pro Senectute Vaud. Activité également indéxée sur 
+      <a href="https://www.jemebouge.ch/activite/judo-bien-etre/">JeMeBouge.ch</a>.
       </p>  
     `
   },      
@@ -39,9 +40,13 @@ const newsEntries = [
       nous avons rendu visite avec Réhane et Amélie à 
       l'école <a href="https://fondationcombe.ch/la-cassagne/">La Cassagne Fondation Dr Combe</a> 
       pour une session de présentation et démonstration du judo adapté.
-      <br>
+      </p>
+      <p>
       Vu les sourires et l'excitation des enfants, ainsi que l'entousiasme de l'équipe pédagogique, 
       je pense que nous allons tous et toutes nous éclater !
+      <br>
+      Projet a nouveau mentionné 
+      <a href="https://hesav.ch/financements-juin-2026/">sur le site de HESAV</a>.
       </p>
     `
   },   
