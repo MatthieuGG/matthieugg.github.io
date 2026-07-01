@@ -1,6 +1,31 @@
 // news_data.js
 const newsEntries = [
    {
+    date: `2026-06-30`,
+    title: "Rôle de rédacteur associé au sein de Mains Libres", 
+    image: "img/news/2026_06_ml.jpeg", 
+    content: 
+    `
+      <p>
+      En soutien à la science ouverte, et dans le cadre de mes fonctions professorales, 
+      j'ai la chance d'intégrer la revue 
+      <a href="https://www.mainslibres.ch/">Mains Libres</a>, 
+      soutenue par la 
+      <a href="https://www.hes-so.ch/accueil">HES-SO</a>, 
+      en qualité de rédacteur associé.
+      <br>
+      Suivi d'article, synthèse d'expertises ainsi qu'edito d'éditions spéciales à venir !
+      </p>
+      <p>
+      Merci aux rédacteurs en chef   
+      <a href="https://hesav.ch/annuaire/profil/claude-pichonnaz/">Claude</a> 
+      et
+      <a href="https://www.hesge.ch/heds/la-heds/annuaire/pierre-nicolo">Pierre</a> 
+      pour leur confiance !
+      </p>  
+    `
+  },     
+   {
     date: `2026-06-19`,
     title: "Vidéo de démonstration du judo séniors", 
     image: "img/news/2026_06_video.png", 
