@@ -1,5 +1,23 @@
 // news_data.js
 const newsEntries = [
+  {
+    date: `2026-07-01`,
+    title: "Nouvelle publication issue du projet drePAnon", 
+    image: "img/news/2026_07_haematol.jpeg", 
+    content: 
+    `
+      <p>
+      Dernière publication en date pour 
+      <a href="https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000048880">drePAnon</a>
+      , accessible librement sur le site 
+      d'<a href="https://haematologica.org/article/view/13146"  target="_blank" rel="noopener noreferrer"><i>Haematologica</i></a>.
+      </p>
+      <p>
+      Depuis plusieurs mois en "early view", voici enfin cet article publié et mis en page.<br>
+      Pour plus de détails, c'est <a href="https://matthieugg.github.io//productions.html#prod-2026-07-haematologica">par ici</a>.
+      </p>
+    `
+  },    
    {
     date: `2026-06-30`,
     title: "Rôle de rédacteur associé au sein de Mains Libres", 

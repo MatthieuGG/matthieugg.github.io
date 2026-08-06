@@ -5,9 +5,52 @@ const productionsEntries = [
     title: "2026",
     entries: [
       {
+        date: "2026-07", 
+        subtitle:"Haematologica",
+        href: "https://haematologica.org/article/view/13146",
+        img: "img/carousel/2026-haematologica.jpg",
+        alt: "De Lima 2026 Haematologica",
+        text: 
+        `
+        <p>
+        Nouvelle publication issue de mes travaux de postdoc 
+        <a href="https://www.jsps.go.jp/english/">JSPS</a> au sein du 
+        <a href="http://www.eng.ocha.ac.jp/Tripette_Site/home.html"> Physical Activity Measurement Lab</a>
+        de <a href="https://www.ocha.ac.jp/en/">Ochadai</a> - un immense merci à Mor, Phil, Ju, et toutes les équipes !
+        </p>
+        <p>
+        Dans cet article, nous présentons le lien longitudinal qu'il peut y avoir entre
+        le niveau d'activité physique des patients atteints de drépanocytose, et des critères de jugement biomédicaux. 
+        Est-ce que l'augmentation du nombre de pas quotidien a des conséquences directes sur 
+        des paramètres cliniques, hématologiques, vasculaires, et fonctionneles ? 
+        <br>
+        C'est à cette problématique que nous essayons de répondre ici, avec une approche 
+        de cause à effet.
+        <br>
+        Au final, il semble qu'une augmentation de 25% à 50% du nombre de pas quotidien 
+        permette une diminution de la fréquence et de l'intensité des évènements douloureux, 
+        accompagnée d'une diminution de la pression artérielle et de l'inflammation. 
+        <br>
+        Confirmant nos résultats précédents, en complétant avec une évolution au cours du temps, 
+        cette étude nous permet d'avancer l'idée qu'une intervention simple à mettre en place soit très 
+        bénéfique pour cette population.
+        </p>
+        <p>
+        Papier accessible librement ici: <a href="https://haematologica.org/article/view/13146"  target="_blank" rel="noopener noreferrer">https://doi.org/10.3324/haematol.2025.300290</a>  
+        </p>
+        `,
+        citation: 
+        `
+        De Lima F, Diaw M, Nader E, Carin R, Ducray M, Coly MS, Charlot K, Marano M, 
+        Gallou-Guyot M, Diop S, Miyachi M, Yoshida T, Seck M, Samb A, Ranque B, Tripette J, Connes P. 
+        Increasing daily step counts improves physical fitness, and reduces pain and arterial stiffness in sickle cell patients. 
+        Haematologica 2026; 111(7):2425-2434; https://doi.org/10.3324/haematol.2025.300290.
+        `    
+      },         
+      {
         date: "2026-04", 
         subtitle:"European Journal of Haematology",
-        href: "https://www.mainslibres.ch/mains-libres/2026/mains-libres-1-26/exercise-is-medicine-eim-referentiel-pour-la-suisse",
+        href: "https://onlinelibrary.wiley.com/doi/10.1111/ejh.70201",
         img: "img/carousel/2026-ejh.jpeg",
         alt: "Diaw 2026 EJH",
         text: 
