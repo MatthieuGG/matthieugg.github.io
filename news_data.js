@@ -14,6 +14,33 @@ const newsEntries = [
     `
   },      
   {
+    date: `2026-07-11`,
+    title: "Bravo au Pr Mor Diaw !", 
+    image: "img/news/2026_07_diaw.jpeg", 
+    content: 
+    `
+      <p>
+      Un immense bravo au 
+      <a href="https://annuairechercheurs.ucad.sn/mor.diaw">Pr Mor DIAW</a> 
+      et toute son équipe, avec qui nous collaborons au sein de 
+      <a href="https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000048880">drePAnon</a> 
+      depuis plusieurs années 
+      <a href="https://matthieugg.github.io/productions.html#prod-2026-04-european-journal-of-haematology">[1, </a>
+      <a href="https://matthieugg.github.io/productions.html#prod-2025-06-journal-for-the-measurement-of-physical-behaviour">2, </a>
+      <a href="https://matthieugg.github.io/productions.html#prod-2025-05-british-journal-of-haematology">3, </a>
+      <a href="https://matthieugg.github.io//productions.html#prod-2026-07-haematologica">4]</a> 
+      pour leur récente découverte dans le diagnostique de la drépanocytose, mis à l'honneur par la RTS.
+      </p>
+      <p>
+      Article à lire ici :
+      <a href="https://www.rts.sn/actualite/detail/a-la-une/le-professeur-mor-diaw-signe-une-avancee-majeure-dans-le-diagnostic-de-la-drepanocytose">article RTS</a>
+      <br>
+      Vidéo à regarder ici :
+      <a href="https://www.youtube.com/watch?v=s-DCiBQmYVk">vidéo JT</a>
+      </p>
+    `
+  },     
+  {
     date: `2026-07-01`,
     title: "Nouvelle publication issue du projet drePAnon", 
     image: "img/news/2026_07_haematol.jpeg", 
