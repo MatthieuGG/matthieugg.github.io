@@ -1,6 +1,19 @@
 // news_data.js
 const newsEntries = [
   {
+    date: `2026-07-11`,
+    title: "Un nouveau chapitre", 
+    image: "img/news/2026_miki.jpg", 
+    content: 
+    `
+      <p>
+      Un nouveau chapitre qui s'ouvre.
+      <br>
+      Peut-être moins de productions et de nouvelles par ici, mais de si belles choses, tellement importantes.
+      </p>
+    `
+  },      
+  {
     date: `2026-07-01`,
     title: "Nouvelle publication issue du projet drePAnon", 
     image: "img/news/2026_07_haematol.jpeg", 
