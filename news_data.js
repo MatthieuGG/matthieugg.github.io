@@ -1,6 +1,33 @@
 // news_data.js
 const newsEntries = [
   {
+    date: `2026-09-01`,
+    title: "Déménagement au nouveau campus", 
+    image: "img/news/2026_09_campus.jpg", 
+    content: 
+    `
+      <p>
+      HESAV a déménagé !
+      </p>
+      <p>
+      Projet conséquent amorcé il y a plusieurs années, le déménagement d'HESAV 
+      sur son nouveau 
+      <a href="https://hesav.ch/campus-sante/">Campus Santé</a>  
+      est presque terminé.
+      <br>
+      Locaux flambants neufs, salles de cours modernes, campus pensé pour l'activité physique, logements étudiants 
+      et centre de simulation, le pied !
+      <br><br>
+      Nouvelle adresse professionnelle :
+      </p>
+      <p style="margin-left: 40px;">
+          Route de la Maladière 39<br>
+          1022 Chavannes-près-Renens
+      </p>
+
+    `
+  },     
+  {
     date: `2026-07-11`,
     title: "Un nouveau chapitre", 
     image: "img/news/2026_miki.jpg", 
