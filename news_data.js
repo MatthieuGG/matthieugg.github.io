@@ -1,9 +1,35 @@
 // news_data.js
 const newsEntries = [
   {
+    date: `2026-09-06`,
+    title: "Présentation pour Physio Vaud", 
+    image: "img/news/2026_09_js_physiovaud.jpg", 
+    content: 
+    `
+      <p>
+      J'ai pu parler de considération cognitive dans la prise en charge physio, 
+      en portant bien sûr haut les couleurs HESAV & judo.
+      </p>
+      <p>
+      C'était l'occasion de nombreuses premières expériences : première présentation depuis ma prise de poste de Prof, 
+      premier congrès Suisse, première visite de l'EHL (magnifique et délicieux), et 
+      première prise de parole avec le 
+      <a href="https://www.researchgate.net/profile/Gilles-Allali">Pr Gilles Allali</a>.
+      <br>
+      Dans l'ensemble, un grand plaisir !
+      </p>
+      <p>
+      Merci encore à 
+      <a href="https://physioswiss.ch/vd/equipe-de-physiovaud/">Agnès</a> et Physio Vaud pour l'invitation, et à 
+      <a href="https://hesav.ch/annuaire/profil/anjali-vaswani/">Anjali</a> pour la photo souvenir !
+      </p>
+
+    `
+  },     
+  {
     date: `2026-09-01`,
     title: "Déménagement au nouveau campus", 
-    image: "img/news/2026_09_campus.jpg", 
+    image: "img/news/2026_09_campus.png", 
     content: 
     `
       <p>
