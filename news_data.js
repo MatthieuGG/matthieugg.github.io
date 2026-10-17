@@ -1,6 +1,105 @@
 // news_data.js
 const newsEntries = [
   {
+    date: `2026-10-16`,
+    title: "Congrès 2026 de la SOFPEL", 
+    image: "img/news/2026_10_sofpel.jpeg", 
+    content: 
+    `
+      <p>
+      J'aurai la chance de présenter des résultats préliminaires issus d'une étude FNS portée par le  
+      <a href="https://www.chuv.ch/fr/neurosciences/dnc-home/le-departement-en-bref/equipe-dirigeante">Pr Gilles Allali</a> 
+      lors de l'édition 2026 du congrès de la 
+      <a href="https://sofpel.com/">SOFPEL</a>.
+      <br>
+      Retrouvez-nous le <b>jeudi 3 et vendredi 4 décembre 2026 à Lausanne</b>
+      pour discuter de profilage de patients pré-déments suivant leur comportement en activité physique.
+      </p>
+      <p>
+      Les informations et inscriptions  
+      <a href="https://sofpel.com/congres-annuel-sofpel-lausanne-2026/">se trouvent ici</a>.
+      </p>
+      
+    `
+  },   
+  {
+    date: `2026-10-16`,
+    title: "Présentation de travaux à HESAV", 
+    image: "img/news/2026_10_com_hesav.png", 
+    content: 
+    `
+      <p>
+      Avec ma collègue et amie 
+      <a href="https://hesav.ch/annuaire/profil/tara-reman/">Tara</a>, 
+      nous présenterons nos travaux le <b>10 novembre 2026 à HESAV salle 01-007 de 16h30 à 18h</b>.
+      </p>
+      <p>
+      Il sera également possible de suivre cette présentation en ligne 
+      <a href="https://teams.microsoft.com/meet/3652653732770835?p=S77dUgM6Y42PpnDklO">à ce lien</a>.
+      </p>
+    `
+  },   
+  {
+    date: `2026-10-02`,
+    title: "Nouveau diplôme en poche", 
+    image: "img/news/2026_10_reco_diplome.jpg", 
+    content: 
+    `
+      <p>
+      Officiellement "Physiothérapeute" en Suisse !
+      </p>
+      <p>
+      Merci à la 
+      <a href="https://www.redcross.ch/fr">Croix Rouge Suisse</a> 
+      pour la reconnaissance de mon diplôme. 
+      <br>
+      Parcours long et semé d'embuches, mais qui se termine bien.
+      </p>
+    `
+  },   
+  {
+    date: `2026-09-24`,
+    title: "Page HESAV Tatami", 
+    image: "img/news/2026_09_judo_hesav.jpeg", 
+    content: 
+    `
+      <p>
+      Page dédiée au projet "Judo bien-être séniors" et "Projet Tatami" 
+      dans les <a href="https://hesav.ch/judo-bien-etre-seniors/">actualités HESAV</a>. 
+      <br>
+      Jolie vitrine, avec court article et vidéo promotionnelle intégrée.
+      </p>
+      <p>
+      Maintenant également placée dans 
+      <a href="https://matthieugg.github.io/media.html#media-presse-du-judo-pour-le-bien-etre-des-seniors">la section Media</a>.
+      </p>
+    `
+  },       
+  {
+    date: `2026-09-17`,
+    title: "Formation gériatrie pour PhysioVaud", 
+    image: "img/news/2026_09_formation_ger_physiovaud.jpeg", 
+    content: 
+    `
+      <p>
+      Avec mes collègues 
+      <a href="https://hesav.ch/annuaire/profil/rehane-zobrist/">Réhane</a> 
+      et 
+      <a href="https://hesav.ch/annuaire/profil/sabrina-weber/">Sabrina</a>, 
+      nous montons progressivement des formations postgrade spécifiques en 
+      physiothérapie gériatrique.
+      <br>
+      Première expérience à venir à partir du printemps 2027 auprès de 
+      <a href="https://physioswiss.ch/vd/">PhysioVaud</a>, 
+      avec des journées tournées autour des chutes. 
+      </p>
+      <p>
+      Plus d'informations  
+      <a href="https://physioswiss.ch/vd/programme-formation-continue-physiovaud/">à retrouver prochainement ici</a>. 
+      </p>
+    `
+  },     
+  {
     date: `2026-09-06`,
     title: "Présentation pour Physio Vaud", 
     image: "img/news/2026_09_js_physiovaud.jpg", 
@@ -51,6 +150,22 @@ const newsEntries = [
           1022 Chavannes-près-Renens
       </p>
 
+    `
+  },     
+  {
+    date: `2026-07-27`,
+    title: "La reprise", 
+    image: "img/news/2026_07_kodokan.jpg", 
+    content: 
+    `
+      <p>
+      Après de nombreuses années d'arrêt, et en plein congé paternité, 
+      il est temps pour moi de remonter sur les tatamis. 
+      C'est également l'occasion de pousser plus loin mes propres intérêts de recherche actuels.
+      <br>
+      Et quoi de mieux que de le faire lors du shochû-geiko au sein du 
+      <a href="https://kdkjd.org/">Kodokan</a> ?
+      </p>
     `
   },     
   {
@@ -236,7 +351,7 @@ const newsEntries = [
     `
       <p>
       J'aurai la chance de faire une présentation partagée avec le  
-      <a href="https://www.chuv.ch/fr/neurosciences/dnc-home/le-departement-en-bref/equipe-dirigeante">Pr Gilles Hallali</a> 
+      <a href="https://www.chuv.ch/fr/neurosciences/dnc-home/le-departement-en-bref/equipe-dirigeante">Pr Gilles Allali</a> 
       lors de la prochaine Journée Scientifique organisée par 
       <a href="https://physioswiss.ch/vd/physiovaud-notre-association/">PhysioVaud</a>.
       <br>
