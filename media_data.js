@@ -1,6 +1,13 @@
 // media_data.js
 const mediaEntries = [
     {
+    date: `2026-10`,
+    title: "Presse - Du judo pour le bien être des seniors",
+    type: "pdf",
+    pdfUrl: "media/202610_hesav_judo_senior.pdf",
+    description: "Court article de HESAV concernant le projet Judo bien-être Séniors et Tatami. C'est également l'occasion d'avoir une page web vitrine dédiée."
+    },    
+    {
     date: `2026-06`,
     title: "Vidéo - Projet Tatami : du judo pour le bien-être du corps et de l’esprit",
     type: "youtube",
